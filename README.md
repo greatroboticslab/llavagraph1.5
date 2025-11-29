@@ -178,6 +178,10 @@ Once these descriptions are generated, we can now run `eval/categorizeLLAMA.sh`,
 },
 ```
 
+## Large File 7 Data
+Due to GitHub file size limitations, some large model files and datasets are stored externally https://drive.google.com/drive/u/0/folders/1Y4OF5CCoz8p9XltzLURCjoT9lS7CH2oK.
+
+
 ## Acknowledgements
 
 - [LLaVA](https://github.com/haotian-liu/LLaVA): the base for our models
