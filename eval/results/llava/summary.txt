@@ -1,0 +1,12 @@
+Evaluation summary
+
+Overall: 1109 / 2492  accuracy=0.4450
+
+randomNoise.json (expected=Noise): 0 / 313  accuracy=0.0000
+sineWave.json (expected=Sine): 426 / 1106  accuracy=0.3852
+squareWave.json (expected=Square): 683 / 1073  accuracy=0.6365
+
+Confusion matrix (expected -> predicted counts):
+Noise -> {'Sine': 121, 'Square': 192}
+Sine -> {'Sine': 426, 'Square': 675, 'Unknown': 4, 'Noise': 1}
+Square -> {'Sine': 388, 'Square': 683, 'Noise': 1, 'Unknown': 1}

@@ -1,0 +1,144 @@
+export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:128
+#!/bin/bash
+
+# ==== Paths ====
+MODELPATH="/data/ilminur/models/llava-v1.6-vicuna-7b"
+MODELBASE="/data/ilminur/models/llava-v1.6-vicuna-7b"
+IMAGEFOLDER="/data/ilminur/LLaVA/eval/eval image"
+OUTPUTDIR="/data/ilminur/LLaVA/eval/results/llava"
+
+mkdir -p "$OUTPUTDIR"
+echo "Output will be saved to $OUTPUTDIR"
+
+# ==== Random Noise ====
+echo "==== Running Random Noise evaluation ===="
+python /data/ilminur/LLaVA/eval/evaluateLLaVA.py \
+    --model-path "$MODELPATH" \
+    --model-base "$MODELBASE" \
+    --image-folder "$IMAGEFOLDER/RandomNoise" \
+    --output-file "$OUTPUTDIR/randomNoise.json" \
+    --load-8bit --device cuda
+
+# ==== Sine Waves ====
+echo "==== Running Sine Wave evaluation ===="
+python /data/ilminur/LLaVA/eval/evaluateLLaVA.py \
+    --model-path "$MODELPATH" \
+    --model-base "$MODELBASE" \
+    --image-folder "$IMAGEFOLDER/SineWave" \
+    --output-file "$OUTPUTDIR/sineWave.json" \
+    --load-8bit --device cuda
+
+# ==== Square Waves ====
+echo "==== Running Square Wave evaluation ===="
+python /data/ilminur/LLaVA/eval/evaluateLLaVA.py \
+    --model-path "$MODELPATH" \
+    --model-base "$MODELBASE" \
+    --image-folder "$IMAGEFOLDER/SquareWave" \
+    --output-file "$OUTPUTDIR/squareWave.json" \
+    --load-8bit --device cuda
+
+
+
+
+
+# define our variables
+#MODELPATH=/data/ilminur/LLaVA/checkpoints
+#IMAGEFOLDER="/data/ilminur/LLaVA/eval/eval image"
+
+#OUTPUTDIR=/data/ilminur/LLaVA/eval/results/llava
+#mkdir -p $OUTPUTDIR
+
+# random noise
+#python evaluateLLaVA.py --model-path $MODELPATH --image-folder $IMAGEFOLDER/RandomNoise --output-file results/llava/randomNoise.json
+
+# sine waves
+#python evaluateLLaVA.py --model-path $MODELPATH --image-folder $IMAGEFOLDER/SineWave --output-file results/llava/sineWave.json
+
+#square waves
+#python evaluateLLaVA.py --model-path $MODELPATH --image-folder $IMAGEFOLDER/SquareWave --output-file results/llava/squareWave.json
+
+#!/bin/bash
+
+# ==== Paths ====
+# Base LLaMA model (transformers can load this)
+#BASE_MODEL=/data/ilminur/models/llava-v1.6-vicuna-7b/
+
+# LLaVA checkpoint you trained (adapters/LoRA)
+#CHECKPOINT=/data/ilminur/LLaVA/checkpoints
+
+# Folder containing your images
+#IMAGEFOLDER=/data/ilminur/LLaVA/data
+
+# Output folder for results
+#OUTPUTDIR=/data/ilminur/LLaVA/eval/results/llava
+#mkdir -p $OUTPUTDIR
+
+# ==== Run evaluation ====
+
+# 1. Random noise images
+#python /data/ilminur/LLaVA/eval/evaluateLLaVA.py \
+    #--model-path $CHECKPOINT \
+    #--model-base $BASE_MODEL \
+    #--image-folder $IMAGEFOLDER/NoiseData \
+    #--output-file $OUTPUTDIR/randomNoise.json \
+    #--load_8bit --device cuda
+
+# 2. Sine wave images
+#python /data/ilminur/LLaVA/eval/evaluateLLaVA.py \
+    #--model-path $CHECKPOINT \
+    #--model-base $BASE_MODEL \
+    ##--output-file $OUTPUTDIR/sineWave.json \
+    #--load_8bit --device cuda
+
+# 3. Square wave images
+#python /data/ilminur/LLaVA/eval/evaluateLLaVA.py \
+    #--model-path $CHECKPOINT \
+    #--model-base $BASE_MODEL \
+    #--image-folder $IMAGEFOLDER/SquareData \
+    #--output-file $OUTPUTDIR/squareWave.json \
+    #--load_8bit --device cuda
+
+#echo "Evaluation completed! Results saved in $OUTPUTDIR"
+
+#!/bin/bash
+#set -euo pipefail
+
+# ----  EDIT THESE TO MATCH YOUR INSTALL ----
+#BASE_MODEL="/data/ilminur/models/llava-v1.6-vicuna-7b"   # your base HF model folder or HF repo id
+#CHECKPOINT="/data/ilminur/LLaVA/checkpoints"            # your LoRA/adapter checkpoint
+#IMAGEFOLDER="/data/ilminur/LLaVA/data/testData"                  # folder that contains NoiseData/SineData/SquareData
+#EVAL_SCRIPT="/data/ilminur/LLaVA/eval/evaluateLLaVA.py" # path to the evaluateLLaVA.py script
+#OUTPUTDIR="/data/ilminur/LLaVA/eval/results/llava"
+#DEVICE="cuda"                                           # or "cpu"
+
+#mkdir -p "$OUTPUTDIR"
+#echo "Output will be saved to $OUTPUTDIR"
+
+# --- Random noise
+#echo "==== Running Random Noise evaluation ===="
+#python "$EVAL_SCRIPT" \
+  #--model-path "$CHECKPOINT" \
+  #--model-base "$BASE_MODEL" \
+  #--image-folder "$IMAGEFOLDER/NoiseData" \
+  #--output-file "$OUTPUTDIR/randomNoise.json" \
+  #--device "$DEVICE"
+
+# --- Sine waves
+#echo "==== Running Sine Wave evaluation ===="
+
+
+# --- Square waves
+#echo "==== Running Square Wave evaluation ===="
+#python "$EVAL_SCRIPT" \
+
+  #--model-path "$CHECKPOINT" \
+  #--model-base "$BASE_MODEL" \
+  #--image-folder "$IMAGEFOLDER/SquareData" \
+  #--output-file "$OUTPUTDIR/squareWave.json" \
+  #--device "$DEVICE"
+
+#echo "All done. Results in $OUTPUTDIR"
+
+
+
+

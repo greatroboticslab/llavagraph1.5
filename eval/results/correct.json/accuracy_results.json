@@ -1,0 +1,17 @@
+{
+  "results/correct.json/randomNoise_correct.json": {
+    "total_samples": 52,
+    "correct_predictions": 50,
+    "accuracy_percent": 96.15
+  },
+  "results/correct.json/sineWave_correct.json": {
+    "total_samples": 36,
+    "correct_predictions": 31,
+    "accuracy_percent": 86.11
+  },
+  "results/correct.json/squareWave_correct.json": {
+    "total_samples": 53,
+    "correct_predictions": 50,
+    "accuracy_percent": 94.34
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "per_file": {
+    "randomNoise_fixed_labeled.json": {
+      "correct": 0,
+      "total": 313,
+      "accuracy": 0.0
+    },
+    "sineWave_fixed_labeled.json": {
+      "correct": 0,
+      "total": 1106,
+      "accuracy": 0.0
+    },
+    "squareWave_fixed_labeled.json": {
+      "correct": 0,
+      "total": 1073,
+      "accuracy": 0.0
+    }
+  },
+  "overall": null
+}

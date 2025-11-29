@@ -1,0 +1,5532 @@
+[
+  {
+    "image": "SineTrials-3-800Hz-800Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-300Hz-300Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-800Hz-800Hz.xlsx-7.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-500Hz-500Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-900Hz-900Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-900Hz-900Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-600Hz-600Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-400Hz-400Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-900Hz-900Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-100Hz-100Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-500Hz-500Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-1Hz-1hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-100Hz-100Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-600Hz-600Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-1000Hz-1000Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-900Hz-900Hz.xlsx-8.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-300Hz-300Hz.xlsx-17.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-300Hz-300Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-600Hz-600Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-700Hz-700Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-400Hz-400Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-900Hz-900Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-1000Hz-1000Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-500Hz-500Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-600Hz-600Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-200Hz-200Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-200Hz-200Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-200Hz-200Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-500Hz-500Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-200Hz-200Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-400Hz-400Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1000Hz-1000Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-400Hz-400Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-300Hz-300Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-400Hz-400Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-1000Hz-1000Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-100Hz-100Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-1000Hz-1000Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-800Hz-800Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-200Hz-200Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-100Hz-100Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-400Hz-400Hz.xlsx-15.png",
+    "prediction": "B) Sine wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-1000Hz-1000Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-100Hz-100Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-500Hz-500Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-400Hz-400Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-300Hz-300Hz.xlsx-5.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-100Hz-100Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-900Hz-900Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-600Hz-600Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-100Hz-100Hz.xlsx-5.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-700Hz-700Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-1000Hz-1000Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-500Hz-500Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-500Hz-500Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-1000Hz-1000Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-1Hz-1Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-700Hz-700Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-400Hz-400Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-300Hz-300Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1Hz-1Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-200Hz-200Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-500Hz-500Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-600Hz-600Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-600Hz-600Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-200Hz-200H.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-200Hz-200Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-700Hz-700Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-200Hz-200Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-700Hz-700Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-100Hz-100Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-200Hz-200Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-400Hz-400Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-1000Hz-1000Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-1Hz-1Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-900Hz-900Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-300Hz-300Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-200Hz-200Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-200Hz-200Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-700Hz-700Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-400Hz-400Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-600Hz-600Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-400Hz-400Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-900Hz-900Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1Hz-1Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-100Hz-100Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-700Hz-700Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-500Hz-500Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-1000Hz-1000Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-600Hz-600Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-400Hz-400Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-800Hz-800Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-1000Hz-1000Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-600Hz-600Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-1Hz-1Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-1Hz-1hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-100Hz-100Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-800Hz-800Hz.xlsx-8.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-700Hz-700Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-1Hz-1Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-800Hz-800Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-100Hz-100Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-900Hz-900Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-300Hz-300Hz.xlsx-8.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-1000Hz-1000Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1Hz-1Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-300Hz-300Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-700Hz-700Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-200Hz-200Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-600Hz-600Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-800Hz-800Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-600Hz-600Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-300Hz-300Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-800Hz-800Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-1Hz-1Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-200Hz-200Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-400Hz-400Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-300Hz-300Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-700Hz-700Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-400Hz-400Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-900Hz-900Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-900Hz-900Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-400Hz-400Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1Hz-1Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-200Hz-200Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-800Hz-800Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-500Hz-500Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-600Hz-600Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-500Hz-500Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-300Hz-300Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-600Hz-600Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-600Hz-600Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-400Hz-400Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-900Hz-900Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-600Hz-600Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-500Hz-500Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-700Hz-700Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-400Hz-400Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-200Hz-200Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1Hz-1Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-600Hz-600Hz.xlsx-5.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-400Hz-400Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-300Hz-300Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-700Hz-700Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-500Hz-500Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-1000Hz-1000Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-1Hz-1hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-400Hz-400Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-300Hz-300Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-1Hz-1Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1000Hz-1000Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-400Hz-400Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-600Hz-600Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-1Hz-1Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-500Hz-500Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-400Hz-400Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-600Hz-600Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-700Hz-700Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-600Hz-600Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-600Hz-600Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-1000Hz-1000Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-900Hz-900Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-500Hz-500Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-700Hz-700Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-100Hz-100Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-200Hz-200Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-400Hz-400Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-100Hz-100Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-1000Hz-1000Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-700Hz-700Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-1000Hz-1000Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-700Hz-700Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-600Hz-600Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-900Hz-900Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-600Hz-600Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-600Hz-600Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-800Hz-800Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-700Hz-700Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-800Hz-800Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-400Hz-400Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-100Hz-100Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-300Hz-300Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-800Hz-800Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-200Hz-200Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-700Hz-700Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-400Hz-400Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-1000Hz-1000Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-300Hz-300Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-1000Hz-1000Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-100Hz-100Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-800Hz-800Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-200Hz-200Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-200Hz-200H.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-900Hz-900Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-400Hz-400Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-1Hz-1Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-500Hz-500Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-500Hz-500Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-500Hz-500Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-400Hz-400Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-400Hz-400Hz.xlsx-17.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-200Hz-200Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-200Hz-200Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-700Hz-700Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-200Hz-200Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-900Hz-900Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-1Hz-1Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-500Hz-500Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-900Hz-900Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-800Hz-800Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-200Hz-200Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-200Hz-200Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-300Hz-300Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-900Hz-900Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-700Hz-700Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-200Hz-200Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-100Hz-100Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-900Hz-900Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-500Hz-500Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-1000Hz-1000Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-700Hz-700Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-800Hz-800Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-1Hz-1Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-100Hz-100Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-1Hz-1hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-700Hz-700Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-400Hz-400Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-600Hz-600Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-400Hz-400Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-200Hz-200Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-100Hz-100Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-1Hz-1Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-300Hz-300Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-100Hz-100Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-400Hz-400Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-1Hz-1Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-800Hz-800Hz.xlsx-7.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-1Hz-1Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-800Hz-800Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-800Hz-800Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-900Hz-900Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-600Hz-600Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-600Hz-600Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-400Hz-400Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-900Hz-900Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-1000Hz-1000Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-1Hz-1Hx.xlsx-17.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-500Hz-500Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-900Hz-900Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-1Hz-1Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-100Hz-100Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-100Hz-100Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-800Hz-800Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-700Hz-700Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-900Hz-900Hz.xlsx-17.png",
+    "prediction": "B) Sine wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-900Hz-900Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-700Hz-700Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-1000Hz-1000Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-700Hz-700Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-700Hz-700Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-800Hz-800Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-300Hz-300Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-1000Hz-1000Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-800Hz-800Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-800Hz-800Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-300Hz-300Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-1000Hz-1000Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-200Hz-200Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-600Hz-600Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-200Hz-200Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-200Hz-200Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-600Hz-600Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-600Hz-600Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-400Hz-400Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-500Hz-500Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-300Hz-300Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-500Hz-500Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-500Hz-500Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-1000Hz-1000Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-900Hz-900Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-100Hz-100Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-900Hz-900Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-500Hz-500Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-900Hz-900Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-700Hz-700Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1Hz-1Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-800Hz-800Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-500Hz-500Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-1000Hz-1000Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-200Hz-200Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-900Hz-900Hz.xlsx-6.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-1000Hz-1000Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-400Hz-400Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1000Hz-1000Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-100Hz-100Hz.xlsx-3.png",
+    "prediction": "B) Sine wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-500Hz-500Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-700Hz-700Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-600Hz-600Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-600Hz-600Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-500Hz-500Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-900Hz-900Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-100Hz-100Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-300Hz-300Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-200Hz-200Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-800Hz-800Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-1000Hz-1000Hz.xlsx-6.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-1Hz-1Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-800Hz-800Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-600Hz-600Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-800Hz-800Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-600Hz-600Hz.xlsx-17.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-700Hz-700Hz.xlsx-6.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-100Hz-100Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-1000Hz-1000Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-700Hz-700Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-1Hz-1Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-400Hz-400Hz.xlsx-7.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-500Hz-500Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-800Hz-800Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-1000Hz-1000Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-500Hz-500Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-700Hz-700Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-400Hz-400Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-900Hz-900Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-1000Hz-1000Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-300Hz-300Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-200Hz-200H.xlsx-6.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-500Hz-500Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-500Hz-500Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-700Hz-700Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-100Hz-100Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-800Hz-800Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-500Hz-500Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-100Hz-100Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-800Hz-800Hz.xlsx-8.png",
+    "prediction": "B) Sine wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-900Hz-900Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-500Hz-500Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-100Hz-100Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-600Hz-600Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-900Hz-900Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-800Hz-800Hz.xlsx-8.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-500Hz-500Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-1000Hz-1000Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-100Hz-100Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-1000Hz-1000Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-400Hz-400Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-500Hz-500Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-1Hz-1Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-600Hz-600Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-1Hz-1Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-1Hz-1Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-1Hz-1Hz.xlsx-8.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-700Hz-700Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-500Hz-500Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-100Hz-100Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-600Hz-600Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-900Hz-900Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-400Hz-400Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-500Hz-500Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-1000Hz-1000Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-800Hz-800Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-100Hz-100Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-700Hz-700Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-1000Hz-1000Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-800Hz-800Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-500Hz-500Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-400Hz-400Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-500Hz-500Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-500Hz-500Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-1000Hz-1000Hz.xlsx-5.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-400Hz-400Hz.xlsx-5.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-1000Hz-1000Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-1Hz-1Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-700Hz-700Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-400Hz-400Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-900Hz-900Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-100Hz-100Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1000Hz-1000Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-500Hz-500Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-900Hz-900Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-400Hz-400Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-400Hz-400Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-300Hz-300Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-1000Hz-1000Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-1000Hz-1000Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-500Hz-500Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-200Hz-200Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-300Hz-300Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-600Hz-600Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-900Hz-900Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-1000Hz-1000Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-1Hz-1Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-200Hz-200Hz.xlsx-6.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-300Hz-300Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-500Hz-500Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-800Hz-800Hz.xlsx-6.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-600Hz-600Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-500Hz-500Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-400Hz-400Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-100Hz-100Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-900Hz-900Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-200Hz-200Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-800Hz-800Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-300Hz-300Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-200Hz-200Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-300Hz-300Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-600Hz-600Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-400Hz-400Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-1Hz-1Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-800Hz-800Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-100Hz-100Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-700Hz-700Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-600Hz-600Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1Hz-1Hz.xlsx-7.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-600Hz-600Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-700Hz-700Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-200Hz-200Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-1Hz-1Hz.xlsx-6.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-1Hz-1Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-600Hz-600Hz.xlsx-8.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-400Hz-400Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-100Hz-100Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-400Hz-400Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-1Hz-1Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-900Hz-900Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-600Hz-600Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-500Hz-500Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-100Hz-100Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-1Hz-1hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-1Hz-1Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-600Hz-600Hz.xlsx-8.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-100Hz-100Hz.xlsx-3.png",
+    "prediction": "B) Sine wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-400Hz-400Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-700Hz-700Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-600Hz-600Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-500Hz-500Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-800Hz-800Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-1000Hz-1000Hz.xlsx-7.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-100Hz-100Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-600Hz-600Hz.xlsx-8.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-100Hz-100Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-700Hz-700Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-1000Hz-1000Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-500Hz-500Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-300Hz-300Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-500Hz-500Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-900Hz-900Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-600Hz-600Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-100Hz-100Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-200Hz-200Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-900Hz-900Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-1000Hz-1000Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-400Hz-400Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-1000Hz-1000Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-600Hz-600Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-1000Hz-1000Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-100Hz-100Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-500Hz-500Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-400Hz-400Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-600Hz-600Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-1000Hz-1000Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-700Hz-700Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-600Hz-600Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-900Hz-900Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-100Hz-100Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-100Hz-100Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-800Hz-800Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-1Hz-1Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-1000Hz-1000Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-1000Hz-1000Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-500Hz-500Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-100Hz-100Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-700Hz-700Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-400Hz-400Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-100Hz-100Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-800Hz-800Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-500Hz-500Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-200Hz-200Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-900Hz-900Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-1000Hz-1000Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-400Hz-400Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-900Hz-900Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-200Hz-200Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-300Hz-300Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-900Hz-900Hz.xlsx-7.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-500Hz-500Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-300Hz-300Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-900Hz-900Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-300Hz-300Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-1Hz-1Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-900Hz-900Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-100Hz-100Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-700Hz-700Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-700Hz-700Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-1000Hz-1000Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-700Hz-700Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-300Hz-300Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-1Hz-1hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-100Hz-100Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-100Hz-100Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-900Hz-900Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-900Hz-900Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-700Hz-700Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-100Hz-100Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-100Hz-100Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1000Hz-1000Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-800Hz-800Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-800Hz-800Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-700Hz-700Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-300Hz-300Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-200Hz-200Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-400Hz-400Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-1000Hz-1000Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-900Hz-900Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-400Hz-400Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-300Hz-300Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-800Hz-800Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-300Hz-300Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-400Hz-400Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-400Hz-400Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-300Hz-300Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-800Hz-800Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-100Hz-100Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-400Hz-400Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-100Hz-100Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-1Hz-1Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-100Hz-100Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-600Hz-600Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-900Hz-900Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-400Hz-400Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-100Hz-100Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-400Hz-400Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-200Hz-200Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-1000Hz-1000Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-1Hz-1Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-500Hz-500Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-700Hz-700Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-800Hz-800Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-700Hz-700Hz.xlsx-17.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-600Hz-600Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-800Hz-800Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-1Hz-1Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-700Hz-700Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-300Hz-300Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-600Hz-600Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-100Hz-100Hz.xlsx-5.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-1Hz-1hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-1Hz-1hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-700Hz-700Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-400Hz-400Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-300Hz-300Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-200Hz-200Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-400Hz-400Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-900Hz-900Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-600Hz-600Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-200Hz-200Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-400Hz-400Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1000Hz-1000Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-700Hz-700Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-100Hz-100Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-700Hz-700Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-200Hz-200Hz.xlsx-8.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-900Hz-900Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-900Hz-900Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-900Hz-900Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-1Hz-1Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-700Hz-700Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-300Hz-300Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-600Hz-600Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-700Hz-700Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-400Hz-400Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-500Hz-500Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-700Hz-700Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-300Hz-300Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-700Hz-700Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-1Hz-1hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1000Hz-1000Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-800Hz-800Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-300Hz-300Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-300Hz-300Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-300Hz-300Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-800Hz-800Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-100Hz-100Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-700Hz-700Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-400Hz-400Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-600Hz-600Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-1000Hz-1000Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-1Hz-1Hx.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-200Hz-200Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-900Hz-900Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-900Hz-900Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-900Hz-900Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-600Hz-600Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-900Hz-900Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-900Hz-900Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-1000Hz-1000Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-900Hz-900Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-100Hz-100Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-400Hz-400Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-600Hz-600Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-100Hz-100Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-500Hz-500Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-100Hz-100Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-900Hz-900Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-1Hz-1Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-800Hz-800Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-200Hz-200Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-1Hz-1Hx.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-1Hz-1Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-100Hz-100Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-1Hz-1Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-400Hz-400Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-600Hz-600Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-1Hz-1Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-200Hz-200Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-300Hz-300Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-600Hz-600Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-900Hz-900Hz.xlsx-5.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-1Hz-1Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-500Hz-500Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-800Hz-800Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-400Hz-400Hz.xlsx-5.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-1Hz-1hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-700Hz-700Hz.xlsx-5.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-1000Hz-1000Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-400Hz-400Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-200Hz-200Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-700Hz-700Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-1Hz-1hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-300Hz-300Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-200Hz-200Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-800Hz-800Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-500Hz-500Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-900Hz-900Hz.xlsx-8.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-1Hz-1Hz.xlsx-7.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-300Hz-300Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-800Hz-800Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-500Hz-500Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-300Hz-300Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-400Hz-400Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-300Hz-300Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-800Hz-800Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-1Hz-1Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-500Hz-500Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-200Hz-200Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-900Hz-900Hz.xlsx-7.png",
+    "prediction": "B) Sine wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-200Hz-200Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-800Hz-800Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-300Hz-300Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-400Hz-400Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-900Hz-900Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-1000Hz-1000Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-900Hz-900Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-300Hz-300Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-800Hz-800Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-100Hz-100Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-300Hz-300Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-500Hz-500Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-400Hz-400Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1Hz-1Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-400Hz-400Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-800Hz-800Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-200Hz-200Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-100Hz-100Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-1Hz-1Hz.xlsx-6.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-300Hz-300Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-600Hz-600Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-1000Hz-1000Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-400Hz-400Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-200Hz-200Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-700Hz-700Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-100Hz-100Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-1Hz-1Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-300Hz-300Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-100Hz-100Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-100Hz-100Hz.xlsx-8.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-300Hz-300Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-600Hz-600Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-800Hz-800Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-800Hz-800Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-100Hz-100Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-500Hz-500Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-1000Hz-1000Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-200Hz-200H.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-800Hz-800Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-200Hz-200Hz.xlsx-7.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-700Hz-700Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-1000Hz-1000Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-500Hz-500Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-400Hz-400Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-400Hz-400Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-1Hz-1Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-1000Hz-1000Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-1000Hz-1000Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-400Hz-400Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-1000Hz-1000Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-300Hz-300Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-500Hz-500Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-600Hz-600Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-900Hz-900Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-100Hz-100Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-700Hz-700Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-1Hz-1Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-800Hz-800Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-1Hz-1Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-500Hz-500Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-400Hz-400Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-200Hz-200Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-300Hz-300Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-400Hz-400Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-400Hz-400Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-400Hz-400Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-500Hz-500Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-800Hz-800Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-100Hz-100Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-800Hz-800Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-1000Hz-1000Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-200Hz-200Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-500Hz-500Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-400Hz-400Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-200Hz-200Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-700Hz-700Hz.xlsx-6.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-100Hz-100Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-600Hz-600Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-900Hz-900Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-900Hz-900Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-700Hz-700Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-1000Hz-1000Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-700Hz-700Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-500Hz-500Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-500Hz-500Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-900Hz-900Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-600Hz-600Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-200Hz-200Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-100Hz-100Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-1000Hz-1000Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-200Hz-200Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-900Hz-900Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-1000Hz-1000Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-1000Hz-1000Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-200Hz-200Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-1Hz-1Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-400Hz-400Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-100Hz-100Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1000Hz-1000Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-300Hz-300Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-500Hz-500Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-100Hz-100Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-800Hz-800Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-700Hz-700Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-1Hz-1Hx.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-200Hz-200H.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-200Hz-200Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-200Hz-200Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-500Hz-500Hz.xlsx-5.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-700Hz-700Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-100Hz-100Hz.xlsx-17.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-1Hz-1Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-500Hz-500Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-600Hz-600Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-400Hz-400Hz.xlsx-17.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-600Hz-600Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-700Hz-700Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-200Hz-200Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-600Hz-600Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-400Hz-400Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-700Hz-700Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-100Hz-100Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-600Hz-600Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-600Hz-600Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-400Hz-400Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-1Hz-1Hx.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-400Hz-400Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-600Hz-600Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-500Hz-500Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-900Hz-900Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-200Hz-200Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-1Hz-1Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-900Hz-900Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-100Hz-100Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-800Hz-800Hz.xlsx-8.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-200Hz-200Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-100Hz-100Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-400Hz-400Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-500Hz-500Hz.xlsx-6.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-900Hz-900Hz.xlsx-4.png",
+    "prediction": "B) Sine wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-1Hz-1Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-100Hz-100Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-900Hz-900Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-300Hz-300Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-1Hz-1Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-800Hz-800Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-200Hz-200Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-600Hz-600Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-200Hz-200Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-100Hz-100Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-400Hz-400Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-600Hz-600Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-800Hz-800Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-600Hz-600Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-100Hz-100Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-1Hz-1hz.xlsx-6.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-100Hz-100Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-400Hz-400Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-800Hz-800Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-500Hz-500Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-400Hz-400Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-1Hz-1hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-700Hz-700Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-900Hz-900Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-1000Hz-1000Hz.xlsx-7.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-300Hz-300Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-900Hz-900Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-100Hz-100Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-200Hz-200Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1Hz-1Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-700Hz-700Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-1000Hz-1000Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-300Hz-300Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-300Hz-300Hz.xlsx-5.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-800Hz-800Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-1000Hz-1000Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-600Hz-600Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-500Hz-500Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-200Hz-200Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-700Hz-700Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-1000Hz-1000Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-1Hz-1Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-500Hz-500Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-300Hz-300Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-1Hz-1Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-400Hz-400Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-300Hz-300Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-800Hz-800Hz.xlsx-6.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-1000Hz-1000Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-300Hz-300Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-300Hz-300Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-300Hz-300Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-300Hz-300Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-500Hz-500Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-800Hz-800Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-600Hz-600Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-400Hz-400Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-700Hz-700Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-100Hz-100Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-1Hz-1Hx.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-900Hz-900Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-300Hz-300Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-700Hz-700Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-900Hz-900Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-300Hz-300Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-800Hz-800Hz.xlsx-6.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-700Hz-700Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-1000Hz-1000Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-600Hz-600Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-300Hz-300Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-1000Hz-1000Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-500Hz-500Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-500Hz-500Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-900Hz-900Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-300Hz-300Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-200Hz-200Hz.xlsx-7.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-800Hz-800Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-900Hz-900Hz.xlsx-7.png",
+    "prediction": "B) Sine wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-1Hz-1Hz.xlsx-8.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-800Hz-800Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-700Hz-700Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-800Hz-800Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-700Hz-700Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-800Hz-800Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-600Hz-600Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-1Hz-1Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-200Hz-200Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1000Hz-1000Hz.xlsx-6.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-600Hz-600Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-200Hz-200Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-1Hz-1Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-400Hz-400Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-600Hz-600Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-500Hz-500Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-900Hz-900Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-700Hz-700Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-600Hz-600Hz.xlsx-17.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-200Hz-200Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-700Hz-700Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-600Hz-600Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-900Hz-900Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-500Hz-500Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-1Hz-1hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-300Hz-300Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-100Hz-100Hz.xlsx-6.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-800Hz-800Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-400Hz-400Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-300Hz-300Hz.xlsx-5.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-1000Hz-1000Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-1000Hz-1000Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-500Hz-500Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-100Hz-100Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-1000Hz-1000Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-200Hz-200Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-900Hz-900Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-700Hz-700Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-100Hz-100Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-1000Hz-1000Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-100Hz-100Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-400Hz-400Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-700Hz-700Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-200Hz-200Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-300Hz-300Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-200Hz-200Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-300Hz-300Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-900Hz-900Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-600Hz-600Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-400Hz-400Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-900Hz-900Hz.xlsx-17.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-1Hz-1Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-100Hz-100Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-300Hz-300Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-1000Hz-1000Hz.xlsx-5.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-900Hz-900Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-800Hz-800Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-1000Hz-1000Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-100Hz-100Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-900Hz-900Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-1000Hz-1000Hz.xlsx-17.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-1Hz-1hz.xlsx-17.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-400Hz-400Hz.xlsx-7.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-200Hz-200Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-1000Hz-1000Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-200Hz-200Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-700Hz-700Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-400Hz-400Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-1Hz-1Hx.xlsx-5.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-700Hz-700Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-100Hz-100Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-100Hz-100Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-300Hz-300Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-100Hz-100Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-400Hz-400Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-400Hz-400Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-500Hz-500Hz.xlsx-5.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-300Hz-300Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-500Hz-500Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-900Hz-900Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-700Hz-700Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1000Hz-1000Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-300Hz-300Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-800Hz-800Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-100Hz-100Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-1Hz-1Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-300Hz-300Hz.xlsx-17.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-600Hz-600Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-700Hz-700Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-800Hz-800Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-900Hz-900Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-400Hz-400Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-300Hz-300Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-500Hz-500Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-100Hz-100Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-600Hz-600Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-500Hz-500Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-500Hz-500Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-900Hz-900Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-400Hz-400Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-600Hz-600Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-600Hz-600Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-1000Hz-1000Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-1Hz-1Hz.xlsx-7.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-600Hz-600Hz.xlsx-11.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-100Hz-100Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-900Hz-900Hz.xlsx-7.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-400Hz-400Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-900Hz-900Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-1000Hz-1000Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-500Hz-500Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-900Hz-900Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-400Hz-400Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-300Hz-300Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-900Hz-900Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-1000Hz-1000Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-900Hz-900Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-1Hz-1Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-100Hz-100Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-100Hz-100Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-1000Hz-1000Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-200Hz-200Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-1000Hz-1000Hz.xlsx-5.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-500Hz-500Hz.xlsx-19.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-500Hz-500Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-1Hz-1Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-700Hz-700Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-600Hz-600Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-700Hz-700Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-100Hz-100Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-300Hz-300Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-300Hz-300Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-300Hz-300Hz.xlsx-5.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-200Hz-200H.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-600Hz-600Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-1Hz-1Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-800Hz-800Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-100Hz-100Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-1000Hz-1000Hz.xlsx-8.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-300Hz-300Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-1000Hz-1000Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-100Hz-100Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-700Hz-700Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-200Hz-200Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-500Hz-500Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-200Hz-200Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-300Hz-300Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-500Hz-500Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-900Hz-900Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-300Hz-300Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-500Hz-500Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-600Hz-600Hz.xlsx-3.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-400Hz-400Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-700Hz-700Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-900Hz-900Hz.xlsx-17.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-100Hz-100Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-1Hz-1Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-500Hz-500Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-700Hz-700Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-300Hz-300Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-1000Hz-1000Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-900Hz-900Hz.xlsx-16.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-600Hz-600Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-1000Hz-1000Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-300Hz-300Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-800Hz-800Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-100Hz-100Hz.xlsx-10.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-700Hz-700Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-600Hz-600Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-1Hz-1Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-700Hz-700Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-700Hz-700Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-300Hz-300Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-1000Hz-1000Hz.xlsx-18.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-1Hz-1Hz.xlsx-17.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-500Hz-500Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-300Hz-300Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-900Hz-900Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-7-400Hz-400Hz.xlsx-6.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-700Hz-700Hz.xlsx-17.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-1Hz-1Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-700Hz-700Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-400Hz-400Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-500Hz-500Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-300Hz-300Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-200Hz-200Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-200Hz-200Hz.xlsx-14.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-1000Hz-1000Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-500Hz-500Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-100Hz-100Hz.xlsx-12.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-200Hz-200Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-1000Hz-1000Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-300Hz-300Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-900Hz-900Hz.xlsx-8.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-300Hz-300Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-1000Hz-1000Hz.xlsx-8.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-400Hz-400Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-800Hz-800Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-200Hz-200Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-800Hz-800Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-1Hz-1Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-1Hz-1Hx.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-800Hz-800Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-500Hz-500Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-700Hz-700Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-100Hz-100Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-400Hz-400Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-400Hz-400Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-300Hz-300Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-800Hz-800Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-300Hz-300Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-1000Hz-1000Hz.xlsx-13.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-600Hz-600Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-900Hz-900Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-200Hz-200Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-500Hz-500Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-600Hz-600Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-800Hz-800Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-1-300Hz-300Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-600Hz-600Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-300Hz-300Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-8-800Hz-800Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-5-300Hz-300Hz.xlsx-7.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-1Hz-1Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-600Hz-600Hz.xlsx-2.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-100Hz-100Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-14-1Hz-1Hz.xlsx-0.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-300Hz-300Hz.xlsx-7.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-900Hz-900Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-1Hz-1Hz.xlsx-4.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-2-1Hz-1Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-13-400Hz-400Hz.xlsx-8.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-200Hz-200Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-11-700Hz-700Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-3-1Hz-1Hz.xlsx-7.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-300Hz-300Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-10-200Hz-200Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-100Hz-100Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-12-700Hz-700Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-9-800Hz-800Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-4-600Hz-600Hz.xlsx-9.png",
+    "prediction": "A) Random noise",
+    "label": "B) Sine wave"
+  },
+  {
+    "image": "SineTrials-6-800Hz-800Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "B) Sine wave"
+  }
+]

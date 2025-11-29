@@ -1,0 +1,1254 @@
+[
+  {
+    "conversationId": "NoiseTrials-9-Run1.xlsx-12.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run3.xlsx-10.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-8-run3.xlsx-6.png",
+    "response": "B) Sine wave\n\nReasoning: Sine: matched smooth; Square: matched sharp"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run2.xlsx-8.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-10-Run1.xlsx-18.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-8-Run2.xlsx-8.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run1.xlsx-3.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run1.xlsx-12.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run3.xlsx-11.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run1.xlsx-17.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run1.xlsx-12.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run2.xlsx-11.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible, no discernible structure; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run1.xlsx-18.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run1.xlsx-0.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched no discernible; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run3.xlsx-3.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run2.xlsx-16.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run3.xlsx-14.png",
+    "response": "C) Square wave\n\nReasoning: Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run3.xlsx-2.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run1.xlsx-19.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run1.xlsx-0.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run1.xlsx-1.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run1.xlsx-8.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run1.xlsx-11.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run1.xlsx-0.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run2.xlsx-19.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run3.xlsx-4.png",
+    "response": "C) Square wave\n\nReasoning: Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run3.xlsx-11.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run2.xlsx-4.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run1.xlsx-18.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-10-Run2.xlsx-19.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run2.xlsx-12.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, scattered; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run1.xlsx-14.png",
+    "response": "C) Square wave\n\nReasoning: Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run1.xlsx-14.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run3.xlsx-3.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run2.xlsx-18.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run1.xlsx-11.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched corners, corner, abrupt, discontinu"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run1.xlsx-15.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run3.xlsx-4.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run3.xlsx-8.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run2.xlsx-11.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-8-Run2.xlsx-15.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run2.xlsx-17.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-8-Run2.xlsx-7.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run1.xlsx-19.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run3.xlsx-2.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run3.xlsx-4.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run2.xlsx-16.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, scattered; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run3.xlsx-7.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched no discernible"
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run3.xlsx-16.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run2.xlsx-9.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run1.xlsx-13.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run3.xlsx-10.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run1.xlsx-16.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run3.xlsx-16.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched smooth, discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run3.xlsx-17.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-8-Run2.xlsx-0.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run2.xlsx-0.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run2.xlsx-5.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run3.xlsx-2.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible, no discernible structure; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run2.xlsx-4.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run2.xlsx-1.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run1.xlsx-6.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run2.xlsx-13.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-8-run3.xlsx-8.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible"
+  },
+  {
+    "conversationId": "NoiseTrials-10-Run2.xlsx-9.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run2.xlsx-4.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run2.xlsx-14.png",
+    "response": "C) Square wave\n\nReasoning: Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run3.xlsx-14.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-10-Run3.xlsx-17.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run3.xlsx-0.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-10-Run3.xlsx-12.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run3.xlsx-16.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run1.xlsx-11.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run3.xlsx-19.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run1.xlsx-3.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run3.xlsx-7.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run2.xlsx-18.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run2.xlsx-5.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run3.xlsx-13.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible"
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run3.xlsx-17.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run1.xlsx-4.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run1.xlsx-12.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run1.xlsx-8.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible, no discernible structure; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run1.xlsx-5.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run1.xlsx-4.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run2.xlsx-15.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-8-run3.xlsx-19.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-8-Run1.xlsx-5.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run1.xlsx-9.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run2.xlsx-2.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run2.xlsx-1.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run2.xlsx-18.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible, no discernible structure; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run3.xlsx-11.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run3.xlsx-7.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run1.xlsx-18.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run3.xlsx-17.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run2.xlsx-10.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run3.xlsx-15.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run1.xlsx-3.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run2.xlsx-1.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run2.xlsx-0.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched no discernible; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run3.xlsx-14.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run2.xlsx-0.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-10-Run2.xlsx-18.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run2.xlsx-7.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-8-Run2.xlsx-11.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run2.xlsx-9.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-10-Run2.xlsx-2.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-8-Run1.xlsx-15.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, scattered; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-8-run3.xlsx-0.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run3.xlsx-7.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run2.xlsx-14.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run1.xlsx-17.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run1.xlsx-8.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run1.xlsx-3.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run1.xlsx-5.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run2.xlsx-15.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run3.xlsx-12.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run1.xlsx-4.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run2.xlsx-10.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run2.xlsx-14.png",
+    "response": "C) Square wave\n\nReasoning: Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run3.xlsx-18.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run2.xlsx-2.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run1.xlsx-8.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run1.xlsx-13.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible, no discernible structure; Sine: matched discernible structure; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run2.xlsx-9.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run1.xlsx-6.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run3.xlsx-1.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched sharp"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run1.xlsx-3.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run3.xlsx-11.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched sharp, abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run2.xlsx-12.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run3.xlsx-2.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run2.xlsx-4.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-8-Run2.xlsx-13.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-8-run3.xlsx-12.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run1.xlsx-19.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run2.xlsx-3.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run3.xlsx-6.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run2.xlsx-16.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run3.xlsx-12.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run2.xlsx-12.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run3.xlsx-9.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run2.xlsx-16.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible, no discernible structure; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run2.xlsx-11.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run3.xlsx-3.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run3.xlsx-4.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run3.xlsx-16.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-8-Run1.xlsx-4.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run2.xlsx-1.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run3.xlsx-14.png",
+    "response": "C) Square wave\n\nReasoning: Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run3.xlsx-13.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-8-Run2.xlsx-6.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run2.xlsx-1.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible"
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run3.xlsx-4.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run1.xlsx-7.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run2.xlsx-7.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-10-Run1.xlsx-9.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random, no discernible; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run2.xlsx-0.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run1.xlsx-18.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run1.xlsx-13.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run2.xlsx-16.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run3.xlsx-2.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run1.xlsx-0.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run3.xlsx-0.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run1.xlsx-4.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run1.xlsx-1.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run3.xlsx-5.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run3.xlsx-15.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run1.xlsx-9.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run2.xlsx-10.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run1.xlsx-1.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-10-Run1.xlsx-5.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible, no discernible structure; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run2.xlsx-13.png",
+    "response": "C) Square wave\n\nReasoning: Square: matched sharp, corners, corner, abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run3.xlsx-6.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run2.xlsx-18.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run3.xlsx-8.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run1.xlsx-11.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run3.xlsx-10.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run1.xlsx-5.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run3.xlsx-5.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, scattered; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run2.xlsx-17.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run1.xlsx-16.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run2.xlsx-17.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-10-Run1.xlsx-3.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run2.xlsx-13.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible, no discernible structure; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run2.xlsx-18.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run3.xlsx-19.png",
+    "response": "C) Square wave\n\nReasoning: Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run2.xlsx-2.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, scattered; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run3.xlsx-9.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run2.xlsx-6.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-10-Run1.xlsx-2.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run1.xlsx-10.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-10-Run1.xlsx-4.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run1.xlsx-3.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run2.xlsx-4.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run2.xlsx-2.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run3.xlsx-8.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run1.xlsx-13.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run3.xlsx-17.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run2.xlsx-3.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run3.xlsx-18.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-8-Run2.xlsx-4.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible"
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run3.xlsx-14.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run1.xlsx-17.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible, no discernible structure; Sine: matched discernible structure; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-8-Run1.xlsx-17.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible"
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run1.xlsx-7.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run3.xlsx-6.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run3.xlsx-1.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run2.xlsx-19.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run1.xlsx-9.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run1.xlsx-4.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run1.xlsx-15.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run3.xlsx-11.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run1.xlsx-10.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run3.xlsx-11.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run2.xlsx-4.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run3.xlsx-11.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run3.xlsx-2.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run2.xlsx-14.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run3.xlsx-17.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run2.xlsx-5.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible"
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run1.xlsx-15.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible, no discernible structure; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run2.xlsx-6.png",
+    "response": "C) Square wave\n\nReasoning: Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-8-Run1.xlsx-16.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-10-Run3.xlsx-4.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run2.xlsx-19.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-8-Run1.xlsx-0.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run3.xlsx-13.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run1.xlsx-2.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run2.xlsx-9.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run2.xlsx-9.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible"
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run3.xlsx-16.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run2.xlsx-15.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run2.xlsx-9.png",
+    "response": "C) Square wave\n\nReasoning: Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run1.xlsx-17.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run2.xlsx-12.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run3.xlsx-10.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run1.xlsx-18.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run3.xlsx-12.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run1.xlsx-6.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run1.xlsx-6.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched no discernible; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run3.xlsx-19.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run3.xlsx-16.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-10-Run1.xlsx-15.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched no discernible; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run2.xlsx-9.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run1.xlsx-12.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-10-Run1.xlsx-6.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run1.xlsx-7.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run3.xlsx-3.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible, no discernible structure; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run3.xlsx-12.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched corners, corner, abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run2.xlsx-3.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run1.xlsx-4.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run2.xlsx-6.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run1.xlsx-11.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-1-Run1.xlsx-3.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run3.xlsx-19.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, scattered; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run2.xlsx-7.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run1.xlsx-4.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-10-Run1.xlsx-13.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run3.xlsx-4.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run3.xlsx-15.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run1.xlsx-2.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run2.xlsx-0.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run1.xlsx-11.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run3.xlsx-2.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-8-Run1.xlsx-14.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-8-Run1.xlsx-13.png",
+    "response": "C) Square wave\n\nReasoning: Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-8-Run1.xlsx-2.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run3.xlsx-11.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run3.xlsx-0.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run1.xlsx-2.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run3.xlsx-0.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run3.xlsx-3.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run1.xlsx-15.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run3.xlsx-15.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run1.xlsx-18.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run3.xlsx-7.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run3.xlsx-18.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run2.xlsx-1.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run3.xlsx-18.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run2.xlsx-13.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run3.xlsx-7.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible, no discernible structure; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run1.xlsx-5.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run3.xlsx-15.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run1.xlsx-11.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run1.xlsx-19.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run3.xlsx-16.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-8-run3.xlsx-1.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run1.xlsx-7.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run3.xlsx-12.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-11-Run2.xlsx-12.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run1.xlsx-14.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run3.xlsx-9.png",
+    "response": "C) Square wave\n\nReasoning: Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-12-Run2.xlsx-2.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched sharp"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run2.xlsx-14.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-2-Run1.xlsx-15.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-9-Run2.xlsx-8.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run1.xlsx-17.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run2.xlsx-12.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run3.xlsx-2.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched no discernible; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run2.xlsx-15.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-14-Run2.xlsx-13.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run2.xlsx-17.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-13-Run3.xlsx-5.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-8-run3.xlsx-9.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run1.xlsx-15.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, scattered; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run1.xlsx-2.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-4-Run2.xlsx-7.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random; Square: matched abrupt"
+  },
+  {
+    "conversationId": "NoiseTrials-6-Run1.xlsx-13.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Square: matched sharp, corners, corner"
+  },
+  {
+    "conversationId": "NoiseTrials-3-Run3.xlsx-3.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random"
+  },
+  {
+    "conversationId": "NoiseTrials-5-Run1.xlsx-1.png",
+    "response": "A) Random noise\n\nReasoning: Random: matched random, no discernible"
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run2.xlsx-6.png",
+    "response": "C) Square wave\n\nReasoning: No strong keyword matches; defaulting to highest score."
+  },
+  {
+    "conversationId": "NoiseTrials-7-Run2.xlsx-16.png",
+    "response": "C) Square wave\n\nReasoning: Random: matched random; Sine: matched discernible structure; Square: matched sharp, corners, corner"
+  }
+]

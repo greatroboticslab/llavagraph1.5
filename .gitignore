@@ -1,0 +1,7 @@
+models_setup/llava-v1.6-vicuna-7b/model-*.safetensors
+*.safetensors
+*.bin
+*.pth
+checkpoints/
+wandb/
+llava.egg-info/

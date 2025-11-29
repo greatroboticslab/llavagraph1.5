@@ -1,0 +1,45 @@
+{
+  "per_file": {
+    "randomNoise.json": {
+      "expected": "Noise",
+      "n": 313,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "sineWave.json": {
+      "expected": "Sine",
+      "n": 1106,
+      "correct": 426,
+      "accuracy": 0.38517179023508136
+    },
+    "squareWave.json": {
+      "expected": "Square",
+      "n": 1073,
+      "correct": 683,
+      "accuracy": 0.6365330848089469
+    }
+  },
+  "overall": {
+    "total": 2492,
+    "correct": 1109,
+    "accuracy": 0.44502407704654895
+  },
+  "confusion": {
+    "Noise": {
+      "Sine": 121,
+      "Square": 192
+    },
+    "Sine": {
+      "Sine": 426,
+      "Square": 675,
+      "Unknown": 4,
+      "Noise": 1
+    },
+    "Square": {
+      "Sine": 388,
+      "Square": 683,
+      "Noise": 1,
+      "Unknown": 1
+    }
+  }
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "image": "Noise Trials-9-Run3.xlsx-19.png",
+    "conversation": [
+      {
+        "question": "Is the line shown in the graph continuous? Describe the line.",
+        "answer": "<s> The unbroken line of the graph, despite its continuity, exhibits considerable and sudden changes in value.</s>"
+      },
+      {
+        "question": "Does the graph contain any random points?",
+        "answer": "<s> The graph displays an unpredictable and erratic distribution of data points, lacking any coherent structure.</s>"
+      },
+      {
+        "question": "Does the graph contain sharp corners?",
+        "answer": "<s>  While the graph features substantial declines in value, its trajectory remains consistently smooth and unbroken.</s>"
+      }
+    ]
+  },
+  {
+    "image": "Noise Trials-9-Run1.xlsx-9.png",
+    "conversation": [
+      {
+        "question": "Is the line shown in the graph continuous? Describe the line.",
+        "answer": "<s> The uninterrupted line of the graph shows considerable and sudden variations in its values.</s>"
+      },
+      {
+        "question": "Does the graph contain any random points?",
+        "answer": "<s> The data points are distributed randomly and independently across the graph, showing no discernible structure.</s>"
+      },
+      {
+        "question": "Does the graph contain sharp corners?",
+        "answer": "<s> While the graph displays deep value troughs, its continuous path maintains a smooth, rounded profile.</s>"
+      }
+    ]
+  },
+  {
+    "image": "Noise Trials-9-Run1.xlsx-4.png",
+    "conversation": [
+      {
+        "question": "Is the line shown in the graph continuous? Describe the line.",
+        "answer": "<s> The uninterrupted line of the graph shows considerable and sudden variations in its values.</s>"
+      },
+      {
+        "question": "Does the graph contain any random points?",
+        "answer": "<s> The data points are distributed randomly and independently across the graph, showing no discernible structure.</s>"
+      },
+      {
+        "question": "Does the graph contain sharp corners?",
+        "answer": "<s>  While the graph shows pronounced declines, its continuous path lacks any abrupt changes in direction.</s>"
+      }
+    ]
+  },
+  {
+    "image": "Noise Trials-8-run3.xlsx-8.png",
+    "conversation": [
+      {
+        "question": "Is the line shown in the graph continuous? Describe the line.",
+        "answer": "<s> The graph's continuous trace is punctuated by frequent and pronounced value shifts.</s>"
+      },
+      {
+        "question": "Does the graph contain any random points?",
+        "answer": "<s> The data points are distributed randomly and independently across the graph, showing no discernible structure.</s>"
+      },
+      {
+        "question": "Does the graph contain sharp corners?",
+        "answer": "<s> While the graph displays deep value troughs, its continuous path maintains a smooth, rounded profile.</s>"
+      }
+    ]
+  },
+  {
+    "image": "Noise Trials-10-Run1.xlsx-11.png",
+    "conversation": [
+      {
+        "question": "Is the line shown in the graph continuous? Describe the line.",
+        "answer": "<s> The unbroken line of the graph displays numerous instances of rapid value alteration.</s>"
+      },
+      {
+        "question": "Does the graph contain any random points?",
+        "answer": "<s> The data points are distributed randomly and independently across the graph, showing no discernible structure.</s>"
+      },
+      {
+        "question": "Does the graph contain sharp corners?",
+        "answer": "<s> The graph features significant value drops, yet its trajectory remains consistently smooth and rounded.</s>"
+      }
+    ]
+  }
+]

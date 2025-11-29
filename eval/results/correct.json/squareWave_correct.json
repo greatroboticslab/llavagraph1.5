@@ -1,0 +1,267 @@
+[
+  {
+    "image": "SquareTrials-3-500Hz-500Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-10-200Hz-200Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-6-800Hz-800Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-4-1000Hz-1000Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-10-700Hz-700Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-10-400Hz-400Hz.xlsx-1.png",
+    "prediction": "A) Random noise",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-2-300Hz-300Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-10-600Hz-600Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-2-100Hz-100Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-4-1Hz-1Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-3-500Hz-500Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-11-100Hz-100Hz.xlsx-4.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-10-100Hz-100Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-8-800Hz-800Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-5-500Hz-500Hz.xlsx-10.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-10-400Hz-400Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-8-1000Hz-1000Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-11-600Hz-600Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-11-600Hz-600Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-5-800Hz-800Hz.xlsx-0.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-4-600Hz-600Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-4-1000Hz-1000Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-9-500Hz-500Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-6-100Hz-100Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-2-1000Hz-1000Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-7-700Hz-700Hz.xlsx-12.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-9-200Hz-200Hz.xlsx-2.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-11-1Hz-1Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-3-1Hz-1Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-6-100Hz-100Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-1-1Hz-1Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-13-800Hz-800Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-6-800Hz-800Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-3-100Hz-100Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-1-800Hz-800Hz.xlsx-13.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-8-1000Hz-1000Hz.xlsx-1.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-1-900Hz-900Hz.xlsx-17.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-2-900Hz-900Hz.xlsx-19.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-9-600Hz-600Hz.xlsx-14.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-11-800Hz-800Hz.xlsx-18.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-11-1Hz-1Hz.xlsx-5.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-1-1Hz-1Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-7-900Hz-900Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-5-600Hz-600Hz.xlsx-6.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-10-1000Hz-1000Hz.xlsx-8.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-5-100Hz-100Hz.xlsx-15.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-8-900Hz-900Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-4-700Hz-700Hz.xlsx-9.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-8-300Hz-300Hz.xlsx-15.png",
+    "prediction": "A) Random noise",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-8-200Hz-200Hz.xlsx-3.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-4-900Hz-900Hz.xlsx-16.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-4-500Hz-500Hz.xlsx-7.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  },
+  {
+    "image": "SquareTrials-4-700Hz-700Hz.xlsx-11.png",
+    "prediction": "C) Square wave",
+    "label": "C) Square wave"
+  }
+]

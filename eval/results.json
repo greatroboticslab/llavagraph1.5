@@ -1,0 +1,36 @@
+[
+  {
+    "image": "Square Trials-12-100Hz-100Hz.xlsx-2.png",
+    "conversation": [
+      {
+        "question": "Is the line shown in the graph continuous? Describe the line.",
+        "answer": "<s> This wave's non-random, discontinuous pattern is defined by abrupt jumps to equal positive and negative peak heights.</s>"
+      },
+      {
+        "question": "Does the graph contain any random points?",
+        "answer": "<s> The graph's continuous line shows a deterministic, periodic alternation between two distinct states.</s>"
+      },
+      {
+        "question": "Does the graph contain sharp corners?",
+        "answer": "<s> The graph's deterministic nature does not preclude its discontinuous character, evident in sharp angles and sudden value decreases.</s>"
+      }
+    ]
+  },
+  {
+    "image": "Square Trials-2-100Hz-100Hz.xlsx-1.png",
+    "conversation": [
+      {
+        "question": "Is the line shown in the graph continuous? Describe the line.",
+        "answer": "<s> This wave's non-random, discontinuous pattern is defined by abrupt shifts to equally sized positive and negative peaks.</s>"
+      },
+      {
+        "question": "Does the graph contain any random points?",
+        "answer": "<s> The graph's continuous line shows a deterministic, periodic alternation between two distinct states.</s>"
+      },
+      {
+        "question": "Does the graph contain sharp corners?",
+        "answer": "<s>  The graph's deterministic pattern is interrupted by abrupt corners and sudden decreases in value.</s>"
+      }
+    ]
+  }
+]

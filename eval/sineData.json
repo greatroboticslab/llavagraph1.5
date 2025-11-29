@@ -1,0 +1,36 @@
+[
+  {
+    "image": "Sine Trials-9-100Hz-100Hz.xlsx-8.png",
+    "conversation": [
+      {
+        "question": "Is the line shown in the graph continuous? Describe the line.",
+        "answer": "<s> The waveform's smooth, periodic behavior is evident in its symmetrical peak excursions.</s>"
+      },
+      {
+        "question": "Does the graph contain any random points?",
+        "answer": "<s> The graph's continuous line shows a deterministic, non-random pattern.</s>"
+      },
+      {
+        "question": "Does the graph contain sharp corners?",
+        "answer": "<s> The graph's line showed a continuous, gradual progression, lacking any sudden drops or sharp corners.</s>"
+      }
+    ]
+  },
+  {
+    "image": "Sine Trials-1-100Hz-100Hz.xlsx-11.png",
+    "conversation": [
+      {
+        "question": "Is the line shown in the graph continuous? Describe the line.",
+        "answer": "<s> The waveform's smooth, periodic behavior is evident in its symmetrical peak excursions.</s>"
+      },
+      {
+        "question": "Does the graph contain any random points?",
+        "answer": "<s> The graph's continuous line shows a deterministic, non-random pattern.</s>"
+      },
+      {
+        "question": "Does the graph contain sharp corners?",
+        "answer": "<s>  The graph's curve was smooth and free of any abrupt changes in value or direction.</s>"
+      }
+    ]
+  }
+]
