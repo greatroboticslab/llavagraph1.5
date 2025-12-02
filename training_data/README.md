@@ -10,7 +10,7 @@ training_data/
 │   ├── SineWave/               # 36 images with sinusoidal waveforms  
 │   └── SquareWave/             # 53 images with square waveforms
 │
-└── SyntheticImages/            # Generated synthetic images
+└── input_SyntheticImages/            # Generated synthetic images
     ├── RandomNoise/           # 705 Images with random noise overlays
     ├── SineWave/              # 705 Images with sine wave overlays
     └── SquareWave/            # 705 Images with square wave overlays
