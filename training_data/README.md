@@ -11,11 +11,11 @@ training_data/
 │   └── SquareWave/             # 53 images with square waveforms
 │
 └── input_SyntheticImages/            # Generated synthetic images
-    ├── RandomNoise/           # 705 Images with random noise overlays
-    ├── SineWave/              # 705 Images with sine wave overlays
-    └── SquareWave/            # 705 Images with square wave overlays
+|    ├── RandomNoise/           # 705 Images with random noise overlays
+|    ├── SineWave/              # 705 Images with sine wave overlays
+|    └── SquareWave/            # 705 Images with square wave overlays
 │
-└── output_SyntheticImages/            # Generated synthetic images
+└── output_Synthetic/            # Generated synthetic images
     ├── V1/           # first version
     └── V2/              # second version
 
