@@ -14,9 +14,14 @@ training_data/
     ├── RandomNoise/           # 705 Images with random noise overlays
     ├── SineWave/              # 705 Images with sine wave overlays
     └── SquareWave/            # 705 Images with square wave overlays
+│
+└── output_SyntheticImages/            # Generated synthetic images
+    ├── V1/           # first version
+    └── V2/              # second version
+
 ```
 
-## Synthetic Image Generation Description
+## Synthetic Image Generation Description_inputdata
 The generation script is located at: TrainingInputdata_folder.py
 
 To generate synthetic images, run:
