@@ -35,12 +35,12 @@ with open(RANDOM_SQUARE, "r") as file:
     randomSquare = file.read().splitlines()
 
 print("Processing NoiseData images...")
-noise_dir = "/data/ilminur/12.14llava/data/stage1_input/input_Experimental/NoiseData"
+noise_dir = "/data/ilminur/12.14llava/data/stage1_input/input_all/NoiseData"
 maxImage = len(os.listdir(noise_dir))
 for file in os.listdir(noise_dir):
     json_data = {
         "id": uniqueId,
-        "image": f"data/stage1_input/input_Experimental/NoiseData/{file}",
+        "image": f"data/stage1_input/input_all/NoiseData/{file}",
         "conversations": [
             {
                 "from": "human",
@@ -81,14 +81,14 @@ with open(SINE_SQUARE, "r") as file:
     sineSquare = file.read().splitlines()
 
 print("Processing SineData images...")
-sine_dir = "/data/ilminur/12.14llava/data/stage1_input/input_Experimental/SineData"
+sine_dir = "/data/ilminur/12.14llava/data/stage1_input/input_all/SineData"
 sineImages = os.listdir(sine_dir)
 random.shuffle(sineImages)
 sineImages = sineImages[:maxImage]
 for file in sineImages:
     json_data = {
         "id": uniqueId,
-        "image": f"data/stage1_input/input_Experimental/SineData/{file}",
+        "image": f"data/stage1_input/input_all/SineData/{file}",
         "conversations": [
             {
                 "from": "human",
@@ -129,14 +129,14 @@ with open(SQUARE_SQUARE, "r") as file:
     squareSquare = file.read().splitlines()
 
 print("Processing SquareData images...")
-square_dir = "/data/ilminur/12.14llava/data/stage1_input/input_Experimental/SquareData"
+square_dir = "/data/ilminur/12.14llava/data/stage1_input/input_all/SquareData"
 squareImages = os.listdir(square_dir)
 random.shuffle(squareImages)
 squareImages = squareImages[:maxImage]
 for file in squareImages:
     json_data = {
         "id": uniqueId,
-        "image": f"data/stage1_input/input_Experimental/SquareData/{file}",
+        "image": f"data/stage1_input/input_all/SquareData/{file}",
         "conversations": [
             {
                 "from": "human",
