@@ -200,7 +200,7 @@ chmod +x run_eval.sh
 │   └── pyproject.toml
 ├── data/
 │   ├── fullData.json               # Generated training data 
-│   ├── textData                    # used for generate fulldata.json
+│   ├── textData                    # used for generate json file
 │   └── stage1_input/               # Image data folder
 │   └── stage2_output/               # Image data folder
 ├── checkpoints/
