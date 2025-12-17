@@ -15,10 +15,6 @@ Complete documentation for setting up and training LLaVAGraph with LoRA fine-tun
 
 ### 1. Virtual Environment Creation
 ```bash
-# Navigate to working directory
-git clone https://github.com/greatroboticslab/llavagraph1.5.git
-cd llavagraph1.5
-
 # Create virtual environment
 python -m venv llava # Linux/Mac
 # Windows: venv\Scripts\activate
