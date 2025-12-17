@@ -199,9 +199,8 @@ chmod +x run_eval.sh
 │   │       └── train_mem.py
 │   └── pyproject.toml
 ├── data/
-│   ├── JSONData.py                 # Data generation script
-│   ├── fullData.json               # Generated training data (2257 entries)
-│   ├── fullData_fixed.json         # Fixed/processed training data
+│   ├── fullData.json               # Generated training data 
+│   ├── textData                    # used for generate fulldata.json
 │   └── stage1_input/               # Image data folder
 │   └── stage2_output/               # Image data folder
 ├── checkpoints/
@@ -209,8 +208,7 @@ chmod +x run_eval.sh
 └── scripts/
     ├── evaluate_LLaVA.py           # Evaluation script
     └── run_eval.sh                 # Evaluation runner
-    ├── modified_JSONData.py           # trainning script
-    └── train_lora.sh                 # training runner
+    └── modified_JSONData.py           # trainning script
 ```
 
 ---
