@@ -9,17 +9,17 @@ import os
 uniqueId = 1
 
 # Text data paths
-RANDOM_CONTINUOUS = "/data/ilminur/12.14llava/data/textData/random/random-continuous.txt"
-SINE_CONTINUOUS = "/data/ilminur/12.14llava/data/textData/sine/sine-continuous.txt"
-SQUARE_CONTINUOUS = "/data/ilminur/12.14llava/data/textData/square/square-continuous.txt"
+RANDOM_CONTINUOUS = "textData/random/random-continuous.txt"
+SINE_CONTINUOUS = "textData/sine/sine-continuous.txt"
+SQUARE_CONTINUOUS = "textData/square/square-continuous.txt"
 
-RANDOM_RANDOMNESS = "/data/ilminur/12.14llava/data/textData/random/random-randomness.txt"
-SINE_RANDOMNESS = "/data/ilminur/12.14llava/data/textData/sine/sine-randomness.txt"
-SQUARE_RANDOMNESS = "/data/ilminur/12.14llava/data/textData/square/square-randomness.txt"
+RANDOM_RANDOMNESS = "textData/random/random-randomness.txt"
+SINE_RANDOMNESS = "textData/sine/sine-randomness.txt"
+SQUARE_RANDOMNESS = "textData/square/square-randomness.txt"
 
-RANDOM_SQUARE = "/data/ilminur/12.14llava/data/textData/random/random-square.txt"
-SINE_SQUARE = "/data/ilminur/12.14llava/data/textData/sine/sine-square.txt"
-SQUARE_SQUARE = "/data/ilminur/12.14llava/data/textData/square/square-square.txt"
+RANDOM_SQUARE = "textData/random/random-square.txt"
+SINE_SQUARE = "textData/sine/sine-square.txt"
+SQUARE_SQUARE = "textData/square/square-square.txt"
 
 
 
@@ -35,7 +35,7 @@ with open(RANDOM_SQUARE, "r") as file:
     randomSquare = file.read().splitlines()
 
 print("Processing NoiseData images...")
-noise_dir = "/data/ilminur/12.14llava/data/stage1_input/input_all/NoiseData"
+noise_dir = "12.14llava/data/stage1_input/input_all/NoiseData"
 maxImage = len(os.listdir(noise_dir))
 for file in os.listdir(noise_dir):
     json_data = {
@@ -81,7 +81,7 @@ with open(SINE_SQUARE, "r") as file:
     sineSquare = file.read().splitlines()
 
 print("Processing SineData images...")
-sine_dir = "/data/ilminur/12.14llava/data/stage1_input/input_all/SineData"
+sine_dir = "12.14llava/data/stage1_input/input_all/SineData"
 sineImages = os.listdir(sine_dir)
 random.shuffle(sineImages)
 sineImages = sineImages[:maxImage]
@@ -129,7 +129,7 @@ with open(SQUARE_SQUARE, "r") as file:
     squareSquare = file.read().splitlines()
 
 print("Processing SquareData images...")
-square_dir = "/data/ilminur/12.14llava/data/stage1_input/input_all/SquareData"
+square_dir = "12.14llava/data/stage1_input/input_all/SquareData"
 squareImages = os.listdir(square_dir)
 random.shuffle(squareImages)
 squareImages = squareImages[:maxImage]
