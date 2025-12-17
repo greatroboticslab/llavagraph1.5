@@ -9,17 +9,17 @@ import os
 uniqueId = 1
 
 # Text data paths
-RANDOM_CONTINUOUS = "textData/random/random-continuous.txt"
-SINE_CONTINUOUS = "textData/sine/sine-continuous.txt"
-SQUARE_CONTINUOUS = "textData/square/square-continuous.txt"
+RANDOM_CONTINUOUS = "12.14llava/data/textData/random/random-continuous.txt"
+SINE_CONTINUOUS = "12.14llava/data/textData/sine/sine-continuous.txt"
+SQUARE_CONTINUOUS = "12.14llava/data/textData/square/square-continuous.txt"
 
-RANDOM_RANDOMNESS = "textData/random/random-randomness.txt"
-SINE_RANDOMNESS = "textData/sine/sine-randomness.txt"
-SQUARE_RANDOMNESS = "textData/square/square-randomness.txt"
+RANDOM_RANDOMNESS = "12.14llava/data/textData/random/random-randomness.txt"
+SINE_RANDOMNESS = "12.14llava/data/textData/sine/sine-randomness.txt"
+SQUARE_RANDOMNESS = "12.14llava/data/textData/square/square-randomness.txt"
 
-RANDOM_SQUARE = "textData/random/random-square.txt"
-SINE_SQUARE = "textData/sine/sine-square.txt"
-SQUARE_SQUARE = "textData/square/square-square.txt"
+RANDOM_SQUARE = "12.14llava/data/textData/random/random-square.txt"
+SINE_SQUARE = "12.14llava/data/textData/sine/sine-square.txt"
+SQUARE_SQUARE = "12.14llava/data/textData/square/square-square.txt"
 
 
 
