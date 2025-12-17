@@ -16,17 +16,18 @@ Complete documentation for setting up and training LLaVAGraph with LoRA fine-tun
 ### 1. Virtual Environment Creation
 ```bash
 # Navigate to working directory
-cd /data/ilminur/12.14llava/
+git clone https://github.com/greatroboticslab/llavagraph1.5.git
+cd llavagraph1.5
 
 # Create virtual environment
-python -m venv llava
+python -m venv llava # Linux/Mac
+# Windows: venv\Scripts\activate
 
 # Activate environment
 source llava/bin/activate
 
 # Verify activation (prompt should show (llava))
 which python
-# Expected output: /data/ilminur/12.14llava/llava/bin/python
 ```
 
 ### 2. PyTorch Installation
@@ -55,9 +56,6 @@ pip install --upgrade pip
 
 ### 1. Install LLaVAGraph Package
 ```bash
-# Navigate to project root
-cd /data/ilminur/12.14llava/llavagraph1.5/
-
 # Verify project files exist
 ls pyproject.toml  # Should exist ✓
 
@@ -89,19 +87,12 @@ pip install flash-attn --no-build-isolation
 **Important:** Modify paths in `data/JSONData.py` according to your directory structure before running.
 ```bash
 # Run data generation pipeline
-cd /data/ilminur/12.14llava/
 python data/JSONData.py
-```
-
-### 2. Output Verification
-```bash
-# Check generated data
-ls /data/ilminur/12.14llava/data/fullData.json
 ```
 
 **Expected Result:**
 ```
-✅ Generated 2257 data entries saved to: /data/ilminur/12.14llava/data/fullData.json
+✅ Generated 2257 data entries saved to: /data/fullData.json
 📊 Breakdown:
    - NoiseData: 758
    - SineData:  741
@@ -142,7 +133,6 @@ This approach trains the multimodal projector from scratch (fastest method for i
 
 ### Training Command
 ```bash
-cd /data/ilminur/12.14llava/
 conda activate llava
 
 CUDA_VISIBLE_DEVICES=0 python llavagraph1.5/llava/train/train_mem.py \
@@ -161,7 +151,6 @@ CUDA_VISIBLE_DEVICES=0 python llavagraph1.5/llava/train/train_mem.py \
 ```
 or can just run scipts:
 ```bash
-cd /data/ilminur/12.14llava/scripts
 bash train_lora.sh
 ```
 
@@ -187,8 +176,6 @@ Checkpoint directory: `checkpoints/lora_llavagraph_simple_final/`
 
 ### 1. Setup Evaluation Script
 ```bash
-cd /data/ilminir/12.14llava/scripts
-
 # Ensure PEFT is installed
 pip install peft
 ```
@@ -208,7 +195,7 @@ chmod +x run_eval.sh
 
 ## Directory Structure
 ```
-/data/ilminur/12.14llava/
+/12.14llava/
 ├── llava/                          # Virtual environment
 ├── llavagraph1.5/                  # Project source code
 │   ├── llava/
@@ -287,8 +274,3 @@ chmod +x run_eval.sh
 # - Set dataloader_num_workers to 0
 # - Verify data path correctness
 ```
-
-
-
-
-For issues or improvements, please contact the project maintainer.
