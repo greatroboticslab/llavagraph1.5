@@ -3,7 +3,7 @@
 # LLaVAGraph LoRA Training Script
 # Training configuration: LoRA r=8, batch_size=1, lr=1e-4
 
-cd /data/ilminur/12.14llava/
+cd 12.14llava/
 conda activate llava
 
 CUDA_VISIBLE_DEVICES=0 python llavagraph1.5/llava/train/train_mem.py \
