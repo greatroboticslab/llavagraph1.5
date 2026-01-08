@@ -59,8 +59,8 @@ Each generated synthetic image is composed of the following elements: the origin
 ### 📊 Data prep
 Before generating augmented data, raw collected data must be converted to physical units (nanometers) using the process_raw_8.py script.
 
-Text File Extraction Process:
-Run extract_txt_file.py (located in the original/output/ directory) to extract the original text files from the original/ folder. These extracted text files serve as data for the subsequent processing pipeline.
+#### Text File Extraction Process:
+Run extract_txt_file.py (located in the original/output/ directory) to extract the original text files from the Issac_data_Aug_27_2024/ folder. These extracted text files serve as data for the subsequent processing pipeline.
 
 Setup Environment:
 ```bash
@@ -83,9 +83,11 @@ This workflow sequentially imports three files from the path: original/output/Is
 
 For detailed implementation of the conversion code in process_raw_8.py, please refer to:
 https://github.com/greatroboticslab/laserai
-Note: Modified the conversion algorithm in process_raw_8.py to implement new formula:
-nm = (D - baseline) * (wavelength / 8) - correction
 
+Note: Modified the conversion algorithm in process_raw_8.py to implement new formula:
+```Shell
+nm = (D - baseline) * (wavelength / 8) - correction
+``` 
 Since the processed output folder contains both PNG and CSV files, the extract_csv.py script located in original/output/ can be used to extract CSV files specifically for subsequent synthetic data generation.
 
 
