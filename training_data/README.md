@@ -38,7 +38,7 @@ training_data/
 ```
 
 ## Synthetic Image Generation Description_inputdata
-The generation script is located at: TrainingInputdata_folder.py
+The generation script is located at: scripts/TrainingInputdata_folder.py
 
 To generate synthetic images, run:
 ```Shell
@@ -127,7 +127,6 @@ OUTPUT_FOLDER_NAME = "OutputWave"           # Output folder name
 POINTS_TO_USE = 250                         # Number of data points to use
 ```
 The pipeline will generate 1 original visualization and 6 synthetic augmentations from each CSV file for further analysis or model training.
-
 
 
 
