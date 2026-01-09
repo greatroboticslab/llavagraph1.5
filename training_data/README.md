@@ -132,5 +132,36 @@ POINTS_TO_USE = 250                         # Number of data points to use
 The pipeline will generate 1 original visualization and 6 synthetic augmentations from each CSV file for further analysis or model training.
 
 
+## Finetuning
+
+### Dataset Format
+Convert your data to a JSON file of a List of all samples. Sample metadata should contain id (a unique identifier), image (the path to the image), and conversations (the conversation data between human and AI).
+After modifying your path in scripts/modified_JSONData.py, you will obtain the fulldata.json file.
+
+
+### Modifying Training Parameters
+You'll need to modify your training parameters inside scripts/train_lora.sh to match your current setup.
+```Shell
+CUDA_VISIBLE_DEVICES=0 python llavagraph1.5/llava/train/train_mem.py \
+      --lora_enable True --lora_r 8 --lora_alpha 16 \
+      --model_name_or_path lmsys/vicuna-7b-v1.5 --version v1 \
+      --data_path  <path-to-llava>/fullData.json \
+      --image_folder  <path-to-llava>/stage1_input \
+      --vision_tower openai/clip-vit-large-patch14-336 \
+      --image_aspect_ratio pad \
+      --fp16 True \
+      --output_dir  <where-you-want-to-save-checkpoints> \
+      --per_device_train_batch_size 1 \
+      --num_train_epochs 1 \
+      --evaluation_strategy no \
+      --save_strategy steps \
+      --save_steps 20 \
+      --learning_rate 1e-4 \
+      --model_max_length 512 \
+      --dataloader_num_workers 0 \
+      --lazy_preprocess False \
+      --group_by_modality_length False
+```
+Once you get this setup correctly, you should be able to get your final output.
 
 
