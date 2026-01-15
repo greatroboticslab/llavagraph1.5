@@ -17,16 +17,35 @@ _Abstract:_ Pizoelectric actuator has been used extensively throughout multiple 
 
 1. Install Package
 ```Shell
+#Route A: Use venv only
+# 1. Create venv
 python -m venv /projects/<username>/llava
+
+# 2. Activate venv
+source /projects/<username>/llava/bin/activate
+
+# 3. Install packages in this venv
+pip install --upgrade pip  # enable PEP 660 support
+pip install -e .     
+
+#Route B: Use conda environment only
+# 1. Create conda environment (if not exists)
+conda create -n llava python=3.10   # adjust version as needed
+
+# 2. Activate conda environment
 conda activate llava
+
+# 3. Install packages in this conda environment
 pip install --upgrade pip  # enable PEP 660 support
 pip install -e .
+
 ```
+
 
 2. Install additional packages for training cases
 ```
 pip install -e ".[train]"
-pip install flash-attn --no-build-isolation
+pip install flash-attn --no-build-isolation  
 ```
 
 3. Download LLaVA weights
@@ -43,27 +62,45 @@ pip install deepspeed
 
 ### Dataset Format
 
-Convert your data to a JSON file of a List of all samples. Sample metadata should contain `id` (a unique identifier), `image` (the path to the image), and `conversations` (the conversation data between human and AI).
+Use the script `trainingdata/scripts/generate_json.py` to convert your data into a JSON file containing a list of all samples. Sample metadata should contain `id` (a unique identifier), `image` (the path to the image), and `conversations`(the conversation data between human and AI). 
+
+Running this script will generate two separate JSON files: one for training data (trainingData.json) and one for test data (testData.json).
+
+
 
 ```json
 {
-    "image": "SquareTrials-3-100Hz-100Hz.xlsx-17.png",
-    "conversation": [
+    "id": 1,
+    "image": "data/synthetic/input/SquareWave/RandomNoise_NoiseTrials-14-Run2.xlsx-4_square3.png",
+    "conversations": [
       {
-        "question": "Is the line shown in the graph continuous? Describe the line.",
-        "answer": "<s> This wave exhibits a non-random, yet discontinuous, pattern with sudden shifts to symmetrical peak excursions.</s>"
+        "from": "human",
+        "value": "<image>Is the line shown in the graph continuous? Describe the line."
       },
       {
-        "question": "Does the graph contain any random points?",
-        "answer": "<s> The continuous line's transitions between two distinct levels are regular and predictable, demonstrating a deterministic process.</s>"
+        "from": "gpt",
+        "value": "The wave displays a predictable, but discontinuous, progression characterized by abrupt shifts to symmetrical extrema."
       },
       {
-        "question": "Does the graph contain sharp corners?",
-        "answer": "<s>  While non-random, this graph exhibits sharp corners and abrupt decreases in value.</s>"
+        "from": "human",
+        "value": "Does the graph contain any random points?"
+      },
+      {
+        "from": "gpt",
+        "value": "The continuous line's transitions between two distinct levels are regular and predictable, demonstrating a deterministic process."
+      },
+      {
+        "from": "human",
+        "value": "Does the graph contain sharp corners?"
+      },
+      {
+        "from": "gpt",
+        "value": "The graphical representation, though not random, features sudden value drops and sharp angular transitions."
       }
     ]
   },
 ```
+
 
 ### Modifying Training Parameters
 

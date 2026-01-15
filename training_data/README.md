@@ -135,9 +135,43 @@ The pipeline will generate 1 original visualization and 6 synthetic augmentation
 ## Finetuning
 
 ### Dataset Format
-Convert your data to a JSON file of a List of all samples. Sample metadata should contain id (a unique identifier), image (the path to the image), and conversations (the conversation data between human and AI).
-After modifying your path in scripts/modified_JSONData.py, you will obtain the fulldata.json file.
+Use the script trainingdata/scripts/generate_json.py to convert your data into a JSON file containing a list of all samples. Sample metadata should contain id (a unique identifier), image (the path to the image), and conversations(the conversation data between human and AI).
 
+Running this script will generate two separate JSON files: one for training data (trainingData.json) and one for test data (testData.json).
+
+
+```json
+{
+    "id": 1,
+    "image": "data/synthetic/input/SquareWave/RandomNoise_NoiseTrials-14-Run2.xlsx-4_square3.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>Is the line shown in the graph continuous? Describe the line."
+      },
+      {
+        "from": "gpt",
+        "value": "The wave displays a predictable, but discontinuous, progression characterized by abrupt shifts to symmetrical extrema."
+      },
+      {
+        "from": "human",
+        "value": "Does the graph contain any random points?"
+      },
+      {
+        "from": "gpt",
+        "value": "The continuous line's transitions between two distinct levels are regular and predictable, demonstrating a deterministic process."
+      },
+      {
+        "from": "human",
+        "value": "Does the graph contain sharp corners?"
+      },
+      {
+        "from": "gpt",
+        "value": "The graphical representation, though not random, features sudden value drops and sharp angular transitions."
+      }
+    ]
+  },
+```
 
 ### Modifying Training Parameters
 You'll need to modify your training parameters inside scripts/train_lora.sh to match your current setup.
