@@ -1,0 +1,56 @@
+# data
+
+## original_data/
+Contains the original, unmodified experimental images captured from instruments.
+
+## trainData/
+Contains both experimental (original) and synthetic images that will be used for model training.
+
+## testData/
+Contains both experimental (original) and synthetic images reserved for testing and evaluation purposes.
+
+## textData/
+Contains text files with descriptions, annotations, or conversation data that will be used by generate_json.py to create the conversation metadata in the JSON files.
+
+## trainingInputdata_folder.py
+
+Synthetic training data generator
+
+- For each original image in your dataset, the script generates three types of waveform variations, each with 5 versions:
+    - Random Noise (5 variations)
+    - Sine Wave (5 variations)
+    - Square Wave (5 variations)
+
+Output: 15 synthetic images per original image
+
+Image Composition:Original instrument panel as background；New waveform overlay positioned at coordinates (80, 200)；Waveform lines in purple (color code #b43ed1)；Naming Convention: {source}{original_filename}{type}{number}.png
+
+## Augmented_final.py
+
+Synthetic test data generator
+
+Input: Generated CSV files containing waveform data points
+
+Output: Generates both original visualizations and synthetic augmentations
+
+For each input CSV file, the script generates:
+- 1 original visualization: Accurate representation of the source data
+- 6 synthetic augmentations: Modified versions for data diversity
+
+
+To configure the pipeline, modify these three parameters at the bottom of the code:
+
+```Shell
+python
+CSV_INPUT_PATH = "path/to/your/csv/*.csv"  # Path pattern for CSV files
+OUTPUT_FOLDER_NAME = "OutputWave"           # Output folder name
+POINTS_TO_USE = 250                         # Number of data points to use
+```
+
+## generate_json.py
+Converts image data into structured JSON files containing sample metadata
+
+Output Files: **trainingData.json**: JSON file containing training samples；**testData.json**: JSON file containing test samples
+
+Data Source: Utilizes text descriptions from textData/ folder
+
