@@ -34,7 +34,7 @@ Key Features:
 Implements the conversion algorithm: nm = (D - baseline) * (wavelength / 8) - correction
 ``` 
 
-Processes files from: original/output/Issac_data_Aug_27_2024/Original_only_txt/
+Processes files from: Issac_data_Aug_27_2024/Original_only_txt/
 
 Supports "Absolute" mode for generating calibrated output
 
