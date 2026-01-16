@@ -4,21 +4,18 @@ import random
 import os
 from pathlib import Path
 
-# Your exact paths
-LLAVAGRAPH_DIR = "/projects/ya4v/llavagraph"
-TRAININGDATA_DIR = "/projects/ya4v/trainingdata"
+# Updated paths
+LLAVAGRAPH_DIR = "/<your-projects-path>/llavagraph"
+TRAININGDATA_DIR = f"{LLAVAGRAPH_DIR}/data"
 TEXTDATA_DIR = f"{LLAVAGRAPH_DIR}/data/textData"
 
-# Training image sources (original + synthetic input)
-TRAIN_IMAGE_DIRS = [
-    f"{TRAININGDATA_DIR}/data/original/input",
-    f"{TRAININGDATA_DIR}/data/synthetic/input"
-]
+# Training image source
+TRAIN_IMAGE_DIR = f"{TRAININGDATA_DIR}/trainData"
 
-# Test image source (final processed synthetic output)
-TEST_IMAGE_DIR = f"{TRAININGDATA_DIR}/data/synthetic/output/V3/final"
+# Test image source
+TEST_IMAGE_DIR = f"{TRAININGDATA_DIR}/testData"
 
-# Your text answer files (9 files total)
+# Your text answer files
 TEXT_FILES = {
     "RandomNoise": {
         "continuous": f"{TEXTDATA_DIR}/random/random-continuous.txt",
@@ -47,24 +44,30 @@ def load_text_answers(file_path):
     return ["Default answer."]
 
 
-def collect_images(image_dirs, prefix=""):
-    """Collect images from specified directories"""
+def collect_images(image_dir, prefix=""):
+    """Collect images from specified directory with subdirectories for each category"""
     all_images = []
     image_extensions = ['*.png', '*.jpg', '*.jpeg', '*.PNG', '*.JPG']
 
-    for base_dir in image_dirs:
-        base_path = Path(base_dir)
-        if base_path.exists():
-            for category in ["RandomNoise", "SineWave", "SquareWave"]:
-                category_dir = base_path / category
-                if category_dir.exists():
-                    for ext in image_extensions:
-                        images = list(category_dir.glob(ext))
-                        for img_path in images:
-                            rel_path = img_path.relative_to(TRAININGDATA_DIR)
-                            all_images.append((category, img_path.name, str(rel_path)))
+    base_path = Path(image_dir)
+    if not base_path.exists():
+        print(f"Warning: Directory {image_dir} does not exist")
+        return all_images
 
-    print(f"Found {len(all_images)} images for {prefix}")
+    # Categories are subdirectories: RandomNoise, SineWave, SquareWave
+    for category in ["RandomNoise", "SineWave", "SquareWave"]:
+        category_dir = base_path / category
+        if category_dir.exists():
+            for ext in image_extensions:
+                images = list(category_dir.glob(ext))
+                for img_path in images:
+                    # Store relative path from TRAININGDATA_DIR
+                    rel_path = img_path.relative_to(TRAININGDATA_DIR)
+                    all_images.append((category, img_path.name, str(rel_path)))
+        else:
+            print(f"Warning: Category directory {category_dir} does not exist")
+
+    print(f"Found {len(all_images)} images for {prefix} in {image_dir}")
     return all_images
 
 
@@ -82,10 +85,14 @@ def generate_conversation(category):
 
 
 def main():
-    print("Generating training data from original/input + synthetic/input...")
+    print("Generating training data from trainData directory...")
 
-    # Training data: original + synthetic input folders
-    train_images = collect_images(TRAIN_IMAGE_DIRS, "training")
+    # Training data: from trainData directory
+    train_images = collect_images(TRAIN_IMAGE_DIR, "training")
+    if not train_images:
+        print("Error: No training images found. Please check the directory structure.")
+        return
+
     random.shuffle(train_images)
 
     train_data = []
@@ -96,9 +103,13 @@ def main():
             "conversations": generate_conversation(category)
         })
 
-    # Test data: synthetic/output/V3/final folder
-    print("Generating test data from synthetic/output/V3/final...")
-    test_images = collect_images([TEST_IMAGE_DIR], "testing")
+    # Test data: from testData directory
+    print("Generating test data from testData directory...")
+    test_images = collect_images(TEST_IMAGE_DIR, "testing")
+    if not test_images:
+        print("Error: No test images found. Please check the directory structure.")
+        return
+
     random.shuffle(test_images)
 
     test_data = []
@@ -109,16 +120,17 @@ def main():
             "conversations": generate_conversation(category)
         })
 
-    # Save JSON files
-    with open(f"{TRAININGDATA_DIR}/trainingData.json", "w", encoding='utf-8') as f:
+    # Save JSON files to TRAININGDATA_DIR
+    output_dir = TRAININGDATA_DIR
+    with open(f"{output_dir}/trainingData.json", "w", encoding='utf-8') as f:
         json.dump(train_data, f, indent=2, ensure_ascii=False)
-    with open(f"{TRAININGDATA_DIR}/testData.json", "w", encoding='utf-8') as f:
+    with open(f"{output_dir}/testData.json", "w", encoding='utf-8') as f:
         json.dump(test_data, f, indent=2, ensure_ascii=False)
 
     print("Complete!")
-    print(f"Training data: {len(train_data)} samples -> {TRAININGDATA_DIR}/trainingData.json")
-    print(f"Test data: {len(test_data)} samples -> {TRAININGDATA_DIR}/testData.json")
-    print("Images remain in their original locations")
+    print(f"Training data: {len(train_data)} samples -> {output_dir}/trainingData.json")
+    print(f"Test data: {len(test_data)} samples -> {output_dir}/testData.json")
+
 
 
 if __name__ == "__main__":
