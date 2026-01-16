@@ -46,6 +46,30 @@ CSV_INPUT_PATH = "path/to/your/csv/*.csv"  # Path pattern for CSV files
 OUTPUT_FOLDER_NAME = "OutputWave"           # Output folder name
 POINTS_TO_USE = 250                         # Number of data points to use
 ```
+### This script uses the tsaug package for time series augmentation. 
+
+Three augmentation methods are implemented:
+1. Time Warp
+Modifies temporal dynamics by applying speed changes:
+Mild: max_speed_ratio=1.2
+Moderate: max_speed_ratio=1.5
+Strong: max_speed_ratio=1.8
+2. Reverse
+Reverses the time series sequence (temporal flipping).
+3. Pool
+Reduces data resolution through downsampling:
+Size 2: Downsample by factor of 2
+Size 3: Downsample by factor of 3
+
+Installation
+Prerequisites: Python 3.5 or later.
+```Shell
+pip install tsaug
+```
+References: 
+https://github.com/arundo/tsaug
+https://tsaug.readthedocs.io/en/stable/notebook/Examples%20of%20augmenters.html
+
 
 ## generate_json.py
 Converts image data into structured JSON files containing sample metadata
