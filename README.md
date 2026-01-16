@@ -62,16 +62,16 @@ pip install deepspeed
 
 ### Dataset Format
 
-Use the script `trainingdata/scripts/generate_json.py` to convert your data into a JSON file containing a list of all samples. Sample metadata should contain `id` (a unique identifier), `image` (the path to the image), and `conversations`(the conversation data between human and AI). 
+Use the script `data/generate_json.py` to convert your data into a JSON file containing a list of all samples. Sample metadata should contain `id` (a unique identifier), `image` (the path to the image), and `conversations`(the conversation data between human and AI). 
 
 Running this script will generate two separate JSON files: one for training data (trainingData.json) and one for test data (testData.json).
 
 
 
 ```json
-{
+ {
     "id": 1,
-    "image": "data/synthetic/input/SquareWave/RandomNoise_NoiseTrials-14-Run2.xlsx-4_square3.png",
+    "image": "trainData/RandomNoise/SquareWave_SquareTrials-6-100Hz-100Hz.xlsx-13_rand2.png",
     "conversations": [
       {
         "from": "human",
@@ -79,7 +79,7 @@ Running this script will generate two separate JSON files: one for training data
       },
       {
         "from": "gpt",
-        "value": "The wave displays a predictable, but discontinuous, progression characterized by abrupt shifts to symmetrical extrema."
+        "value": "While the curve is continuous, its values undergo frequent and significant alterations."
       },
       {
         "from": "human",
@@ -87,7 +87,7 @@ Running this script will generate two separate JSON files: one for training data
       },
       {
         "from": "gpt",
-        "value": "The continuous line's transitions between two distinct levels are regular and predictable, demonstrating a deterministic process."
+        "value": "The data points are scattered randomly and independently across the graph, lacking any discernible structure."
       },
       {
         "from": "human",
@@ -95,7 +95,7 @@ Running this script will generate two separate JSON files: one for training data
       },
       {
         "from": "gpt",
-        "value": "The graphical representation, though not random, features sudden value drops and sharp angular transitions."
+        "value": "Significant value decreases are present, yet the graph's form remains smoothly curved throughout."
       }
     ]
   },
