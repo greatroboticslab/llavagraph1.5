@@ -146,6 +146,9 @@ deepspeed llava/train/train_mem.py \
     --freeze_mm_mlp_adapter False \
     --freeze_backbone True \
 ```
+Here is the data needed for running the trainning. Training result is in the google drive.
+
+https://drive.google.com/file/d/1oqML1-a-rhNTID8qIXyt8uQGr7nP0ObG/view?usp=sharing
 
 Once you get this setup correctly, you should be able to just run:
 
