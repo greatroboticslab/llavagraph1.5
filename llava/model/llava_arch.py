@@ -12,6 +12,11 @@
 #    See the License for the specific language governing permissions and
 #    limitations under the License.
 
+"""
+LLaVA Architecture Module
+This file contains the core multimodal architecture for LLaVA
+Modified to work with DeepSpeed ZeRO-2 and LoRA fine-tuning
+"""
 
 from abc import ABC, abstractmethod
 
@@ -27,6 +32,7 @@ from llava.mm_utils import get_anyres_image_grid_shape
 
 
 class LlavaMetaModel:
+    """Base class for LLaVA model components"""
 
     def __init__(self, config):
         super(LlavaMetaModel, self).__init__(config)
@@ -41,12 +47,14 @@ class LlavaMetaModel:
                 )
 
     def get_vision_tower(self):
+        """Get the vision tower (CLIP encoder)"""
         vision_tower = getattr(self, 'vision_tower', None)
         if type(vision_tower) is list:
             vision_tower = vision_tower[0]
         return vision_tower
 
     def initialize_vision_modules(self, model_args, fsdp=None):
+        """Initialize vision tower and multimodal projector"""
         vision_tower = model_args.vision_tower
         mm_vision_select_layer = model_args.mm_vision_select_layer
         mm_vision_select_feature = model_args.mm_vision_select_feature
@@ -100,13 +108,13 @@ class LlavaMetaModel:
 def unpad_image(tensor, original_size):
     """
     Unpads a PyTorch tensor of a padded and resized image.
-
+    
     Args:
-    tensor (torch.Tensor): The image tensor, assumed to be in CxHxW format.
-    original_size (tuple): The original size of PIL image (width, height).
-
+        tensor (torch.Tensor): The image tensor, assumed to be in CxHxW format.
+        original_size (tuple): The original size of PIL image (width, height).
+    
     Returns:
-    torch.Tensor: The unpadded image tensor.
+        torch.Tensor: The unpadded image tensor.
     """
     original_width, original_height = original_size
     current_height, current_width = tensor.shape[1:]
@@ -129,6 +137,7 @@ def unpad_image(tensor, original_size):
 
 
 class LlavaMetaForCausalLM(ABC):
+    """Multimodal language model for causal LM with vision input"""
 
     @abstractmethod
     def get_model(self):
@@ -138,6 +147,12 @@ class LlavaMetaForCausalLM(ABC):
         return self.get_model().get_vision_tower()
 
     def encode_images(self, images):
+        """
+        Encode images through vision tower and projector
+        
+        CRITICAL: This method must properly handle the vision tower output
+        to avoid returning None which causes training failures
+        """
         image_features = self.get_model().get_vision_tower()(images)
         image_features = self.get_model().mm_projector(image_features)
         return image_features
@@ -146,6 +161,10 @@ class LlavaMetaForCausalLM(ABC):
         self, input_ids, position_ids, attention_mask, past_key_values, labels,
         images, image_sizes=None
     ):
+        """
+        Prepare inputs and labels for multimodal training
+        Integrates image features into language model inputs
+        """
         vision_tower = self.get_vision_tower()
         if vision_tower is None or images is None or input_ids.shape[1] == 1:
             return input_ids, position_ids, attention_mask, past_key_values, None, labels
@@ -324,6 +343,7 @@ class LlavaMetaForCausalLM(ABC):
         return None, position_ids, attention_mask, past_key_values, new_input_embeds, new_labels
 
     def initialize_vision_tokenizer(self, model_args, tokenizer):
+        """Initialize vision-related tokens in the tokenizer"""
         if model_args.mm_use_im_patch_token:
             tokenizer.add_tokens([DEFAULT_IMAGE_PATCH_TOKEN], special_tokens=True)
             self.resize_token_embeddings(len(tokenizer))
