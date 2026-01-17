@@ -104,7 +104,7 @@ Running this script will generate two separate JSON files: one for training data
 
 ### Modifying Training Parameters
 
-You'll need to modify your training parameters inside `scripts/v1_5/finetune_task_lora.sh` to match your current setup.
+You'll need to modify your training parameters inside `scripts/finetune_train.sh` to match your current setup.
 
 ```bash
 deepspeed llava/train/train_mem.py \
