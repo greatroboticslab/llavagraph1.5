@@ -16,460 +16,175 @@ Hardware: 2x NVIDIA GPUs
 ## zero2.json
 DeepSpeed ZeRO-2 configuration for distributed training
 
-## generate_description_ollama.py
-This script performs automatic status checking of the Ollama service to ensure it is running before proceeding. It provides clear error messages to help users quickly identify and resolve issues, and all functions are well-documented with descriptive docstrings for easy understanding and maintenance.
 
-### Ollama Setup Guide - Complete Instructions
+## generate_descriptions.py
 
-#### What is Ollama?
+This script automates two key steps: it first verifies the operational status of the Gemini service, and then procedes to generate a structured JSON dataset. This is achieved by creating multiple descriptive variations for various graph types and combining them with corresponding image data.
 
-Ollama is a tool that allows you to run large language models (like LLaMA, Mistral, etc.) locally on your own computer. It's:
-- **100% Free** - No API keys, no subscriptions, no hidden costs
-- **Private** - Your data never leaves your computer
-- **Offline** - Works without internet after initial model download
-- **Unlimited** - No rate limits or usage restrictions
+### Features
 
----
+- **Automated Description Generation**: Uses Gemini API to create 50 variations for each of 9 graph description templates
+- **JSON Dataset Creation**: Produces LLaVA-compatible training and test datasets
+- **Flexible Image Structure**: Supports organized image directories with separate folders for each graph type
+- **API Rate Limiting Protection**: Built-in delays to avoid quota issues
+- **Reusable Text Data**: Generated text descriptions can be reused across multiple training runs
 
-### Step-by-Step Installation Guide
-
-### Step 1: Install Ollama
-
-#### For macOS:
-
-**Option A: Using Homebrew (Recommended)**
-```bash
-brew install ollama
+### Directory Structure
+```
+your-project/
+├── data/
+│ ├── trainData/
+│ │ ├── RandomNoise/ # Contains .png images
+│ │ ├── SineWave/ # Contains .png images
+│ │ └── SquareWave/ # Contains .png images
+│ ├── testData/ # Optional test images (same structure as trainData)
+│ ├── trainingData.json # Generated training dataset
+│ └── testData.json # Generated test dataset (optional)
+├── textData/ # Generated text descriptions
+│ ├── random/
+│ │ ├── random-continuous.txt
+│ │ ├── random-randomness.txt
+│ │ └── random-square.txt
+│ ├── sine/
+│ │ ├── sine-continuous.txt
+│ │ ├── sine-randomness.txt
+│ │ └── sine-square.txt
+│ └── square/
+│ ├── square-continuous.txt
+│ ├── square-randomness.txt
+│ └── square-square.txt
+└── generate_descriptions.py # This script
 ```
 
-**Option B: Direct Download**
-1. Visit https://ollama.com/download
-2. Download the macOS installer
-3. Open the downloaded file and follow installation instructions
 
-#### For Linux:
 
-```bash
-curl -fsSL https://ollama.com/install.sh | sh
-```
+### Setup Instructions
 
-#### For Windows:
-
-1. Visit https://ollama.com/download
-2. Download the Windows installer
-3. Run the installer and follow the prompts
-
----
-
-### Step 2: Verify Installation
-
-After installation, verify that Ollama is installed correctly:
+#### 1. Install Required Packages
 
 ```bash
-# Check if ollama command is available
-which ollama
-
-# Should output something like: /usr/local/bin/ollama or /opt/homebrew/bin/ollama
+pip install google-generativeai
 ```
 
-If you see a path, Ollama is installed successfully!
+#### 2. Get Google API Key
 
----
+1. Visit: https://makersuite.google.com/app/apikey
+2. Create a new API key
+3. Copy your API key
 
-### Step 3: Start Ollama Service
+#### 3. Set API Key
 
-Ollama runs as a background service. You need to start it before using:
+You have two options:
 
-**Open a new terminal window** and run:
-
+**Option A: Environment Variable (Recommended)**
 ```bash
-ollama serve
+export GOOGLE_API_KEY='your-api-key-here'
 ```
 
-**Important:** Keep this terminal window open! The service needs to keep running.
-
-You should see output like:
-```
-time=2025-01-23T10:30:00.000-05:00 level=INFO source=images.go:806 msg="total blobs: 0"
-time=2025-01-23T10:30:00.000-05:00 level=INFO source=images.go:813 msg="total unused blobs removed: 0"
-time=2025-01-23T10:30:00.000-05:00 level=INFO source=routes.go:1172 msg="Listening on 127.0.0.1:11434 (version 0.1.20)"
-```
-
----
-
-### Step 4: Download a Model
-
-In a **new terminal window** (keep the first one with `ollama serve` running), download a language model:
-
-#### Recommended: LLaMA 3.2 (Small and Fast)
-
-```bash
-ollama pull llama3.2
-```
-
-This will download approximately 2GB of data. It may take a few minutes depending on your internet speed.
-
-#### Alternative Models:
-
-```bash
-# Larger, more capable model (7GB)
-ollama pull llama3.1
-
-# Smaller, faster model (1.5GB)
-ollama pull llama3.2:1b
-
-# Good for Chinese language support
-ollama pull qwen2.5
-```
-
----
-
-### Step 5: Test Ollama
-
-Verify that everything is working:
-
-```bash
-# Test the model
-ollama run llama3.2 "Hello, how are you?"
-```
-
-If you see a response from the model, congratulations! Ollama is working correctly.
-
-Example output:
-```
-Hello! I'm doing well, thank you for asking. I'm just a computer program, 
-so I don't have feelings or emotions like humans do, but I'm functioning 
-properly and ready to help with any questions or tasks you might have. 
-How can I assist you today?
-```
-
-Press `Ctrl+D` or type `/bye` to exit the chat.
-
----
-
-### Step 6: Install Python Package
-
-Install the Ollama Python package to use it in your scripts:
-
-```bash
-pip install ollama
-```
-
-Or if you're using Python 3 specifically:
-
-```bash
-pip3 install ollama
-```
-
----
-
-### Step 7: Run the script
-
-Now you're ready to use the script!
-
-**Terminal 1** (Keep Running):
-```bash
-ollama serve
-```
-
-**Terminal 2** (Run the Script):
-```bash
-python generate_description_ollama.py
-```
-
-The script will:
-1. Check that Ollama is running
-2. Check that the model is available
-3. Generate 50 variations for each of the 9 templates
-4. Save all variations to `textData/` folder
-
----
-
-### Understanding the Folder Structure
-
-After running the script, you'll have:
-
-```
-your_project/
-├── generate_description_ollama.py     # The main script
-├── textData/                         # Generated descriptions (output)
-│   ├── random/
-│   │   ├── random-continuous.txt      # 50 variations
-│   │   ├── random-randomness.txt      # 50 variations
-│   │   └── random-square.txt          # 50 variations
-│   ├── sine/
-│   │   ├── sine-continuous.txt        # 50 variations
-│   │   ├── sine-randomness.txt        # 50 variations
-│   │   └── sine-square.txt            # 50 variations
-│   └── square/
-│       ├── square-continuous.txt      # 50 variations
-│       ├── square-randomness.txt      # 50 variations
-│       └── square-square.txt          # 50 variations
-└── images/                       # Your graph images (if you have them)
-    └── *.png
-```
-
----
-
-### Common Issues and Solutions
-
-### Issue 1: "connection refused" Error
-
-**Problem:** Script can't connect to Ollama
-
-**Solution:**
-```bash
-# Make sure Ollama is running in another terminal
-ollama serve
-```
-
----
-
-### Issue 2: "model not found" Error
-
-**Problem:** The model hasn't been downloaded
-
-**Solution:**
-```bash
-# Download the model
-ollama pull llama3.2
-
-# Verify it's installed
-ollama list
-```
-
----
-
-### Issue 3: Ollama Command Not Found
-
-**Problem:** Ollama isn't in your PATH
-
-**Solution:**
-```bash
-# For macOS with Homebrew
-brew install ollama
-
-# Or add to PATH manually (macOS)
-export PATH="/usr/local/bin:$PATH"
-
-# Verify
-which ollama
-```
-
----
-
-### Issue 4: Generation is Too Slow
-
-**Solutions:**
-
-**Option A:** Use a smaller model
-```bash
-ollama pull llama3.2:1b  # 1 billion parameter model (faster)
-```
-
-Then in the script, change:
+**Option B: Pass directly in code**
 ```python
-generator = GraphDescriptionGenerator(model_name="llama3.2:1b")
+generator = GraphDescriptionGenerator(api_key="your-api-key-here")
 ```
 
-**Option B:** Check if GPU is being used
+#### 4. Run the Script
+
 ```bash
-# Ollama automatically uses GPU if available
-# Check system resources while running
-```
-
-**Option C:** Reduce number of variations
-In the script, change from 50 to 25:
-```python
-variations = self.generate_variations(
-    template_info['sentence'], 
-    num_variations=25  # Instead of 50
-)
-```
-
----
-
-### Advanced Configuration
-
-### Using a Different Model
-
-To use a different model, modify the `main()` function:
-
-```python
-# Instead of llama3.2, use llama3.1
-generator = GraphDescriptionGenerator(model_name="llama3.1")
-```
-
-### Changing Generation Parameters
-
-You can adjust how the model generates text by modifying the `generate_variations` method to include options:
-
-```python
-response = self.client.chat(
-    model=self.model,
-    messages=[{"role": "user", "content": prompt}],
-    options={
-        "temperature": 0.7,  # Lower = more consistent, Higher = more creative
-        "top_p": 0.9,        # Controls diversity
-        "num_predict": 2000  # Max tokens to generate
-    }
-)
-```
-
----
-
-### System Requirements
-
-### Minimum Requirements:
-- **RAM:** 8GB
-- **Disk Space:** 10GB free (for models)
-- **CPU:** Any modern multi-core processor
-
-### Recommended Requirements:
-- **RAM:** 16GB or more
-- **Disk Space:** 20GB free
-- **GPU:** Optional but speeds up generation significantly
-  - NVIDIA GPU (CUDA support)
-  - Apple Silicon (M1/M2/M3) - works automatically
-  - AMD GPU (ROCm support on Linux)
-
----
-
-### Complete Workflow Example
-
-Here's the complete workflow from start to finish:
-
-### Terminal 1 (Ollama Service):
-```bash
-# Start the service and keep running
-ollama serve
-```
-
-### Terminal 2 (Setup and Run):
-```bash
-# Download model (only needed once)
-ollama pull llama3.2
-
-# Test that it works
-ollama run llama3.2 "test"
-# Type /bye to exit
-
-# Install Python package
-pip install ollama
-
-# Run the script
 python generate_descriptions.py
 ```
 
-### Expected Output:
-```
-======================================================================
-Graph Description Generator - Ollama Edition
-100% Free, Runs Locally
-======================================================================
+### Configuration Options
 
-Checking Ollama installation...
+#### Template Customization
 
-✓ Ollama found at: /opt/homebrew/bin/ollama
-✓ Ollama service is running
-✓ Available models: ['llama3.2:latest']
-✓ ollama Python package is installed
+Edit the `templates` dictionary in the script to modify base sentences:
 
-✓ Initialized with model: llama3.2
-
-======================================================================
-Generating graph descriptions with Ollama
-======================================================================
-
-[1/9] random/random-continuous.txt
-   Template: While the graph is continuous, it has very sudden changes...
-   Generating variations...
-   ✓ Received response from Ollama
-   ✓ Parsed 50 variations
-   ✓ Saved 50 variations to textData/random/random-continuous.txt
-
-[2/9] random/random-randomness.txt
-   ...
-
-======================================================================
-Generation complete!
-======================================================================
-
-✓ Generated 9 files in textData/
-
-======================================================================
-All done! Your graph descriptions are ready to use.
-======================================================================
+```python
+templates = {
+    "random/random-continuous.txt": {
+        "sentence": "Your custom sentence here",
+        "constraints": "Additional requirements"
+    },
+    # ... more templates
+}
 ```
 
----
+#### Number of Variations
 
-### Performance Expectations
+Change the number of generated variations (default is 50):
 
-### Generation Speed:
-- **With GPU (Apple M1/M2/M3):** ~10-15 minutes for all 450 variations
-- **With GPU (NVIDIA):** ~10-15 minutes for all 450 variations
-- **CPU Only:** ~20-30 minutes for all 450 variations
+```python
+variations = self.generate_variations(
+    template_info['sentence'], 
+    num_variations=100  # Change this number
+)
+```
 
-### Model Sizes:
-- **llama3.2:1b** - 1.3GB (fastest)
-- **llama3.2** - 2GB (recommended)
-- **llama3.1** - 4.7GB (highest quality)
+### Advanced Usage
 
----
+#### Generate Only Specific Wave Types
 
-### Next Steps After Setup
+```python
+# Modify the templates dictionary to include only what you need
+templates = {
+    "sine/sine-continuous.txt": {...},
+    "sine/sine-randomness.txt": {...},
+}
+```
 
-1. **Generate Descriptions:**
-   - Run the script to create text variations
-   - Check the output in `textData/` folder
+#### Custom JSON Dataset Creation
 
-2. **Create JSON Dataset:**
-   - Place your graph images in a folder
-   - Uncomment the dataset creation code in `main()`:
-   ```python
-   generator.create_json_dataset(
-       image_folder="path/to/your/images",
-       output_file="dataset.json"
-   )
-   ```
+Uncomment and modify in `main()`:
 
-3. **Use the Descriptions:**
-   - The generated text files contain 50 variations each
-   - Use them for training your graph analysis model
-   - Combine with images to create your dataset
+```python
+BASE_DIR = "your_project_base_directory"  # Your project base directory
+TRAIN_IMAGE_DIR = f"{BASE_DIR}/data/trainData"
+TEST_IMAGE_DIR = f"{BASE_DIR}/data/testData"
+OUTPUT_DIR = f"{BASE_DIR}/data"
+TEXT_DATA_DIR = "textData"
+```
 
----
+## Error Handling
 
-## Tips for Best Results
+The script includes error handling for common issues:
 
-1. **Keep Ollama Running:** Always have `ollama serve` running in a separate terminal
-2. **Check Disk Space:** Models can be large, ensure you have enough space
-3. **Use Latest Version:** Keep Ollama updated for best performance
-4. **Monitor Resources:** Watch CPU/RAM usage during generation
-5. **Review Output:** Always check the first few generated files for quality
+1. **Missing API Key**: Clear error message with instructions
+2. **Rate Limiting**: Automatic 1-second delay between requests
+3. **Missing Files**: Warnings for missing text or image files
+4. **Parsing Issues**: Multiple strategies to extract variations
 
----
+If generation fails:
+- Check your API key is valid
+- Ensure you have API quota remaining (Gemini has free tier!)
+- Check your internet connection
+- Verify file paths are correct
 
-### Getting Help
+### Output Format
 
-If you encounter any issues:
+#### 1. Text Descriptions (textData/)
+- 9 files total: 3 graph types × 3 description aspects
+- 50 variations per file: Each file contains 50 different ways to describe that aspect of the graph
+- Categories:
+    - Continuous: Descriptions about line continuity
+    - Randomness: Descriptions about random patterns
+    - Square/Corners: Descriptions about sharp corners
 
-1. **Check Ollama Status:**
-   ```bash
-   ollama list
-   ollama ps  # Shows running models
-   ```
+#### 2. JSON Datasets (data/)
+- trainingData.json: Training dataset in LLaVA conversation format
+- testData.json: (Optional) Test dataset with same format
 
-2. **Restart Ollama:**
-   - Stop: Press Ctrl+C in the terminal running `ollama serve`
-   - Start: `ollama serve`
 
-3. **Verify Model:**
-   ```bash
-   ollama run llama3.2 "test"
-   ```
-
-4. **Check Logs:**
-   - Ollama logs appear in the terminal running `ollama serve`
-   - Look for error messages there
+### JSON Dataset
+```json
+{
+  "id": 1,
+  "image": "trainData/RandomNoise/image1.png",
+  "conversations": [
+    {"from": "human", "value": "<image>Is the line shown in the graph continuous? Describe the line."},
+    {"from": "gpt", "value": "While the graph is continuous, it has very abrupt changes in measurements."},
+    {"from": "human", "value": "Does the graph contain any random points?"},
+    {"from": "gpt", "value": "The plot displays an erratic pattern, with no definable arrangement and numerous unpredictable points."},
+    {"from": "human", "value": "Does the graph contain sharp corners?"},
+    {"from": "gpt", "value": "While the chart does not have acute angles, it does have substantial arbitrary modifications and is not uniform."}
+  ]
+}
+```
