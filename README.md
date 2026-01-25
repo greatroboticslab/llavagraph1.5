@@ -147,9 +147,7 @@ deepspeed llava/train/train_mem.py \
     --lazy_preprocess True \
     --report_to none
 ```
-Here is the data needed for running the trainning. Training result is in the google drive.
-
-https://drive.google.com/file/d/1oqML1-a-rhNTID8qIXyt8uQGr7nP0ObG/view?usp=sharing
+Here is the data needed for running the trainning. Training result is in the google drive：(https://drive.google.com/file/d/1h2N7yDmPlwWPrjRMl_W6tYx1wMd9Mb8I/view?usp=sharing)
 
 Once you get this setup correctly, you should be able to just run:
 
