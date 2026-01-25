@@ -1,27 +1,5 @@
 # scripts
 
-## finetune_train.py
-
-This script automates the fine-tuning process for LLaVA models using DeepSpeed for efficient distributed training.
-
-Required Dependencies
-- Python 3.8+
-- PyTorch 2.0+
-- DeepSpeed
-- LLaVA training code (llava/train/train_mem.py)
-
-Related Files
-- Model weights are available at models_setup/llava-v1.5-7b
-- Training data exists at data/trainingData.json
-- DeepSpeed ZeRO-3 configuration exists at scripts/zero3.json
-- llava/train/train_mem.py: Main training script
-- data/trainingData.json: Training dataset
-
-
-## zero3.json 
-DeepSpeed ZeRO-3 configuration for distributed training
-
-
 ## generate_descriptions.py
 
 This script automates two key steps: it first verifies the operational status of the Gemini service, and then procedes to generate a structured JSON dataset. This is achieved by creating multiple descriptive variations for various graph types and combining them with corresponding image data.
@@ -61,9 +39,8 @@ your-project/
 └── generate_descriptions.py # This script
 ```
 
-
-
-### Setup Instructions
+<details>
+<summary>Setup Instructions</summary>
 
 #### 1. Install Required Packages
 
@@ -193,9 +170,11 @@ If generation fails:
   ]
 }
 ```
+</details>
 
 ## generate_description_ollama.py
 
+**No need to use（old version)**
 
 ### Ollama Setup Guide 
 
@@ -207,9 +186,8 @@ Ollama is a tool that allows you to run large language models (like LLaMA, Mistr
 -  **Offline** - Works without internet after initial model download
 -  **Unlimited** - No rate limits or usage restrictions
 
----
-
-### Step-by-Step Installation Guide
+<details> 
+<summary>Step-by-Step Installation Guide</summary>
 
 #### Step 1: Install Ollama
 
@@ -416,3 +394,77 @@ response = self.client.chat(
    - Combine with images to create your dataset
 
 ---
+</details>
+
+---
+
+## finetune_train.py
+
+This script automates the fine-tuning process for LLaVA models using DeepSpeed for efficient distributed training.
+
+Required Dependencies
+- Python 3.8+
+- PyTorch 2.0+
+- DeepSpeed
+- LLaVA training code (llava/train/train_mem.py)
+
+Related Files
+- Model weights are available at models_setup/llava-v1.5-7b
+- Training data exists at data/trainingData.json
+- DeepSpeed ZeRO-3 configuration exists at scripts/zero3.json
+- llava/train/train_mem.py: Main training script
+- data/trainingData.json: Training dataset
+
+
+## zero3.json 
+DeepSpeed ZeRO-3 configuration for distributed training
+
+---
+
+## evaluateLLaVA.py
+
+This is the core Python inference engine. It performs the following operations:
+- Model Loading: Automatically merges the LoRA weights (checkpoints_1.25) with the base model.
+- Image Processing: Preprocesses waveform images into tensors compatible with the CLIP vision tower.
+- Context Management: Resets the conversation template for every image to ensure zero interference between test cases.
+- Specific Prompting: Uses a two-stage questioning strategy (Classification + Descriptive analysis) to extract high-quality technical responses.
+- JSON Logging: Saves the results including image names, questions, and model answers into a structured format.
+
+## evaluateLLaVA.sh
+This is the automation controller (Shell script) that manages the evaluation pipeline:
+- GPU Isolation: Sets CUDA_VISIBLE_DEVICES=0 to prevent multi-GPU tensor mismatch errors.
+- Batch Processing: Iterates through the three distinct datasets (RandomNoise, SineWave, SquareWave).
+- Directory Management: Ensures output folders exist and organizes results into separate JSON files for easy analysis.
+
+### How to run
+
+Activate Environment:
+
+```Bash
+
+conda activate llava
+```
+
+Set Permissions: Ensure the shell script is executable:
+
+```Bash
+
+chmod +x scripts/evalLLAVA.sh
+```
+
+Execute Evaluation: Run the master script:
+
+```Bash
+
+bash scripts/evalLLAVA.sh
+```
+### Expected Outputs
+After completion, the results will be available in the results/llava/ directory:
+- randomNoise.json: Model interpretations of stochastic signals.
+- sineWave.json: Analysis of continuous cyclical oscillations.
+- squareWave.json: Analysis of binary magnitude alternation patterns.
+
+### Troubleshooting
+- Out of Memory (OOM): If you encounter memory errors, ensure no other processes are using cuda:0 via nvidia-smi.
+- Device Mismatch: This is handled by the export CUDA_VISIBLE_DEVICES=0 command in the shell script. Do not remove this line if running on a multi-GPU system.
+
