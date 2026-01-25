@@ -71,7 +71,7 @@ https://github.com/arundo/tsaug
 https://tsaug.readthedocs.io/en/stable/notebook/Examples%20of%20augmenters.html
 
 
-## generate_json.py
+## generate_json.py -- No need to use（old version）; please directly use generate_descriptions.py in the script/.
 Converts image data into structured JSON files containing sample metadata
 
 Output Files: **trainingData.json**: JSON file containing training samples；**testData.json**: JSON file containing test samples
