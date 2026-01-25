@@ -107,13 +107,17 @@ Running this script will generate two separate JSON files: one for training data
 You'll need to modify your training parameters inside `scripts/finetune_train.sh` to match your current setup.
 
 ```bash
+# Run training
 deepspeed llava/train/train_mem.py \
-    --lora_enable True --lora_r 128 --lora_alpha 256 --mm_projector_lr 2e-5 \
-    --deepspeed <path-to-llava>/scripts/zero2.json \  
-    --model_name_or_path <path-you-saved-the-model> \  # LLaVA/models/llava-v1.5-7b
+    --lora_enable True \
+    --lora_r 128 \
+    --lora_alpha 256 \
+    --mm_projector_lr 2e-5 \
+    --deepspeed "${DEEPSPEED_CONFIG}" \
+    --model_name_or_path "${MODEL_PATH}" \
     --version v1 \
-    --data_path <where-you-saved-the-images>/trainingData.json \   
-    --image_folder <where-you-saved-the-images> \  
+    --data_path "${DATA_PATH}" \
+    --image_folder "${IMAGE_FOLDER}" \
     --vision_tower openai/clip-vit-large-patch14-336 \
     --mm_projector_type mlp2x_gelu \
     --mm_vision_select_layer -2 \
@@ -122,15 +126,15 @@ deepspeed llava/train/train_mem.py \
     --image_aspect_ratio pad \
     --group_by_modality_length True \
     --bf16 True \
-    --output_dir <where-you-want-to-save-checkpoints> \  
-    --num_train_epochs 5 \
+    --output_dir "${OUTPUT_DIR}" \
+    --num_train_epochs 1 \
     --per_device_train_batch_size 4 \
     --per_device_eval_batch_size 4 \
-    --gradient_accumulation_steps 2 \
+    --gradient_accumulation_steps 4 \
     --evaluation_strategy "no" \
     --save_strategy "steps" \
-    --save_steps 500 \
-    --save_total_limit 2 \
+    --save_steps 50000 \
+    --save_total_limit 1 \
     --learning_rate 2e-4 \
     --weight_decay 0. \
     --warmup_ratio 0.03 \
@@ -141,10 +145,7 @@ deepspeed llava/train/train_mem.py \
     --gradient_checkpointing True \
     --dataloader_num_workers 4 \
     --lazy_preprocess True \
-    --report_to none \
-    --tune_mm_mlp_adapter True \
-    --freeze_mm_mlp_adapter False \
-    --freeze_backbone True \
+    --report_to none
 ```
 Here is the data needed for running the trainning. Training result is in the google drive.
 
