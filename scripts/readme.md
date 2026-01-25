@@ -188,3 +188,226 @@ If generation fails:
   ]
 }
 ```
+
+## generate_description_ollama.py
+
+
+### Ollama Setup Guide 
+
+#### What is Ollama?
+
+Ollama is a tool that allows you to run large language models (like LLaMA, Mistral, etc.) locally on your own computer. It's:
+-  **100% Free** - No API keys, no subscriptions, no hidden costs
+-  **Private** - Your data never leaves your computer
+-  **Offline** - Works without internet after initial model download
+-  **Unlimited** - No rate limits or usage restrictions
+
+---
+
+### Step-by-Step Installation Guide
+
+#### Step 1: Install Ollama
+
+##### For macOS:
+
+**Option A: Using Homebrew (Recommended)**
+```bash
+brew install ollama
+```
+
+**Option B: Direct Download**
+1. Visit https://ollama.com/download
+2. Download the macOS installer
+3. Open the downloaded file and follow installation instructions
+
+##### For Linux:
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+##### For Windows:
+
+1. Visit https://ollama.com/download
+2. Download the Windows installer
+3. Run the installer and follow the prompts
+
+---
+
+#### Step 2: Verify Installation
+
+After installation, verify that Ollama is installed correctly:
+
+```bash
+# Check if ollama command is available
+which ollama
+
+# Should output something like: /usr/local/bin/ollama or /opt/homebrew/bin/ollama
+```
+
+If you see a path, Ollama is installed successfully!
+
+---
+
+#### Step 3: Start Ollama Service
+
+Ollama runs as a background service. You need to start it before using:
+
+**Open a new terminal window** and run:
+
+```bash
+ollama serve
+```
+
+**Important:** Keep this terminal window open! The service needs to keep running.
+
+You should see output like:
+```
+time=2025-01-23T10:30:00.000-05:00 level=INFO source=images.go:806 msg="total blobs: 0"
+time=2025-01-23T10:30:00.000-05:00 level=INFO source=images.go:813 msg="total unused blobs removed: 0"
+time=2025-01-23T10:30:00.000-05:00 level=INFO source=routes.go:1172 msg="Listening on 127.0.0.1:11434 (version 0.1.20)"
+```
+
+---
+
+#### Step 4: Download a Model
+
+In a **new terminal window** (keep the first one with `ollama serve` running), download a language model:
+
+##### Recommended: LLaMA 3.2 (Small and Fast)
+
+```bash
+ollama pull llama3.2
+```
+
+This will download approximately 2GB of data. It may take a few minutes depending on your internet speed.
+
+##### Alternative Models:
+
+```bash
+# Larger, more capable model (7GB)
+ollama pull llama3.1
+
+# Smaller, faster model (1.5GB)
+ollama pull llama3.2:1b
+
+# Good for Chinese language support
+ollama pull qwen2.5
+```
+
+---
+
+#### Step 5: Test Ollama
+
+Verify that everything is working:
+
+```bash
+# Test the model
+ollama run llama3.2 "Hello, how are you?"
+```
+
+If you see a response from the model, congratulations! Ollama is working correctly.
+
+Example output:
+```
+Hello! I'm doing well, thank you for asking. I'm just a computer program, 
+so I don't have feelings or emotions like humans do, but I'm functioning 
+properly and ready to help with any questions or tasks you might have. 
+How can I assist you today?
+```
+
+Press `Ctrl+D` or type `/bye` to exit the chat.
+
+---
+
+#### Step 6: Install Python Package
+
+Install the Ollama Python package to use it in your scripts:
+
+```bash
+pip install ollama
+```
+
+Or if you're using Python 3 specifically:
+
+```bash
+pip3 install ollama
+```
+
+---
+
+#### Step 7: Run the Graph Description Generator
+
+Now you're ready to use the script!
+
+**Terminal 1** (Keep Running):
+```bash
+ollama serve
+```
+
+**Terminal 2** (Run the Script):
+```bash
+python generate_descriptions.py
+```
+
+The script will:
+1. Check that Ollama is running
+2. Check that the model is available
+3. Generate 50 variations for each of the 9 templates
+4. Save all variations to `textData/` folder
+
+---
+
+
+### Advanced Configuration
+
+#### Using a Different Model
+
+To use a different model, modify the `main()` function:
+
+```python
+# Instead of llama3.2, use llama3.1
+generator = GraphDescriptionGenerator(model_name="llama3.1")
+```
+
+#### Changing Generation Parameters
+
+You can adjust how the model generates text by modifying the `generate_variations` method to include options:
+
+```python
+response = self.client.chat(
+    model=self.model,
+    messages=[{"role": "user", "content": prompt}],
+    options={
+        "temperature": 0.7,  # Lower = more consistent, Higher = more creative
+        "top_p": 0.9,        # Controls diversity
+        "num_predict": 2000  # Max tokens to generate
+    }
+)
+```
+
+---
+
+
+### Output
+
+1. **Generate Descriptions:**
+   - Run the script to create text variations
+   - Check the output in `textData/` folder
+
+2. **Create JSON Dataset:**
+   - Place your graph images in a folder
+   - Uncomment the dataset creation code in `main()`:
+   ```python
+   generator.create_json_dataset(
+       image_folder="path/to/your/images",
+       output_file="dataset.json"
+   )
+   ```
+
+3. **Use the Descriptions:**
+   - The generated text files contain 50 variations each
+   - Use them for training your graph analysis model
+   - Combine with images to create your dataset
+
+---
