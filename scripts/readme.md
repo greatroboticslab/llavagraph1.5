@@ -1,20 +1,25 @@
 # scripts
 
 ## finetune_train.py
-Full Training Command
 
-Base Model: LLaVA-v1.5-7B(models_setup/llava-v1.5-7b)
+This script automates the fine-tuning process for LLaVA models using DeepSpeed for efficient distributed training.
 
-Vision Encoder: CLIP ViT-Large (openai/clip-vit-large-patch14-336)
+Required Dependencies
+- Python 3.8+
+- PyTorch 2.0+
+- DeepSpeed
+- LLaVA training code (llava/train/train_mem.py)
 
-Fine-tuning Method: LoRA (rank=128, alpha=256)
+Related Files
+- Model weights are available at models_setup/llava-v1.5-7b
+- Training data exists at data/trainingData.json
+- DeepSpeed ZeRO-3 configuration exists at scripts/zero3.json
+- llava/train/train_mem.py: Main training script
+- data/trainingData.json: Training dataset
 
-Training Framework: DeepSpeed ZeRO-2
 
-Hardware: 2x NVIDIA GPUs
-
-## zero2.json
-DeepSpeed ZeRO-2 configuration for distributed training
+## zero3.json 
+DeepSpeed ZeRO-3 configuration for distributed training
 
 
 ## generate_descriptions.py
