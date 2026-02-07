@@ -17,7 +17,7 @@ Contains text files with descriptions, annotations, or conversation data that wi
 
 ## trainingInputdata_folder.py
 
-Synthetic training data generator
+Synthetic generator for waveform-input-data
 
 - For each original image in your dataset, the script generates three types of waveform variations, each with 5 versions:
     - Random Noise (5 variations)
@@ -30,7 +30,7 @@ Image Composition:Original instrument panel as background；New waveform overlay
 
 ## Augmented_final.py
 
-Synthetic test data generator
+Synthetic data generator for piezo-output-data
 
 Input: Generated CSV files containing waveform data points
 
