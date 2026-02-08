@@ -47,7 +47,6 @@ _Abstract:_ Piezoelectric actuators have been used extensively throughout multip
   - [Setup Evaluation Environment](#setup-evaluation-environment)
   - [Generate Image Captions](#generate-image-captions)
   - [Final Classification](#final-classification)
-- [Project File Structure](#project-file-structure)
 
 ---
 
@@ -560,58 +559,6 @@ The script generates classification results in `eval/results/llama/` (now `llama
 - B) Sine wave
 - C) Square wave
 
-
-
----
-
-## Project File Structure
-
-```
-LLaVAGraph/
-├── data_filtered/                      # New train and test data
-│   ├── training_images/
-│   └── test_images/
-│
-├── Issac_data_Aug_27_2024/            # Original experimental measurements
-│   ├── Original_only_txt/             # Extracted text files
-│   └── ...
-│
-├── output_file/                        # Processed data output
-│   ├── *.png                          # Visualization graphs
-│   └── *.csv                          # Numeric data in nanometers
-│
-├── data/
-│   └── JSONData.py                    # Training data generation utilities
-│
-├── scripts/
-│   ├── v1_5/
-│   │   └── finetune_task_lora.sh     # Original training script
-│   ├── zero3.json                     # DeepSpeed configuration
-│   └── download-llava.bash            # Model download script
-│
-├── eval/
-│   ├── evaluateLLaVA.sh              # Caption generation script
-│   ├── evaluateLLaVA.py              # Caption generation code
-│   ├── categorizeLLAMA.sh            # Classification script
-│   ├── categorizeLLAMA.py            # Classification code
-│   └── results/
-│       ├── llava_V6/                  # LLaVA caption outputs
-│       │   ├── randomNoise.json
-│       │   ├── sineWave.json
-│       │   └── squareWave.json
-│       └── llama_V6/                  # LLaMA classification results
-│
-├── slurm/                             # SLURM batch scripts
-│   └── training.sbatch
-│
-├── extract_txt_file.py                # Extract raw text files
-├── process_raw_8.py                   # Convert to physical units
-├── extract_csv.py                     # Extract CSV files
-├── Augmented_final.py                 # Generate synthetic data
-├── gemini_train.py                    # Generate training JSON
-├── finetune2.2.sh                     # Fine-tuning script
-└── trainingdata_gemini.json           # Training data for LLaVA
-```
 
 ---
 
