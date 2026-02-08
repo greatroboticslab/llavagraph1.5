@@ -13,7 +13,7 @@ import shutil
 def load_time_series_range(csv_path, start_idx=50, end_idx=200):
     """
     Load specific range of time series data from CSV file.
-    Default range is 50 to 200 to avoid initial fluctuations.
+    Default range is 0 to 100 to avoid initial fluctuations.
     """
     df = pd.read_csv(csv_path)
 
@@ -114,7 +114,7 @@ if __name__ == "__main__":
     FOLDER_NAME = "square_Plots"
 
     # 3. Range selection
-    START = 50
-    END = 200
+    START = 500
+    END = 900
 
     process_files(CSV_PATH_PATTERN, FOLDER_NAME, START, END)
