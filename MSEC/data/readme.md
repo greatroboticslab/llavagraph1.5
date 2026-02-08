@@ -53,7 +53,7 @@ Usage: Since the processed output folder contains both PNG and CSV files, this s
 Output: CSV files ready for augmentation and synthetic data generation
 
 
-## ori_Plots
+## csv_slice_visualizer.py
 
 Processes displacement data by isolating specific time-series segments for cleaner visualization.
 
@@ -62,6 +62,12 @@ Functionality: Extracts a specific data window (indices 50–200) from input CSV
 Usage: Ideal for generating high-quality, standardized plots of "stable" data without the need for manual cropping or synthetic augmentation.
 
 Output: High-resolution PNG visualizations of the selected data slice, saved directly to a dedicated desktop folder.
+
+
+## ori_Plots
+
+Output folder for Processes displacement data
+
 
 
 ## data_filtered - Current Run Dataset
