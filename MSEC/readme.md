@@ -1,7 +1,6 @@
 # MSEC
 
-<details>
-<summary>Project files summary</summary>
+## Project files summary
 
 ### Data Processing (Test Data)
 1. **Extract** → `extract_txt_file.py` → Raw text files
@@ -20,8 +19,9 @@
 9. **Caption** → `evaluateLLaVA.sh` → Image descriptions (llava_V6/)
 10. **Classify** → `categorizeLLAMA.sh` → Final classifications (llama_V6/)
 
+---
 
-</details>
+
 
 # 🌋📊 LLaVAGraph
 
@@ -48,7 +48,6 @@ _Abstract:_ Piezoelectric actuators have been used extensively throughout multip
   - [Generate Image Captions](#generate-image-captions)
   - [Final Classification](#final-classification)
 - [Project File Structure](#project-file-structure)
-- [Acknowledgements](#acknowledgements)
 
 ---
 
