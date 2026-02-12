@@ -34,7 +34,7 @@ SEGMENT_OFFSETS = [100, 5000, 10000]
 FFT_WINDOW_SIZE = 1024
 
 # Minimum x-axis range in Hz (prevents overly zoomed-in plots for noise)
-MIN_X_RANGE = 100
+MIN_X_RANGE = 10
 
 # Frequencies to include (up to 500Hz input signals only)
 MAX_INPUT_FREQ = 500
