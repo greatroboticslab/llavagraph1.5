@@ -3,9 +3,14 @@ Generate training data for FFT amplitude plots using Gemini 2.0 Flash.
 
 Questions are designed to extract peak-based features for wave classification:
   Q1: Tallest peak height (noise < 60nm vs sine/square > 60nm)
-  Q2: Whether secondary peaks reach >= 40% of tallest peak (sine: no, square: yes)
-  Q3: Count of such secondary peaks (sine: 0, square: 2+)
-  Q4: Decay shape after the dominant peak (sharp drop = sine, gradual decay = square)
+  Q2: Amplitudes and frequencies of the two tallest peaks (ratio separates sine vs square)
+  Q3: Decay shape after the dominant peak (sharp drop = sine, gradual decay = square)
+
+Classification logic (applied by LLaMA):
+  - Tallest peak < 60nm → noise
+  - Second peak / tallest peak < 40% → sine
+  - Second peak / tallest peak >= 50% → square
+  - Q3 decay shape helps disambiguate 1Hz signals
 
 Excludes 500Hz signals (indistinguishable sine/square at Nyquist).
 
@@ -28,8 +33,7 @@ from google.genai import types
 
 QUESTIONS = [
     "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
-    "Besides the tallest peak, are there any other peaks whose amplitude reaches at least 40% of the tallest peak's height? These would be peaks that stand out clearly above the surrounding noise floor, not small fluctuations.",
-    "How many peaks in total (including the tallest) have an amplitude of at least 40% of the tallest peak? Describe where they appear along the frequency axis.",
+    "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
     "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?"
 ]
 
@@ -64,13 +68,11 @@ Please provide a detailed, specific answer for each question:
 1. {QUESTIONS[0]}
 2. {QUESTIONS[1]}
 3. {QUESTIONS[2]}
-4. {QUESTIONS[3]}
 
 Format your response exactly as:
 A1: [Your answer]
 A2: [Your answer]
 A3: [Your answer]
-A4: [Your answer]
 """
 
         with open(img_path, "rb") as f:
@@ -102,17 +104,15 @@ A4: [Your answer]
         return None
 
     def _parse_answers(self, text):
-        """Split Gemini's response into four separate answers."""
+        """Split Gemini's response into three separate answers."""
         a1 = re.search(r"A1:(.*?)(?=A2:|$)", text, re.DOTALL)
         a2 = re.search(r"A2:(.*?)(?=A3:|$)", text, re.DOTALL)
-        a3 = re.search(r"A3:(.*?)(?=A4:|$)", text, re.DOTALL)
-        a4 = re.search(r"A4:(.*?)$", text, re.DOTALL)
+        a3 = re.search(r"A3:(.*?)$", text, re.DOTALL)
 
         return [
             a1.group(1).strip() if a1 else "Data missing",
             a2.group(1).strip() if a2 else "Data missing",
-            a3.group(1).strip() if a3 else "Data missing",
-            a4.group(1).strip() if a4 else "Data missing"
+            a3.group(1).strip() if a3 else "Data missing"
         ]
 
     def process_directory(self, image_dir, output_file):
@@ -169,9 +169,7 @@ A4: [Your answer]
                             {"from": "human", "value": QUESTIONS[1]},
                             {"from": "gpt", "value": answers[1]},
                             {"from": "human", "value": QUESTIONS[2]},
-                            {"from": "gpt", "value": answers[2]},
-                            {"from": "human", "value": QUESTIONS[3]},
-                            {"from": "gpt", "value": answers[3]}
+                            {"from": "gpt", "value": answers[2]}
                         ]
                     }
                     final_data.append(entry)
