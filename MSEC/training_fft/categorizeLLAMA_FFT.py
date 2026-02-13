@@ -24,19 +24,18 @@ import re
 
 SYSTEM_PROMPT = (
     "You classify FFT spectrum descriptions into exactly one category: A (noise), B (sine), or C (square).\n\n"
-    "Follow these steps IN ORDER. When you reach a Result, IMMEDIATELY output it and stop.\n\n"
+    "Output format: Show your work for the current step, then write Result: A, B, or C. "
+    "As soon as you write a Result line, STOP. Do NOT continue to the next step.\n\n"
     "STEP 1: What is the tallest peak amplitude (from the first answer)?\n"
-    "  - If it is BELOW 60 nm → IMMEDIATELY output Result: A\n"
-    "  - If it is ABOVE 60 nm → go to STEP 2\n\n"
+    "  - If it is BELOW 60 nm → write Result: A and STOP.\n"
+    "  - If it is ABOVE 60 nm → go to STEP 2. Do NOT write a Result yet.\n\n"
     "STEP 2: Check the decay shape (from the third answer).\n"
-    "  - If the signal decays gradually across a wide frequency range → IMMEDIATELY output Result: C\n"
-    "  - If the signal drops sharply to near-zero → go to STEP 3\n\n"
+    "  - If the signal decays gradually across a wide frequency range → write Result: C and STOP.\n"
+    "  - Otherwise → go to STEP 3. Do NOT write a Result yet.\n\n"
     "STEP 3: What are the two tallest peak amplitudes (from the second answer)? "
     "Compute ratio = second_peak / tallest_peak.\n"
-    "  - If ratio < 0.30 → IMMEDIATELY output Result: B\n"
-    "  - If ratio >= 0.30 → IMMEDIATELY output Result: C\n\n"
-    "Output format: State the peak amplitude, whether above/below 60nm, "
-    "the decay shape, the ratio if applicable, then write Result: A, B, or C on its own line."
+    "  - If ratio < 0.30 → write Result: B and STOP.\n"
+    "  - If ratio >= 0.30 → write Result: C and STOP."
 )
 
 

@@ -8,168 +8,168 @@
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 28 nm. It is below 60 nm.\n\nThe two tallest peaks have approximate amplitudes of 28 nm and 16 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{16}{28} \\approx 0.57 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 28 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_10_Run2_1_absolute_seg2_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is around 25 nm. It is below 60 nm.\n\nThe two tallest peaks have amplitudes of approximately 25 nm and 16 nm, respectively. The ratio of the second tallest peak to the tallest peak is \\( \\frac{16}{25} = 0.64 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 25 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_10_Run2_1_absolute_seg3_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 22 nm. It is below 60 nm.\n\nThe two tallest peaks have approximate amplitudes of 22 nm and 14 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{14}{22} \\approx 0.636 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 22 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_12_Run1_1_absolute_seg1_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 42 nm, which is below 60 nm.\n\nResult: A\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nTherefore, the final result is:\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 42 nm, which is below 60 nm. According to the instructions, we should write Result: A and stop here."
     },
     {
       "image": "noise_12_Run1_1_absolute_seg2_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 42 nm, which is below 60 nm.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 42 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_12_Run1_1_absolute_seg3_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 47 nm, which is below 60 nm.\n\nResult: A\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nTherefore, the final result is:\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 47 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_12_Run2_1_absolute_seg1_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 48 nm, which is below 60 nm.\n\nResult: A\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nTherefore, the final result is:\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 48 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_12_Run2_1_absolute_seg2_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 42 nm, which is below 60 nm.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 42 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_12_Run2_1_absolute_seg3_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 36 nm, which is below 60 nm.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 36 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_12_Run3_1_absolute_seg1_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 35 nm. It is below 60 nm.\n\nThe two tallest peaks have approximate amplitudes of 35 nm and 20 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{20}{35} \\approx 0.571 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 35 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_12_Run3_1_absolute_seg2_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 42 nm, which is below 60 nm.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 42 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_12_Run3_1_absolute_seg3_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 50 nm, which is below 60 nm.\n\nSince the amplitude is below 60 nm, we immediately follow the rule:\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 50 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_14_Run3_1_absolute_seg1_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 52 nm, which is below 60 nm.\n\nResult: A\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nTherefore, the final result is:\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 52 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_14_Run3_1_absolute_seg2_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 48 nm. It is below 60 nm.\n\nThe two tallest peaks have amplitudes of approximately 48 nm and 12 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{12}{48} = 0.25 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 48 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_14_Run3_1_absolute_seg3_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 43 nm. It is below 60 nm.\n\nThe two tallest peaks have amplitudes of approximately 43 nm and 13 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{13}{43} \\approx 0.302 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 43 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_1_Run1_1_absolute_seg1_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 29 nm. It is below 60 nm.\n\nThe two tallest peaks have approximate amplitudes of 29 nm and 16 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{16}{29} \\approx 0.55 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 29 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_1_Run1_1_absolute_seg2_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 22 nm. It is below 60 nm.\n\nThe two tallest peaks are approximately 22 nm at 125 Hz and 15 nm at 225 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{15}{22} \\approx 0.68 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 22 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_1_Run1_1_absolute_seg3_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 23 nm. It is below 60 nm.\n\nThe two tallest peaks have approximate amplitudes of 23 nm and 16 nm.\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 23 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_1_Run3_1_absolute_seg1_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 1.1 nm. It is below 60 nm.\n\nResult: A\n\nThe two tallest peaks are approximately 1.1 nm at 125 Hz and 1.0 nm at 250 Hz. The signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 1.1 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_1_Run3_1_absolute_seg2_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 16.5 nm, which is below 60 nm.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 16.5 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_1_Run3_1_absolute_seg3_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 19 nm. It is below 60 nm.\n\nThe two tallest peaks have approximate amplitudes of 19 nm and 13 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{13}{19} \\approx 0.68 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 19 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_Run2_absolute_seg1_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 52 nm. It is below 60 nm.\n\nThe two tallest peaks have amplitudes of 52 nm and 16 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{16}{52} \\approx 0.308 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 52 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_Run2_absolute_seg2_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 48 nm, which is below 60 nm.\n\nResult: A\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nTherefore, the final result is:\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 48 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     },
     {
       "image": "noise_Run2_absolute_seg3_FFT.png",
       "gt": "noise",
       "pred": "noise",
       "is_correct": true,
-      "reasoning": "The approximate amplitude of the tallest peak is 49 nm, which is below 60 nm.\n\nResult: A"
+      "reasoning": "Result: A\n\nExplanation:\n- Step 1: The tallest peak amplitude is 49 nm, which is below 60 nm. According to the rule, we should write Result: A and stop here."
     }
   ]
 }

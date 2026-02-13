@@ -16,7 +16,7 @@ cd /ocean/projects/cis240145p/byler/ben/llavagraph1.5
 source /jet/home/byler/miniconda3/etc/profile.d/conda.sh
 conda activate llava_infer
 
-LLAMA_MODEL="models_setup/Qwen2.5-7B-Instruct"
+LLAMA_MODEL="models_setup/Qwen2.5-14B-Instruct"
 RESULTDIR="MSEC/training_fft/results"
 
 echo "=== Classifying noise ==="

@@ -1,322 +1,322 @@
 {
-  "accuracy": 0.0,
+  "accuracy": 77.77777777777779,
   "total": 45,
-  "correct": 0,
+  "correct": 35,
   "results": [
     {
       "image": "sine_100Hz_100Hz_10_absolute_seg1_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 122 nm, which is above 60 nm.\n\nThe two tallest peaks are 122 nm at 100 Hz and 22 nm at 115 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{22}{122} \\approx 0.18 \\).\n\nSince the ratio is less than 0.30 and the signal drops sharply to near-zero within a narrow frequency range, we follow the rule for sharp decay:\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 122 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 122 nm and 22 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{22 \\text{ nm}}{122 \\text{ nm}} \\approx 0.18 \\]\n\nSince the ratio (0.18) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_100Hz_100Hz_10_absolute_seg2_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 122 nm, which is above 60 nm.\n\nThe two tallest peaks are 122 nm at 100 Hz and 13 nm at 115 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{13}{122} \\approx 0.1066 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 122 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 122 nm and 13 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{13 \\text{ nm}}{122 \\text{ nm}} \\approx 0.107 \\]\n\nSince the ratio (0.107) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_100Hz_100Hz_10_absolute_seg3_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 120 nm, which is above 60 nm.\n\nThe two tallest peaks are approximately 120 nm at 100 Hz and approximately 20 nm at 115 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{20}{120} = 0.167 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 120 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 120 nm and 20 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{\\text{Second Peak}}{\\text{Tallest Peak}} = \\frac{20 \\text{ nm}}{120 \\text{ nm}} = \\frac{1}{6} \\approx 0.167 \\]\n\nSince the ratio (0.167) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_100Hz_100Hz_11_absolute_seg1_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 122 nm, which is above 60 nm.\n\nThe two tallest peaks have approximate amplitudes of 122 nm and 30 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{30}{122} \\approx 0.246 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 122 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the decay is not gradual across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 122 nm and 30 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{30 \\text{ nm}}{122 \\text{ nm}} \\approx 0.246 \\]\n\nSince the ratio (0.246) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_100Hz_100Hz_11_absolute_seg2_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 115 nm, which is above 60 nm.\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 115 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: The signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This means it does not decay gradually across a wide frequency range.\n\nSince we have determined that the signal does not decay gradually across a wide frequency range, we move to Step 3.\n\nStep 3: The two tallest peak amplitudes are 115 nm and 30 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{30 \\text{ nm}}{115 \\text{ nm}} \\approx 0.26 \\]\n\nThe ratio is less than 0.30, so according to the rules, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_100Hz_100Hz_11_absolute_seg3_FFT.png",
       "gt": "sine",
       "pred": "square",
       "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 115 nm, which is above 60 nm.\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "reasoning": "Step 1: The tallest peak amplitude is 115 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 115 nm and 45 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{45 \\text{ nm}}{115 \\text{ nm}} \\approx 0.39 \\]\n\nSince the ratio (0.39) is greater than or equal to 0.30, we conclude:\n\nResult: C"
     },
     {
       "image": "sine_100Hz_100Hz_7_absolute_seg1_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 122 nm, which is above 60 nm.\n\nThe two tallest peaks are 122 nm at 100 Hz and 22 nm at 115 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{22}{122} \\approx 0.18 \\).\n\nSince the ratio is less than 0.30 and the signal drops sharply to near-zero within a narrow frequency range, we follow the rule for sharp decay:\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 122 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 122 nm and 22 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{22 \\text{ nm}}{122 \\text{ nm}} \\approx 0.18 \\]\n\nSince the ratio (0.18) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_100Hz_100Hz_7_absolute_seg2_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 128 nm, which is above 60 nm.\n\nThe two tallest peaks are 128 nm at 100 Hz and 23 nm at 115 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{23}{128} \\approx 0.18 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 128 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 128 nm and 23 nm. We compute the ratio of the second peak to the tallest peak:\n\\[ \\text{ratio} = \\frac{23}{128} \\approx 0.18 \\]\n\nSince the ratio (0.18) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_100Hz_100Hz_7_absolute_seg3_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 115 nm, which is above 60 nm.\n\nThe two tallest peaks are 115 nm at 100 Hz and 25 nm at 115 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{25}{115} \\approx 0.217 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 115 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 115 nm and 25 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{25 \\text{ nm}}{115 \\text{ nm}} \\approx 0.22 \\]\n\nSince the ratio (0.22) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_1Hx_absolute_seg1_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 195 nm, which is above 60 nm.\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 195 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 195 nm and 2 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{\\text{Second Peak}}{\\text{Tallest Peak}} = \\frac{2 \\text{ nm}}{195 \\text{ nm}} \\approx 0.01 \\]\n\nSince the ratio (0.01) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_1Hx_absolute_seg2_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 185 nm, which is above 60 nm.\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 185 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This means it does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 185 nm and 2 nm respectively. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{\\text{Second Peak}}{\\text{Tallest Peak}} = \\frac{2 \\text{ nm}}{185 \\text{ nm}} \\approx 0.011 \\]\n\nSince the ratio (0.011) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_1Hx_absolute_seg3_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 190 nm, which is above 60 nm.\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "From the answers provided:\n\n- The tallest peak amplitude is 190 nm, which is above 60 nm. Therefore, we proceed to STEP 2.\n- In STEP 2, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak, so we move to STEP 3.\n- In STEP 3, the two tallest peak amplitudes are 190 nm and 3 nm respectively. The ratio of the second peak to the tallest peak is calculated as follows: \n  \\[\n  \\text{ratio} = \\frac{3 \\text{ nm}}{190 \\text{ nm}} \\approx 0.0158\n  \\]\n- Since the ratio (0.0158) is less than 0.30, according to the rules, we conclude with:\n\nResult: B"
     },
     {
       "image": "sine_1Hz_1Hz_10_absolute_seg1_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "Peak amplitude: 190 nm. It is above 60 nm.\nDecay shape: The signal drops sharply to near-zero within a narrow frequency range.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 190 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This means it does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 190 nm and 3 nm. We compute the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{3 \\text{ nm}}{190 \\text{ nm}} \\approx 0.0158 \\]\nSince the ratio (0.0158) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_1Hz_1Hz_10_absolute_seg2_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 185 nm, which is above 60 nm.\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "From the answers provided:\n\n- The tallest peak amplitude is 185 nm, which is above 60 nm. Therefore, we proceed to STEP 2.\n- In STEP 2, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak, so we move to STEP 3.\n- In STEP 3, the two tallest peak amplitudes are 185 nm and 2 nm respectively. The ratio of the second peak to the tallest peak is calculated as follows: \n  \\[\n  \\text{ratio} = \\frac{2 \\text{ nm}}{185 \\text{ nm}} \\approx 0.0108\n  \\]\n- Since the ratio (0.0108) is less than 0.30, according to the rules, we conclude with:\n\nResult: B"
     },
     {
       "image": "sine_1Hz_1Hz_10_absolute_seg3_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "Peak amplitude of the tallest peak: 190 nm. It is above 60 nm.\nDecay shape: The signal drops sharply to near-zero within a narrow frequency range.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 190 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 190 nm and 3 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{\\text{Second Peak}}{\\text{Tallest Peak}} = \\frac{3 \\text{ nm}}{190 \\text{ nm}} \\approx 0.0158 \\]\n\nSince the ratio (0.0158) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_1Hz_absolute_seg1_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "Peak amplitude: 190 nm. It is above 60 nm.\nDecay shape: The signal drops sharply to near-zero within a narrow frequency range.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 190 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This means it does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 190 nm and 2 nm respectively. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{\\text{Second Peak}}{\\text{Tallest Peak}} = \\frac{2 \\text{ nm}}{190 \\text{ nm}} \\approx 0.01 \\]\n\nSince the ratio (0.01) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_1Hz_absolute_seg2_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is about 195 nm. It is above 60 nm.\n\nThe two tallest peaks are approximately 195 nm at 1 Hz and approximately 2 nm at 5 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{2}{195} \\approx 0.0102 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 195 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 195 nm and 2 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{\\text{Second Peak}}{\\text{Tallest Peak}} = \\frac{2 \\text{ nm}}{195 \\text{ nm}} \\approx 0.01 \\]\n\nSince the ratio (0.01) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_1Hz_absolute_seg3_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "Peak amplitude: 190 nm (above 60 nm)\nDecay shape: The signal drops sharply to near-zero within a narrow frequency range.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 190 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This means it does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 190 nm and 2 nm respectively. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{\\text{Second Peak}}{\\text{Tallest Peak}} = \\frac{2 \\text{ nm}}{190 \\text{ nm}} \\approx 0.01 \\]\n\nSince the ratio (0.01) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_200Hz_200Hz_10_absolute_seg1_FFT.png",
       "gt": "sine",
       "pred": "square",
       "is_correct": false,
-      "reasoning": "- The tallest peak amplitude is 132 nm, which is above 60 nm.\n- The signal drops sharply to near-zero within a narrow frequency range.\n\nBased on these observations:\n- The tallest peak amplitude is above 60 nm.\n- The signal drops sharply to near-zero.\n\nResult: C"
+      "reasoning": "Step 1: The tallest peak amplitude is 132 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 132 nm and 42 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{42 \\text{ nm}}{132 \\text{ nm}} \\approx 0.318 \\]\n\nSince the ratio (0.318) is greater than or equal to 0.30, we conclude:\n\nResult: C"
     },
     {
       "image": "sine_200Hz_200Hz_10_absolute_seg2_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 135 nm, which is above 60 nm.\n\nThe two tallest peaks are 135 nm at 200 Hz and 25 nm at 115 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{25}{135} \\approx 0.185 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 135 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 135 nm and 25 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{\\text{Second Peak}}{\\text{Tallest Peak}} = \\frac{25}{135} \\approx 0.185 \\]\n\nSince the ratio (0.185) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_200Hz_200Hz_10_absolute_seg3_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 130 nm, which is above 60 nm.\n\nThe two tallest peaks are 130 nm at 200 Hz and 25 nm at 115 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{25}{130} \\approx 0.192 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 130 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 130 nm and 25 nm. We compute the ratio of the second peak to the tallest peak:\n\\[ \\text{ratio} = \\frac{25 \\text{ nm}}{130 \\text{ nm}} \\approx 0.19 \\]\n\nSince the ratio (0.19) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_200Hz_200Hz_2_absolute_seg1_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 135 nm. It is above 60 nm.\n\nThe two tallest peaks have amplitudes of 135 nm and 30 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{30}{135} \\approx 0.222 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 135 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This means it does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 135 nm and 30 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{30 \\text{ nm}}{135 \\text{ nm}} = \\frac{30}{135} \\approx 0.22 \\]\n\nSince the ratio (0.22) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_200Hz_200Hz_2_absolute_seg2_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 135 nm, which is above 60 nm.\n\nThe two tallest peaks are 135 nm at 200 Hz and 25 nm at 115 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{25}{135} \\approx 0.185 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 135 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 135 nm and 25 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{\\text{Second Peak}}{\\text{Tallest Peak}} = \\frac{25}{135} \\approx 0.185 \\]\n\nSince the ratio (0.185) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_200Hz_200Hz_2_absolute_seg3_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 135 nm, which is above 60 nm.\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 135 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: The signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This means it does not decay gradually across a wide frequency range.\n\nSince we have determined that the signal does not decay gradually across a wide frequency range, we move to Step 3.\n\nStep 3: The two tallest peak amplitudes are 135 nm and 20 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{20 \\text{ nm}}{135 \\text{ nm}} \\approx 0.148 \\]\n\nThe ratio (0.148) is less than 0.30. According to the rules, if the ratio is less than 0.30, the result is B.\n\nResult: B"
     },
     {
       "image": "sine_200Hz_200Hz_7_absolute_seg1_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 135 nm, which is above 60 nm.\n\nThe two tallest peaks have approximate amplitudes of 135 nm and 30 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{30}{135} \\approx 0.222 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 135 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 135 nm and 30 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{30 \\text{ nm}}{135 \\text{ nm}} = \\frac{30}{135} \\approx 0.22 \\]\n\nSince the ratio (0.22) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_200Hz_200Hz_7_absolute_seg2_FFT.png",
       "gt": "sine",
       "pred": "square",
       "is_correct": false,
-      "reasoning": "The tallest peak amplitude is 130 nm, which is above 60 nm. \n\nSince the tallest peak amplitude is above 60 nm, we proceed to check the decay shape.\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nTherefore, based on the decay shape, the result is:\n\nResult: C"
+      "reasoning": "From the answers provided:\n\n- The tallest peak amplitude is 130 nm, which is above 60 nm. So we proceed to STEP 2.\n- In STEP 2, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak, so we move to STEP 3.\n- In STEP 3, the two tallest peak amplitudes are 130 nm and 45 nm respectively. We calculate the ratio of the second peak to the tallest peak: \n  \\[\n  \\text{ratio} = \\frac{45 \\text{ nm}}{130 \\text{ nm}} \\approx 0.346\n  \\]\n- Since the ratio (0.346) is greater than or equal to 0.30, according to the rules, we conclude with:\n\nResult: C"
     },
     {
       "image": "sine_200Hz_200Hz_7_absolute_seg3_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 135 nm. It is above 60 nm.\n\nThe two tallest peaks have amplitudes of 135 nm and 35 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{35}{135} \\approx 0.259 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 135 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 135 nm and 35 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{35 \\text{ nm}}{135 \\text{ nm}} \\approx 0.26 \\]\n\nSince the ratio (0.26) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_300Hz_300Hz_11_absolute_seg1_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "Peak amplitude of the tallest peak: 175 nm. It is above 60 nm.\n\nDecay shape: The signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 175 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 175 nm and 50 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{50 \\text{ nm}}{175 \\text{ nm}} = \\frac{50}{175} \\approx 0.2857 \\]\n\nSince the ratio (0.2857) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_300Hz_300Hz_11_absolute_seg2_FFT.png",
       "gt": "sine",
       "pred": "square",
       "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 170 nm. It is above 60 nm.\n\nThe two tallest peaks are approximately 170 nm at 300 Hz and 52 nm at 115 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{52}{170} \\approx 0.30 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "reasoning": "Step 1: The tallest peak amplitude is 170 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 170 nm and 52 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{52}{170} \\approx 0.3059 \\]\n\nSince the ratio (0.3059) is greater than or equal to 0.30, according to the rules, we conclude:\n\nResult: C"
     },
     {
       "image": "sine_300Hz_300Hz_11_absolute_seg3_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 175 nm. It is above 60 nm.\n\nThe two tallest peaks are approximately 175 nm at 300 Hz and 50 nm at 115 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{50}{175} \\approx 0.2857 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 175 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 175 nm and 50 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{\\text{Second Peak}}{\\text{Tallest Peak}} = \\frac{50 \\text{ nm}}{175 \\text{ nm}} \\approx 0.2857 \\]\n\nSince the ratio (0.2857) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_300Hz_300Hz_2_absolute_seg1_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "- The tallest peak amplitude is 175 nm, which is above 60 nm.\n- The signal drops sharply to near-zero within a narrow frequency range.\n\nBased on these observations:\n- The tallest peak amplitude is above 60 nm.\n- The signal drops sharply to near-zero.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 175 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 175 nm and 30 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{30 \\text{ nm}}{175 \\text{ nm}} \\approx 0.17 \\]\n\nSince the ratio (0.17) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_300Hz_300Hz_2_absolute_seg2_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 175 nm. It is above 60 nm.\n\nThe two tallest peaks have amplitudes of 175 nm and 35 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{35}{175} = 0.20 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 175 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 175 nm and 35 nm. We calculate the ratio as follows:\n\\[ \\text{ratio} = \\frac{\\text{second\\_peak}}{\\text{tallest\\_peak}} = \\frac{35}{175} = 0.20 \\]\n\nSince the ratio (0.20) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_300Hz_300Hz_2_absolute_seg3_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 175 nm. It is above 60 nm.\n\nThe two tallest peaks are approximately 175 nm at 300 Hz and 25 nm at 115 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{25}{175} = 0.142857 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 175 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 175 nm and 25 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{\\text{Second Peak}}{\\text{Tallest Peak}} = \\frac{25}{175} \\approx 0.14 \\]\n\nSince the ratio (0.14) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_300Hz_300Hz_3_absolute_seg1_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 175 nm. It is above 60 nm.\n\nThe two tallest peaks have amplitudes of 175 nm and 35 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{35}{175} = 0.20 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 175 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 175 nm and 35 nm. We calculate the ratio as follows:\n\\[ \\text{ratio} = \\frac{\\text{second\\_peak}}{\\text{tallest\\_peak}} = \\frac{35}{175} = 0.20 \\]\n\nSince the ratio (0.20) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_300Hz_300Hz_3_absolute_seg2_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 175 nm. It is above 60 nm.\n\nThe two tallest peaks are approximately 175 nm at 300 Hz and approximately 25 nm at 112 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{25}{175} \\approx 0.143 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 175 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This means it does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 175 nm and 25 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{\\text{Second Peak}}{\\text{Tallest Peak}} = \\frac{25}{175} \\approx 0.14 \\]\n\nSince the ratio (0.14) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_300Hz_300Hz_3_absolute_seg3_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 175 nm. It is above 60 nm.\n\nThe two tallest peaks are approximately 175 nm at 300 Hz and 30 nm at 115 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{30}{175} \\approx 0.171 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 175 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 175 nm and 30 nm. We compute the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{30 \\text{ nm}}{175 \\text{ nm}} \\approx 0.17 \\]\n\nSince the ratio (0.17) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_400Hz_400Hz_1_absolute_seg1_FFT.png",
       "gt": "sine",
       "pred": "square",
       "is_correct": false,
-      "reasoning": "- The tallest peak amplitude is 105 nm, which is above 60 nm.\n- The signal drops sharply to near-zero within a narrow frequency range.\n\nFollowing the steps:\n\n1. The tallest peak amplitude is above 60 nm, so we proceed to STEP 2.\n2. The signal drops sharply to near-zero, which matches the criteria for a sharp drop.\n\nResult: C"
+      "reasoning": "Step 1: The tallest peak amplitude is 105 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 105 nm and 52 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{52}{105} \\approx 0.5 \\]\n\nSince the ratio (0.5) is greater than or equal to 0.30, according to the rules, we conclude:\n\nResult: C"
     },
     {
       "image": "sine_400Hz_400Hz_1_absolute_seg2_FFT.png",
       "gt": "sine",
       "pred": "square",
       "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 105 nm. It is above 60 nm.\n\nThe two tallest peaks are approximately 105 nm at 400 Hz and 50 nm at 200 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{50}{105} \\approx 0.476 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "reasoning": "Step 1: The tallest peak amplitude is 105 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 105 nm and 50 nm. We compute the ratio of the second peak to the tallest peak:\n\\[ \\text{ratio} = \\frac{50 \\text{ nm}}{105 \\text{ nm}} \\approx 0.476 \\]\n\nSince the ratio (0.476) is greater than or equal to 0.30, we conclude:\n\nResult: C"
     },
     {
       "image": "sine_400Hz_400Hz_1_absolute_seg3_FFT.png",
       "gt": "sine",
       "pred": "square",
       "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 102 nm, which is above 60 nm.\n\nThe two tallest peaks have amplitudes of 102 nm and 36 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{36}{102} \\approx 0.353 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "reasoning": "From the given information:\n\n- The tallest peak amplitude is 102 nm, which is above 60 nm. So we proceed to STEP 2.\n- In STEP 2, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak at 400 Hz. This means we do not follow the condition for a square wave (C). We move to STEP 3.\n- In STEP 3, the two tallest peaks have amplitudes of 102 nm and 36 nm respectively. The ratio of the second peak to the tallest peak is calculated as follows: \n  \\[\n  \\text{ratio} = \\frac{36 \\text{ nm}}{102 \\text{ nm}} \\approx 0.35\n  \\]\n- Since the ratio (0.35) is greater than or equal to 0.30, according to the rules, we conclude that the signal is a square wave.\n\nResult: C"
     },
     {
       "image": "sine_400Hz_400Hz_5_absolute_seg1_FFT.png",
       "gt": "sine",
       "pred": "square",
       "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 102 nm, which is above 60 nm.\n\nThe two tallest peaks have approximate amplitudes of 102 nm and 36 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{36}{102} \\approx 0.353 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "reasoning": "Step 1: The tallest peak amplitude is 102 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 102 nm and 36 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{36 \\text{ nm}}{102 \\text{ nm}} \\approx 0.35 \\]\n\nSince the ratio is greater than or equal to 0.30, we conclude:\n\nResult: C"
     },
     {
       "image": "sine_400Hz_400Hz_5_absolute_seg2_FFT.png",
       "gt": "sine",
       "pred": "square",
       "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 102 nm, which is above 60 nm.\n\nThe two tallest peaks have approximate amplitudes of 102 nm and 36 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{36}{102} \\approx 0.353 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "reasoning": "Step 1: The tallest peak amplitude is 102 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 102 nm and 36 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{36 \\text{ nm}}{102 \\text{ nm}} \\approx 0.35 \\]\n\nSince the ratio is greater than or equal to 0.30, we conclude:\n\nResult: C"
     },
     {
       "image": "sine_400Hz_400Hz_5_absolute_seg3_FFT.png",
       "gt": "sine",
       "pred": "square",
       "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 105 nm. It is above 60 nm.\n\nThe two tallest peaks are approximately 105 nm at 400 Hz and 35 nm at 115 Hz. The ratio of the second tallest peak to the tallest peak is \\( \\frac{35}{105} \\approx 0.333 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "reasoning": "Step 1: The tallest peak amplitude is 105 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 105 nm and 35 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{35 \\text{ nm}}{105 \\text{ nm}} = \\frac{1}{3} \\approx 0.33 \\]\n\nSince the ratio is greater than or equal to 0.30, we conclude:\n\nResult: C"
     },
     {
       "image": "sine_400Hz_400Hz_7_absolute_seg1_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 105 nm, which is above 60 nm.\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 105 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the decay is not gradual across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 105 nm and 25 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{25 \\text{ nm}}{105 \\text{ nm}} \\approx 0.238 \\]\n\nSince the ratio (0.238) is less than 0.30, we conclude:\n\nResult: B"
     },
     {
       "image": "sine_400Hz_400Hz_7_absolute_seg2_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The tallest peak amplitude is 105 nm, which is above 60 nm. \n\nSince the tallest peak amplitude is above 60 nm, we proceed to check the decay shape.\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nGiven this information, we follow the steps:\n\n- Tallest peak amplitude: 105 nm (above 60 nm)\n- Decay shape: drops sharply to near-zero\n\nBased on the decay shape, the result is:\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "From the answers provided:\n\n- The tallest peak amplitude is 105 nm, which is above 60 nm. So we proceed to STEP 2.\n- In STEP 2, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak, so we move to STEP 3.\n- In STEP 3, the two tallest peak amplitudes are 105 nm and 25 nm respectively. We calculate the ratio of the second peak to the tallest peak: \n  \\[\n  \\text{ratio} = \\frac{25 \\text{ nm}}{105 \\text{ nm}} \\approx 0.238\n  \\]\n- Since the ratio (0.238) is less than 0.30, according to the rules, we conclude with:\n\nResult: B"
     },
     {
       "image": "sine_400Hz_400Hz_7_absolute_seg3_FFT.png",
       "gt": "sine",
-      "pred": "square",
-      "is_correct": false,
-      "reasoning": "The approximate amplitude of the tallest peak is 105 nm, which is above 60 nm.\n\nThe two tallest peaks have approximate amplitudes of 105 nm and 25 nm. The ratio of the second tallest peak to the tallest peak is \\( \\frac{25}{105} \\approx 0.238 \\).\n\nThe signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult: C"
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "Step 1: The tallest peak amplitude is 105 nm, which is above 60 nm. Therefore, we proceed to Step 2.\n\nStep 2: According to the description, the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This indicates that the signal does not decay gradually across a wide frequency range.\n\nStep 3: The two tallest peak amplitudes are 105 nm and 25 nm. We calculate the ratio of the second peak to the tallest peak:\n\\[ \\text{Ratio} = \\frac{25 \\text{ nm}}{105 \\text{ nm}} \\approx 0.24 \\]\n\nSince the ratio (0.24) is less than 0.30, we conclude:\n\nResult: B"
     }
   ]
 }
