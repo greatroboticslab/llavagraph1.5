@@ -1,0 +1,767 @@
+[
+  {
+    "image": "sine_100Hz_100Hz_10_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 122 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks are approximately 122 nm at 100 Hz and 22 nm at 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_100Hz_100Hz_10_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 122 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks are approximately 122 nm at 100 Hz and 13 nm at 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_100Hz_100Hz_10_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 120 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks are approximately 120 nm at 100 Hz and approximately 20 nm at 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s> The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_100Hz_100Hz_11_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 122 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks have approximate amplitudes of 122 nm at approximately 100 Hz and 30 nm at approximately 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s> The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_100Hz_100Hz_11_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 115 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks have approximate amplitudes of 115 nm at approximately 100 Hz and 30 nm at approximately 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s> The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_100Hz_100Hz_11_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 115 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s>  The two tallest peaks have approximate amplitudes of 115 nm at approximately 100 Hz, and 45 nm at approximately 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_100Hz_100Hz_7_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 122 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks are approximately 122 nm at 100 Hz and 22 nm at 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s> The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_100Hz_100Hz_7_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 128 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks are approximately 128 nm at 100 Hz and 23 nm at 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s> The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_100Hz_100Hz_7_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 115 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks are approximately 115 nm at 100 Hz and 25 nm at 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s> The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_1Hx_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 195 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s>  The two tallest peaks are approximately 195 nm at 1 Hz and 2 nm at 5 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_1Hx_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 185 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The tallest peak has an amplitude of approximately 185 nm and appears at a frequency of approximately 1 Hz. The second tallest peak has an amplitude of approximately 2 nm and appears at a frequency of approximately 5 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_1Hx_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 190 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s>  The tallest peak is approximately 190 nm at approximately 1 Hz. The second tallest peak is approximately 3 nm at approximately 7 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_1Hz_1Hz_10_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 190 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks are approximately 190 nm at 1 Hz and approximately 3 nm at 8 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_1Hz_1Hz_10_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 185 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s>  The tallest peak is approximately 185 nm at approximately 1 Hz. The second tallest peak is approximately 2 nm at approximately 7 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_1Hz_1Hz_10_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 190 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s>  The two tallest peaks have approximate amplitudes of 190 nm at approximately 1 Hz and 3 nm at approximately 7 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_1Hz_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 190 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s>  The tallest peak has an amplitude of approximately 190 nm and appears at a frequency of approximately 1 Hz. The second tallest peak has an amplitude of approximately 2 nm and appears at a frequency of approximately 7 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_1Hz_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is about 195 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks are approximately 195 nm at 1 Hz and approximately 2 nm at 5 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_1Hz_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is about 190 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s>  The tallest peak has an amplitude of approximately 190 nm and appears at a frequency of approximately 1 Hz. The second tallest peak has an amplitude of approximately 2 nm and appears at a frequency of approximately 5 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_200Hz_200Hz_10_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 132 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s>  The two tallest peaks have approximate amplitudes of 132 nm at approximately 200 Hz and 42 nm at approximately 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_200Hz_200Hz_10_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 135 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s>  The two tallest peaks are approximately 135 nm at 200 Hz and 25 nm at 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_200Hz_200Hz_10_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 130 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks are approximately 130 nm at 200 Hz and 25 nm at 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s> The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_200Hz_200Hz_2_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 135 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks appear at approximately 200 Hz with an amplitude of 135 nm, and at approximately 115 Hz with an amplitude of 30 nm."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s> The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_200Hz_200Hz_2_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 135 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks are approximately 135 nm at 200 Hz and 25 nm at 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s> The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_200Hz_200Hz_2_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 135 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s>  The two tallest peaks have approximate amplitudes of 135 nm at 200 Hz and 20 nm at 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_200Hz_200Hz_7_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 135 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s>  The two tallest peaks have approximate amplitudes of 135 nm at approximately 200 Hz and 30 nm at approximately 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_200Hz_200Hz_7_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 130 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The tallest peak has an amplitude of approximately 130 nm and appears at a frequency of approximately 200 Hz. The second tallest peak has an amplitude of approximately 45 nm and appears at a frequency of approximately 110 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_200Hz_200Hz_7_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 135 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks appear at approximately 200 Hz with an amplitude of 135 nm, and at approximately 115 Hz with an amplitude of 35 nm."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s> The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_300Hz_300Hz_11_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 175 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks have approximate amplitudes of 175 nm at approximately 300 Hz and 50 nm at approximately 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_300Hz_300Hz_11_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 170 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks are approximately 170 nm at 300 Hz and 52 nm at 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s> The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_300Hz_300Hz_11_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 175 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks are approximately 175 nm at 300 Hz and 50 nm at 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_300Hz_300Hz_2_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 175 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s>  The two tallest peaks have approximate amplitudes of 175 nm at approximately 300 Hz and 30 nm at approximately 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_300Hz_300Hz_2_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 175 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks appear at approximately 300 Hz with an amplitude of 175 nm, and at approximately 115 Hz with an amplitude of 35 nm."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s> The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_300Hz_300Hz_2_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 175 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s>  The two tallest peaks are approximately 175 nm at 300 Hz and 25 nm at 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_300Hz_300Hz_3_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 175 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks appear at approximately 300 Hz with an amplitude of 175 nm, and at approximately 115 Hz with an amplitude of 35 nm."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s> The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_300Hz_300Hz_3_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 175 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks are approximately 175 nm at 300 Hz and approximately 25 nm at 112 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_300Hz_300Hz_3_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 175 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks are approximately 175 nm at 300 Hz and 30 nm at 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s> The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_400Hz_400Hz_1_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 105 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks have approximate amplitudes of 105 nm at approximately 400 Hz and 52 nm at approximately 200 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_400Hz_400Hz_1_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 105 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks are approximately 105 nm at 400 Hz and 50 nm at 200 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s> The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_400Hz_400Hz_1_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 102 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s>  The two tallest peaks appear at approximately 400 Hz with an amplitude of 102 nm, and at approximately 115 Hz with an amplitude of 36 nm."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak at 400 Hz."
+      }
+    ]
+  },
+  {
+    "image": "sine_400Hz_400Hz_5_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 102 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks have approximate amplitudes of 102 nm at approximately 400 Hz and 36 nm at approximately 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_400Hz_400Hz_5_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 102 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks have approximate amplitudes of 102 nm at approximately 400 Hz and 36 nm at approximately 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s> The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_400Hz_400Hz_5_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 105 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s>  The two tallest peaks are approximately 105 nm at 400 Hz and 35 nm at 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_400Hz_400Hz_7_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 105 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s> The two tallest peaks have approximate amplitudes of 105 nm at 400 Hz and 25 nm at 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s> The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_400Hz_400Hz_7_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 105 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s>  The tallest peak has an amplitude of approximately 105 nm and appears at a frequency of approximately 400 Hz. The second tallest peak has an amplitude of approximately 25 nm and appears at a frequency of approximately 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  },
+  {
+    "image": "sine_400Hz_400Hz_7_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above or below 60 nm?",
+        "answer": "<s> The approximate amplitude of the tallest peak is 105 nm. It is above 60 nm."
+      },
+      {
+        "question": "What are the approximate amplitudes (in nm) of the two tallest peaks in this FFT spectrum, and at what frequencies do they appear?",
+        "answer": "<s>  The two tallest peaks have approximate amplitudes of 105 nm at approximately 400 Hz, and 25 nm at approximately 115 Hz."
+      },
+      {
+        "question": "Looking at the region around and after the dominant peak, does the signal drop sharply to near-zero within a narrow frequency range, or does it decay gradually across a wide range of frequencies?",
+        "answer": "<s>  The signal drops sharply to near-zero within a narrow frequency range after the dominant peak."
+      }
+    ]
+  }
+]

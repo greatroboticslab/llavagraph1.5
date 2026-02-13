@@ -1,0 +1,322 @@
+{
+  "accuracy": 26.666666666666668,
+  "total": 45,
+  "correct": 12,
+  "results": [
+    {
+      "image": "sine_100Hz_100Hz_10_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 122 nm, which is above 60 nm.\n\n2. Compute the ratio: second_peak / tallest_peak = 22 nm / 122 nm = 0.18\n\n3. Since the ratio (0.18) is less than 0.30, we proceed to the next step.\n\n4. The ratio is less than 0.30, so the signal is not a square wave.\n\n5. The signal does not show gradual decay across a wide range of frequencies, but rather drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nBased on the classification rules, the signal is not a sine wave (B) or a square wave (C) because the ratio is less than 0.30 and the signal does not show gradual decay. However, the signal is not classified as noise (A)"
+    },
+    {
+      "image": "sine_100Hz_100Hz_10_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 122 nm, which is above 60 nm.\n\n2. Compute the ratio: second_peak / tallest_peak = 13 nm / 122 nm = 0.106 (less than 0.30)\n\n3. Since the ratio is less than 0.30, we check if the signal is a sine wave. However, we also need to consider the decay pattern.\n\n4. The signal drops sharply to near-zero within a narrow frequency range after the dominant peak, which matches the description of a square wave.\n\nTherefore, the signal is classified as a square wave.\n\nResult: C"
+    },
+    {
+      "image": "sine_100Hz_100Hz_10_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 120 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 20 nm / 120 nm = 0.17\n\n3. Since the ratio (0.17) is less than 0.30, we move to the next step.\n\n4. The signal does not show multiple strong harmonic peaks, and the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This matches the description of a sine wave.\n\nTherefore, the classification is: Result: B"
+    },
+    {
+      "image": "sine_100Hz_100Hz_11_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 122 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 30 nm / 122 nm = 0.246 (or approximately 0.25).\n\n3. Since the ratio (0.25) is less than 0.30, we move to the next step.\n\n4. The ratio is less than 0.30, so the signal is not a square wave. However, we need to consider the decay pattern.\n\n5. The signal drops sharply to near-zero within a narrow frequency range after the dominant peak, which matches the description of a square wave.\n\nTherefore, the signal is classified as a square wave.\n\nResult: C"
+    },
+    {
+      "image": "sine_100Hz_100Hz_11_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 115 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 30 nm / 115 nm = 0.26\n\n3. Since the ratio (0.26) is less than 0.30, we move to the next step.\n\n4. The signal does not meet the criteria for a sine wave (B) since the second peak is not significantly smaller than the tallest peak. However, we need to consider the decay pattern.\n\n5. The signal does not meet the criteria for a square wave (C) since it does not show gradual decay across a wide frequency range. Instead, it drops sharply to near-zero within a narrow frequency range.\n\nSince the signal does not meet the criteria for either a sine wave or a square wave, we can conclude that it is a"
+    },
+    {
+      "image": "sine_100Hz_100Hz_11_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 115 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 45 nm / 115 nm = 0.39\n\n3. Since the ratio (0.39) is greater than 0.30, we move to the next step.\n\n4. The signal does not show gradual decay across a wide range of frequencies, but instead drops sharply to near-zero within a narrow frequency range after the dominant peak. This matches the definition of a square wave.\n\nTherefore, the signal is classified as: Result: C"
+    },
+    {
+      "image": "sine_100Hz_100Hz_7_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 122 nm, which is above 60 nm.\n\n2. Compute the ratio: second_peak / tallest_peak = 22 nm / 122 nm = 0.18\n\n3. Since the ratio (0.18) is less than 0.30, we proceed to the next step.\n\n4. The ratio is less than 0.30, so the signal is not a square wave.\n\n5. The signal does not show gradual decay across a wide range of frequencies, but rather drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nBased on the classification rules, the signal is not a sine wave (B) or a square wave (C) because the ratio is less than 0.30 and the signal does not show gradual decay. However, the signal is not classified as noise (A)"
+    },
+    {
+      "image": "sine_100Hz_100Hz_7_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 128 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 23 nm / 128 nm = 0.18125\n\n3. Since the ratio (0.18125) is less than 0.30, we move to the next step.\n\n4. The signal does not show multiple strong harmonic peaks, and the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This suggests that the signal is not a square wave.\n\n5. Since the signal is not a square wave, we need to determine if it's a sine wave. The ratio (0.18125) is less than 0.30, which is consistent with a sine wave.\n\nResult: B"
+    },
+    {
+      "image": "sine_100Hz_100Hz_7_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 115 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 25 nm / 115 nm = 0.217 (approximately).\n\n3. Since the ratio (0.217) is less than 0.30, we move to the next step.\n\n4. The signal does not show multiple strong harmonic peaks, and the description of the signal dropping sharply to near-zero within a narrow frequency range after the dominant peak suggests that it is not a square wave. Therefore, we can conclude that the signal is a sine wave.\n\nResult: B"
+    },
+    {
+      "image": "sine_1Hx_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 195 nm, which is above 60 nm.\n\n2. Compute the ratio: second_peak / tallest_peak = 2 nm / 195 nm = 0.0103 (less than 0.30)\n\n3. Since the ratio is less than 0.30, we proceed to the next step.\n\n4. The signal does not show multiple strong harmonic peaks, but rather drops sharply to near-zero within a narrow frequency range after the dominant peak. This suggests that the signal is not a square wave.\n\n5. The signal does not show gradual decay across a wide range of frequencies, but rather a sharp drop to near-zero within a narrow range.\n\nBased on the classification rules, the signal is classified as a sine wave because the tallest peak is above 60 nm, and the second tallest peak is significantly smaller than the tallest ("
+    },
+    {
+      "image": "sine_1Hx_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 185 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 2 nm / 185 nm = 0.0109 (approximately).\n\n3. Since the ratio (0.0109) is less than 0.30, we move to the next step.\n\n4. The signal does not show multiple strong harmonic peaks, and the description of the signal dropping sharply to near-zero within a narrow frequency range after the dominant peak suggests that it is not a square wave. Therefore, we can conclude that the signal is a sine wave.\n\nResult: B"
+    },
+    {
+      "image": "sine_1Hx_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 190 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 3 nm / 190 nm = 0.0156 (or 1.56%).\n\n3. Since the ratio (0.0156) is less than 0.30, we move to the next step.\n\n4. The ratio is less than 0.30, so the signal is classified as a sine wave (B).\n\n5. There is no mention of gradual decay across a wide range of frequencies, so we don't need to consider the square wave classification.\n\nResult: B"
+    },
+    {
+      "image": "sine_1Hz_1Hz_10_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 190 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 3 nm / 190 nm = 0.016.\n\n3. Since the ratio (0.016) is less than 0.30, we move to the next step.\n\n4. The ratio is less than 0.30, so the signal is classified as a sine wave (B).\n\n5. There is no mention of gradual decay across a wide range of frequencies, so we don't need to consider the square wave classification.\n\nResult: B"
+    },
+    {
+      "image": "sine_1Hz_1Hz_10_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 185 nm, which is above 60 nm.\n\n2. Compute the ratio: second_peak / tallest_peak = 2 nm / 185 nm = 0.0109 (approximately).\n\n3. Since the ratio (0.0109) is less than 0.30, we proceed to the next step.\n\n4. The signal does not show multiple strong harmonic peaks, and the description of the signal dropping sharply to near-zero within a narrow frequency range after the dominant peak suggests that it is not a square wave.\n\n5. The signal does not show gradual decay across a wide range of frequencies, which is a characteristic of square waves.\n\nBased on the classification rules, the signal is classified as a sine wave because the tallest peak is above 60 nm, and the second tallest peak is significantly smaller than the tallest (less than "
+    },
+    {
+      "image": "sine_1Hz_1Hz_10_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 190 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak\n   - The second tallest peak is 3 nm, and the tallest peak is 190 nm.\n   - Ratio = 3 nm / 190 nm = 0.0156 (or 1.56%)\n\n3. Compare the ratio to the threshold values:\n   - If ratio < 0.30 -> B (sine wave)\n   - If ratio >= 0.30 -> C (square wave)\n\n   Since 0.0156 is less than 0.30, we classify the signal as a sine wave.\n\nResult: B"
+    },
+    {
+      "image": "sine_1Hz_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, the tallest peak is 190 nm, which is above 60 nm.\n\n2. Compute the ratio: second_peak / tallest_peak = 2 nm / 190 nm = 0.0105 (less than 0.30)\n\n3. Based on the ratio, the signal is not a sine wave (B) since the ratio is less than 0.30.\n\n4. Since the ratio is less than 0.30, we need to check if the signal is a square wave (C). However, we also need to consider the decay of the signal.\n\n5. The signal drops sharply to near-zero within a narrow frequency range after the dominant peak, which is consistent with the definition of a square wave.\n\nTherefore, the signal is classified as a square wave (C)."
+    },
+    {
+      "image": "sine_1Hz_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, the tallest peak is 195 nm, which is above 60 nm.\n\n2. Compute the ratio: second_peak / tallest_peak = 2 nm / 195 nm = 0.0103 (less than 0.30)\n\n3. Based on the ratio, the signal is not a sine wave (B) since the ratio is less than 0.30.\n\n4. Since the ratio is less than 0.30, we need to check if the signal is a square wave (C). However, we also need to consider the decay of the signal.\n\n5. The signal drops sharply to near-zero within a narrow frequency range after the dominant peak, which is consistent with the definition of a square wave.\n\nTherefore, the signal is classified as a square wave (C)."
+    },
+    {
+      "image": "sine_1Hz_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, the tallest peak is 190 nm, which is above 60 nm.\n\n2. Compute the ratio: second_peak / tallest_peak = 2 nm / 190 nm = 0.0105 (less than 0.30)\n\n3. Based on the ratio, the signal is not a sine wave (B) because the ratio is less than 0.30.\n\n4. Since the ratio is less than 0.30, we need to check if the signal is a square wave (C). However, we also need to consider the decay of the signal.\n\n5. The signal drops sharply to near-zero within a narrow frequency range after the dominant peak, which is consistent with a square wave. Therefore, the signal is classified as a square wave (C).\n\nResult: C"
+    },
+    {
+      "image": "sine_200Hz_200Hz_10_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 132 nm, which is above 60 nm.\n\n2. Compute the ratio: second_peak / tallest_peak = 42 nm / 132 nm = 0.318 (rounded to 3 decimal places).\n\n3. Since the ratio (0.318) is greater than 0.30, we proceed to the next step.\n\n4. The signal does not show gradual decay across a wide range of frequencies, but instead drops sharply to near-zero within a narrow frequency range after the dominant peak. This matches the classification rule for square waves.\n\nTherefore, the signal is classified as: Result: C"
+    },
+    {
+      "image": "sine_200Hz_200Hz_10_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 135 nm, which is above 60 nm.\n\n2. Compute the ratio: second_peak / tallest_peak = 25 nm / 135 nm = 0.185 (approximately).\n\n3. Since the ratio (0.185) is less than 0.30, we proceed to the next step.\n\n4. The signal does not show multiple strong harmonic peaks, but it does drop sharply to near-zero within a narrow frequency range after the dominant peak. This suggests that the signal is not a square wave.\n\n5. The signal does not show gradual decay across a wide range of frequencies, but it does drop sharply to near-zero within a narrow frequency range.\n\nBased on the classification rules, the signal is classified as a sine wave because the tallest peak is above 60 nm, and the second tallest peak is significantly smaller than the tallest"
+    },
+    {
+      "image": "sine_200Hz_200Hz_10_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 130 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 25 nm / 130 nm = 0.192 (approximately).\n\n3. Since the ratio (0.192) is less than 0.30, we move to the next step.\n\n4. The ratio is less than 0.30, so the signal is classified as a sine wave (B).\n\n5. There is no mention of gradual decay across a wide range of frequencies, so we don't need to consider the square wave classification.\n\nResult: B"
+    },
+    {
+      "image": "sine_200Hz_200Hz_2_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 135 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 30 nm / 135 nm = 0.22\n\n3. Since the ratio (0.22) is less than 0.30, we move to the next step.\n\n4. The signal does not show multiple strong harmonic peaks, but it does drop sharply to near-zero within a narrow frequency range after the dominant peak. This suggests that the signal is not a square wave.\n\n5. Since the signal does not show gradual decay across a wide range of frequencies, we can conclude that it is not a square wave.\n\nBased on the classification rules, the signal is a sine wave because it has one dominant peak with minimal harmonics."
+    },
+    {
+      "image": "sine_200Hz_200Hz_2_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 135 nm, which is above 60 nm.\n\n2. Compute the ratio: second_peak / tallest_peak = 25 nm / 135 nm = 0.185 (approximately).\n\n3. Since the ratio (0.185) is less than 0.30, we proceed to the next step.\n\n4. The signal does not show multiple strong harmonic peaks, but it does drop sharply to near-zero within a narrow frequency range after the dominant peak. This suggests that the signal is not a square wave.\n\n5. The signal does not show gradual decay across a wide range of frequencies, but it does drop sharply to near-zero within a narrow frequency range.\n\nBased on the classification rules, the signal is classified as a sine wave because the tallest peak is above 60 nm, and the second tallest peak is significantly smaller than the tallest"
+    },
+    {
+      "image": "sine_200Hz_200Hz_2_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 135 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 20 nm / 135 nm = 0.148 (less than 0.30)\n\n3. Since the ratio is less than 0.30, we move to the next step.\n\n4. The signal does not show multiple strong harmonic peaks, but it does drop sharply to near-zero within a narrow frequency range after the dominant peak. This suggests that the signal is a square wave, but the classification rule for square waves also mentions gradual decay across a wide range of frequencies. Since the signal drops sharply, we can classify it as a square wave.\n\nResult: C"
+    },
+    {
+      "image": "sine_200Hz_200Hz_7_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 135 nm, which is above 60 nm.\n\n2. Compute the ratio: second_peak / tallest_peak = 30 nm / 135 nm = 0.22\n\n3. Since the ratio (0.22) is less than 0.30, we proceed to the next step.\n\n4. The signal does not meet the criteria for a sine wave (B) since the second peak is not significantly smaller than the tallest peak.\n\n5. The signal does not meet the criteria for a square wave (C) since the second peak is not a substantial fraction of the tallest peak.\n\n6. The signal does not meet the criteria for a square wave (C) since the signal drops sharply to near-zero within a narrow frequency range after the dominant peak, not gradually across a wide range of frequencies.\n\nTherefore, the signal is classified"
+    },
+    {
+      "image": "sine_200Hz_200Hz_7_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 130 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 45 nm / 130 nm = 0.346 (or approximately 0.35)\n\n3. Since the ratio (0.35) is greater than 0.30, we move to the next step.\n\n4. The signal does not show gradual decay across a wide range of frequencies, but instead drops sharply to near-zero within a narrow frequency range after the dominant peak. However, the classification rules do not explicitly mention this case, but it is mentioned in the rule for square waves. Therefore, we will consider this case as a square wave.\n\nResult: C"
+    },
+    {
+      "image": "sine_200Hz_200Hz_7_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 135 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 35 nm / 135 nm = 0.259 (rounded to three decimal places).\n\n3. Since the ratio (0.259) is less than 0.30, we move to the next step.\n\n4. The signal does not show multiple strong harmonic peaks, but it does drop sharply to near-zero within a narrow frequency range after the dominant peak. This suggests that the signal is not a square wave.\n\n5. Since the signal does not show gradual decay across a wide range of frequencies, we can conclude that it is not a square wave.\n\nBased on the classification rules, the signal is a sine wave because the tallest peak is above 60 nm, and the second tallest peak is significantly smaller than the"
+    },
+    {
+      "image": "sine_300Hz_300Hz_11_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 175 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 50 nm / 175 nm = 0.286 (rounded to three decimal places).\n\n3. Since the ratio (0.286) is less than 0.30, we move to the next step.\n\n4. The ratio is less than 0.30, so the signal is classified as a sine wave (B).\n\n5. There is no mention of gradual decay across a wide range of frequencies, so we don't need to consider the square wave classification.\n\nResult: B"
+    },
+    {
+      "image": "sine_300Hz_300Hz_11_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 170 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 52 nm / 170 nm = 0.306 (rounded to 3 decimal places).\n\n3. Since the ratio (0.306) is greater than 0.30, we move to the next step.\n\n4. The signal does not show gradual decay across a wide range of frequencies, but instead drops sharply to near-zero within a narrow frequency range after the dominant peak. However, the classification rule for square wave (C) also includes signals with gradual decay across a wide range of frequencies, so we will consider this rule as well.\n\nBased on the rules, the signal is classified as a square wave (C)."
+    },
+    {
+      "image": "sine_300Hz_300Hz_11_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 175 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 50 nm / 175 nm = 0.286 (rounded to 3 decimal places).\n\n3. Since the ratio (0.286) is less than 0.30, we move to the next step.\n\n4. The signal does not show multiple strong harmonic peaks, and the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This matches the description of a sine wave.\n\nResult: B"
+    },
+    {
+      "image": "sine_300Hz_300Hz_2_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 175 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 30 nm / 175 nm = 0.171 (approximately).\n\n3. Since the ratio (0.171) is less than 0.30, we move to the next step.\n\n4. The ratio is less than 0.30, so the signal is not a square wave. However, we need to consider the second check for sine wave classification.\n\n5. The second check for sine wave classification is that the second tallest peak is significantly smaller than the tallest (less than 30% of the tallest peak's amplitude). Since the second peak (30 nm) is indeed less than 30% of the tallest peak (175 nm), we can conclude that the signal is a sine wave.\n\nResult:"
+    },
+    {
+      "image": "sine_300Hz_300Hz_2_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 175 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 35 nm / 175 nm = 0.20\n\n3. If ratio < 0.30 -> B (sine wave)\n   Since 0.20 is less than 0.30, we proceed to the next step.\n\n4. If ratio >= 0.30 -> C (square wave)\n   Since 0.20 is less than 0.30, we don't proceed to this step.\n\n5. No decay is described as 'gradual' across wide range, so we don't consider this step.\n\nBased on the classification rules, the signal is a sine wave because the ratio of the second peak to the tallest peak is less than 0.30."
+    },
+    {
+      "image": "sine_300Hz_300Hz_2_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 175 nm, which is above 60 nm.\n\n2. Compute the ratio: second_peak / tallest_peak = 25 nm / 175 nm = 0.143 (or 14.3%).\n\n3. Since the ratio (0.143) is less than 0.30, we proceed to the next step.\n\n4. The signal does not show multiple strong harmonic peaks, but it does drop sharply to near-zero within a narrow frequency range after the dominant peak. This suggests that the signal is not a square wave.\n\n5. The signal does not show gradual decay across a wide range of frequencies, which is a characteristic of square waves.\n\nBased on the above analysis, the signal is classified as a sine wave because it has one dominant peak with minimal harmonics.\n\nResult: B"
+    },
+    {
+      "image": "sine_300Hz_300Hz_3_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 175 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 35 nm / 175 nm = 0.20\n\n3. If ratio < 0.30 -> B (sine wave)\n   Since 0.20 is less than 0.30, we proceed to the next step.\n\n4. If ratio >= 0.30 -> C (square wave)\n   Since 0.20 is less than 0.30, we don't proceed to this step.\n\n5. No decay is described as 'gradual' across wide range, so we don't consider this step.\n\nBased on the classification rules, the signal is a sine wave because the ratio of the second peak to the tallest peak is less than 0.30."
+    },
+    {
+      "image": "sine_300Hz_300Hz_3_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 175 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 25 nm / 175 nm = 0.143 (or 14.3%).\n\n3. Since the ratio (0.143) is less than 0.30, we move to the next step.\n\n4. The ratio is less than 0.30, so the signal is classified as a sine wave (B).\n\n5. There is no mention of gradual decay across a wide range of frequencies, so we don't need to consider the square wave classification.\n\nResult: B"
+    },
+    {
+      "image": "sine_300Hz_300Hz_3_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 175 nm, which is above 60 nm.\n\n2. Compute the ratio: second_peak / tallest_peak = 30 nm / 175 nm = 0.171 (approximately).\n\n3. Since the ratio (0.171) is less than 0.30, we proceed to the next step.\n\n4. The signal does not show multiple strong harmonic peaks, and the second tallest peak is significantly smaller than the tallest (less than 30% of the tallest peak's amplitude). \n\n5. The signal does not show gradual decay across a wide frequency range, but it does drop sharply to near-zero within a narrow frequency range after the dominant peak.\n\nBased on the classification rules, the signal is classified as a sine wave (B)."
+    },
+    {
+      "image": "sine_400Hz_400Hz_1_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 105 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 52 nm / 105 nm = 0.495 (approximately 0.50)\n\n3. Since the ratio (0.50) is greater than 0.30, we move to the next step.\n\n4. The signal does not show gradual decay across a wide range of frequencies, but instead drops sharply to near-zero within a narrow frequency range after the dominant peak. This matches the classification rule for square waves.\n\nResult: C"
+    },
+    {
+      "image": "sine_400Hz_400Hz_1_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 105 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 50 nm / 105 nm = 0.476 (approximately).\n\n3. Since the ratio (0.476) is greater than 0.30, we move to the next step.\n\n4. The signal does not show gradual decay across a wide range of frequencies, but instead drops sharply to near-zero within a narrow frequency range after the dominant peak. This matches the definition of a square wave.\n\nTherefore, the signal is classified as: Result: C"
+    },
+    {
+      "image": "sine_400Hz_400Hz_1_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 102 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 36 nm / 102 nm = 0.353 (approximately 0.35)\n\n3. Since the ratio (0.35) is less than 0.30, we move to the next step.\n\n4. The signal does not show multiple strong harmonic peaks, but it does drop sharply to near-zero within a narrow frequency range after the dominant peak. However, the classification rules do not explicitly mention this case. We can consider it as a square wave since the signal has a dominant peak and a sharp drop, but we cannot be certain without more information.\n\nHowever, based on the provided rules, we can conclude that the signal is not a sine wave (B) because the ratio is not less than "
+    },
+    {
+      "image": "sine_400Hz_400Hz_5_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 102 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 36 nm / 102 nm = 0.353 (approximately 0.35)\n\n3. Since the ratio (0.35) is greater than 0.30, we move to the next step.\n\n4. The signal does not show gradual decay across a wide range of frequencies, but instead drops sharply to near-zero within a narrow frequency range after the dominant peak. This matches the definition of a square wave.\n\nResult: C"
+    },
+    {
+      "image": "sine_400Hz_400Hz_5_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 102 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 36 nm / 102 nm = 0.353 (approximately 0.35)\n\n3. Since the ratio (0.35) is greater than 0.30, we move to the next step.\n\n4. The signal does not show gradual decay across a wide range of frequencies, but instead drops sharply to near-zero within a narrow frequency range after the dominant peak. This matches the definition of a square wave.\n\nResult: C"
+    },
+    {
+      "image": "sine_400Hz_400Hz_5_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 105 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 35 nm / 105 nm = 0.33\n\n3. Since the ratio (0.33) is greater than or equal to 0.30, we move to the next step.\n\n4. The signal does not show gradual decay across a wide range of frequencies, but instead drops sharply to near-zero within a narrow frequency range after the dominant peak. However, the classification rules do not explicitly mention this case, but it is mentioned in the rule for square waves. Since the ratio is close to 0.30, we can consider this a borderline case.\n\nBased on the rules, the signal is classified as a square wave, but with a slight deviation from the exact rule. However, considering the ratio"
+    },
+    {
+      "image": "sine_400Hz_400Hz_7_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 105 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 25 nm / 105 nm = 0.238 (or approximately 0.24).\n\n3. Since the ratio (0.24) is less than 0.30, we move to the next step.\n\n4. The ratio is less than 0.30, so the signal is not a square wave. However, we need to consider the decay pattern.\n\n5. The signal drops sharply to near-zero within a narrow frequency range after the dominant peak, which matches the description of a square wave.\n\nBased on the classification rules, the signal is classified as a square wave because it has multiple strong harmonic peaks and the signal drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nResult:"
+    },
+    {
+      "image": "sine_400Hz_400Hz_7_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "noise",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 105 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 25 nm / 105 nm = 0.238 (or approximately 0.24).\n\n3. Since the ratio (0.24) is less than 0.30, we move to the next step.\n\n4. The signal does not show multiple strong harmonic peaks, and the signal drops sharply to near-zero within a narrow frequency range after the dominant peak. This suggests that the signal is not a square wave.\n\n5. Based on the classification rules, since the signal is not a square wave and does not meet the criteria for a sine wave (the ratio is less than 0.30), we can conclude that the signal is a random noise.\n\nResult: A"
+    },
+    {
+      "image": "sine_400Hz_400Hz_7_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? No, it's 105 nm, so we move to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 25 nm / 105 nm = 0.238 (or approximately 0.24).\n\n3. Since the ratio (0.24) is less than 0.30, we move to the next step.\n\n4. The ratio is less than 0.30, so the signal is not a square wave. However, we need to consider the decay pattern.\n\n5. The signal drops sharply to near-zero within a narrow frequency range after the dominant peak, which matches the description of a square wave.\n\nTherefore, the signal is classified as a square wave.\n\nResult: C"
+    }
+  ]
+}

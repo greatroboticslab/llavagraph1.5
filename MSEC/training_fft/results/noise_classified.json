@@ -1,0 +1,175 @@
+{
+  "accuracy": 87.5,
+  "total": 24,
+  "correct": 21,
+  "results": [
+    {
+      "image": "noise_10_Run2_1_absolute_seg1_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the rules:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 28 nm, which is below 60 nm.\n\n2. Since the tallest peak is below 60 nm, we don't need to proceed further.\n\nTherefore, the signal is classified as: Result: A"
+    },
+    {
+      "image": "noise_10_Run2_1_absolute_seg2_FFT.png",
+      "gt": "noise",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 25 nm, which is below 60 nm. So, we proceed to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 16 nm / 25 nm = 0.64\n\n3. Since the ratio (0.64) is greater than 0.30, we proceed to the next step.\n\n4. The signal does not show gradual decay across a wide range of frequencies. Instead, it drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\n5. Based on the classification rules, since the signal has multiple strong harmonic peaks (the second peak is a substantial fraction of the tallest peak's amplitude) and does not show gradual decay, we classify it as a square wave.\n\nResult: C"
+    },
+    {
+      "image": "noise_10_Run2_1_absolute_seg3_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the rules:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 22 nm, which is below 60 nm.\n\n2. Since the tallest peak is below 60 nm, we don't need to proceed further.\n\nTherefore, the signal is classified as: Result: A"
+    },
+    {
+      "image": "noise_12_Run1_1_absolute_seg1_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the rules:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 42 nm, which is below 60 nm. So, we proceed to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak\n   - Tallest peak: 42 nm\n   - Second tallest peak: 13 nm\n   - Ratio: 13 nm / 42 nm = 0.31\n\n3. Since the ratio (0.31) is greater than or equal to 0.30, we proceed to the next step.\n\n4. The signal does not show gradual decay across a wide range of frequencies. Instead, it drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nBased on the rules, the signal is classified as a square wave (C)."
+    },
+    {
+      "image": "noise_12_Run1_1_absolute_seg2_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the rules:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 42 nm, which is below 60 nm.\n\n2. Since the tallest peak is below 60 nm, we don't need to proceed further.\n\nTherefore, the signal is classified as: Result: A"
+    },
+    {
+      "image": "noise_12_Run1_1_absolute_seg3_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the rules:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 47 nm, which is below 60 nm. So, we proceed to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak\n   - Tallest peak: 47 nm\n   - Second tallest peak: 12 nm\n   - Ratio: 12 nm / 47 nm \u2248 0.255\n\n3. Since the ratio (0.255) is less than 0.30, we proceed to the next step.\n\n4. The signal does not meet the criteria for a square wave (C) since the second peak is not a substantial fraction of the tallest peak. However, the signal does not meet the criteria for a sine wave (B) since the second peak is not significantly smaller than the tallest peak.\n\n5. The signal does not meet the criteria for a sine wave (B) or"
+    },
+    {
+      "image": "noise_12_Run2_1_absolute_seg1_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 48 nm, which is below 60 nm. So, we proceed to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 12 nm / 48 nm = 0.25\n\n3. Since the ratio (0.25) is less than 0.30, we proceed to the next step.\n\n4. The signal does not meet the criteria for a sine wave (B) or a square wave (C) based on the ratio calculation. However, we need to consider the sharp drop to near-zero within a narrow frequency range after the dominant peak.\n\n5. The signal does not meet the criteria for a square wave (C) based on the description of gradual decay across a wide range of frequencies.\n\nBased on the classification rules, the signal is classified as a sine wave (B) because"
+    },
+    {
+      "image": "noise_12_Run2_1_absolute_seg2_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the rules:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 42 nm, which is below 60 nm.\n\n2. Since the tallest peak is below 60 nm, we don't need to proceed further.\n\nTherefore, the signal is classified as: Result: A"
+    },
+    {
+      "image": "noise_12_Run2_1_absolute_seg3_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 36 nm, which is below 60 nm.\n\n2. Since the tallest peak is below 60 nm, we don't need to proceed further.\n\nThe signal is classified as A (noise) based on the first check."
+    },
+    {
+      "image": "noise_12_Run3_1_absolute_seg1_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 35 nm, which is below 60 nm. So, we proceed to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak\n   - Tallest peak: 35 nm\n   - Second tallest peak: 20 nm\n   - Ratio: 20 nm / 35 nm = 0.57 (less than 0.30)\n\n3. Based on the ratio, we can conclude that the signal is not a sine wave (B) because the ratio is greater than 0.30.\n\n4. Since the ratio is less than 0.30, we need to check if the signal is a square wave (C). However, we are not given information about the frequency of the second tallest peak, and the classification rule for square waves requires the second tallest peak to be a substantial fraction of"
+    },
+    {
+      "image": "noise_12_Run3_1_absolute_seg2_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the rules:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 42 nm, which is below 60 nm.\n\n2. Since the tallest peak is below 60 nm, we don't need to proceed further.\n\nTherefore, the signal is classified as: Result: A"
+    },
+    {
+      "image": "noise_12_Run3_1_absolute_seg3_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the rules:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 50 nm, which is below 60 nm.\n\n2. Since the tallest peak is below 60 nm, we don't need to proceed further.\n\nTherefore, the signal is classified as: Result: A"
+    },
+    {
+      "image": "noise_14_Run3_1_absolute_seg1_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the rules:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 52 nm, which is below 60 nm.\n\n2. Since the tallest peak is below 60 nm, we don't need to proceed further.\n\nBased on the rules, the signal is classified as A (noise) because it has a peak amplitude below 60 nm, and there is no indication of a dominant frequency or harmonics."
+    },
+    {
+      "image": "noise_14_Run3_1_absolute_seg2_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 48 nm, which is below 60 nm. So, we proceed to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 12 nm / 48 nm = 0.25\n\n3. Since the ratio (0.25) is less than 0.30, we proceed to the next step.\n\n4. The ratio is less than 0.30, so the signal is not a square wave. However, we need to consider the decay of the signal.\n\n5. The signal drops sharply to near-zero within a narrow frequency range after the dominant peak, which matches the description of a sine wave.\n\nTherefore, the signal is classified as a sine wave."
+    },
+    {
+      "image": "noise_14_Run3_1_absolute_seg3_FFT.png",
+      "gt": "noise",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 43 nm, which is below 60 nm. So, we proceed to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak = 13 nm / 43 nm = 0.30\n\n3. Since the ratio is 0.30, which is less than 0.30, we proceed to the next step.\n\n4. The signal does not meet the criteria for a sine wave (B) or a square wave (C) based on the ratio calculation. However, we need to consider the decay pattern.\n\n5. The signal drops sharply to near-zero within a narrow frequency range after the dominant peak, which meets the criteria for a square wave (C).\n\nTherefore, the classification is:\n\nResult: C"
+    },
+    {
+      "image": "noise_1_Run1_1_absolute_seg1_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 29 nm, which is below 60 nm.\n\n2. Since the tallest peak is below 60 nm, we don't need to proceed further.\n\nThe signal is classified as A (noise) based on the first check."
+    },
+    {
+      "image": "noise_1_Run1_1_absolute_seg2_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 22 nm, which is below 60 nm.\n\n2. Since the tallest peak is below 60 nm, we don't need to proceed further.\n\nTherefore, based on the classification rules, the signal is classified as: Result: A"
+    },
+    {
+      "image": "noise_1_Run1_1_absolute_seg3_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 23 nm, which is below 60 nm.\n\n2. Since the tallest peak is below 60 nm, we don't need to proceed further.\n\nTherefore, the signal is classified as: Result: A"
+    },
+    {
+      "image": "noise_1_Run3_1_absolute_seg1_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the rules:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 1.1 nm, which is below 60 nm.\n\n2. Since the tallest peak is below 60 nm, we don't need to proceed further.\n\nTherefore, the signal is classified as: Result: A"
+    },
+    {
+      "image": "noise_1_Run3_1_absolute_seg2_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 16.5 nm, which is below 60 nm.\n\n2. Since the tallest peak is below 60 nm, we don't need to proceed further.\n\nTherefore, the signal is classified as: Result: A"
+    },
+    {
+      "image": "noise_1_Run3_1_absolute_seg3_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 19 nm, which is below 60 nm. So, we proceed to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak\n   - Tallest peak: 19 nm\n   - Second tallest peak: 13 nm\n   - Ratio: 13 nm / 19 nm = 0.684 (approximately)\n\n3. If ratio < 0.30 -> B (sine wave)\n   - Since the ratio (0.684) is greater than 0.30, we proceed to the next step.\n\n4. If ratio >= 0.30 -> C (square wave)\n   - Since the ratio (0.684) is greater than 0.30, we proceed to the next step.\n\n5. If decay is described as 'gradual' across wide range -> C ("
+    },
+    {
+      "image": "noise_Run2_absolute_seg1_FFT.png",
+      "gt": "noise",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 52 nm, which is below 60 nm. So, we proceed to the next step.\n\n2. Compute the ratio: second_peak / tallest_peak\n   - Tallest peak: 52 nm\n   - Second tallest peak: 16 nm\n   - Ratio: 16 nm / 52 nm = 0.308 (approximately 30.8%)\n\n3. Since the ratio (0.308) is greater than or equal to 0.30, we proceed to the next step.\n\n4. The signal does not show gradual decay across a wide range of frequencies. Instead, it drops sharply to near-zero within a narrow frequency range after the dominant peak.\n\nBased on the classification rules, the signal is classified as: Result: C"
+    },
+    {
+      "image": "noise_Run2_absolute_seg2_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 48 nm, which is below 60 nm.\n\n2. Since the tallest peak is below 60 nm, we don't need to proceed further.\n\nThe classification rules do not require further analysis, and the signal is classified as noise (A) based on the first check."
+    },
+    {
+      "image": "noise_Run2_absolute_seg3_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "To classify the signal, we need to follow the decision process:\n\n1. First check: Is the tallest peak below 60 nm? Yes, it is 49 nm, which is below 60 nm.\n\n2. Since the tallest peak is below 60 nm, we don't need to proceed further.\n\nThe classification rules for noise (A) are met, and the signal is classified as noise.\n\nResult: A"
+    }
+  ]
+}
