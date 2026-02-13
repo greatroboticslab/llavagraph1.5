@@ -1,0 +1,98 @@
+[2026-02-12 20:53:50,630] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2026-02-12 20:54:34,213] [WARNING] [runner.py:202:fetch_hostfile] Unable to find hostfile, will proceed with training with local resources only.
+Detected CUDA_VISIBLE_DEVICES=0: setting --include=localhost:0
+[2026-02-12 20:54:34,213] [INFO] [runner.py:571:main] cmd = /jet/home/byler/miniconda3/envs/llava/bin/python3.10 -u -m deepspeed.launcher.launch --world_info=eyJsb2NhbGhvc3QiOiBbMF19 --master_addr=127.0.0.1 --master_port=29500 --enable_each_rank_log=None /ocean/projects/cis240145p/byler/LLaVA/llava/train/train.py --lora_enable True --lora_r 128 --lora_alpha 256 --mm_projector_lr 2e-5 --deepspeed scripts/zero2.json --model_name_or_path models_setup/llava-v1.5-7b --version v1 --data_path MSEC/training_fft/trainingData_FFT.json --image_folder MSEC/training_fft/ --vision_tower openai/clip-vit-large-patch14-336 --mm_projector_type mlp2x_gelu --mm_vision_select_layer -2 --mm_use_im_start_end False --mm_use_im_patch_token False --image_aspect_ratio pad --group_by_modality_length True --bf16 True --output_dir MSEC/training_fft/checkpoints_FFT/ --num_train_epochs 3 --per_device_train_batch_size 2 --per_device_eval_batch_size 4 --gradient_accumulation_steps 8 --evaluation_strategy no --save_strategy epoch --save_total_limit 3 --learning_rate 2e-4 --weight_decay 0. --warmup_ratio 0.03 --lr_scheduler_type cosine --logging_steps 1 --tf32 True --model_max_length 2048 --gradient_checkpointing True --dataloader_num_workers 4 --lazy_preprocess True --report_to none
+[2026-02-12 20:54:37,919] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2026-02-12 20:54:40,266] [INFO] [launch.py:145:main] WORLD INFO DICT: {'localhost': [0]}
+[2026-02-12 20:54:40,267] [INFO] [launch.py:151:main] nnodes=1, num_local_procs=1, node_rank=0
+[2026-02-12 20:54:40,267] [INFO] [launch.py:162:main] global_rank_mapping=defaultdict(<class 'list'>, {'localhost': [0]})
+[2026-02-12 20:54:40,267] [INFO] [launch.py:163:main] dist_world_size=1
+[2026-02-12 20:54:40,267] [INFO] [launch.py:165:main] Setting CUDA_VISIBLE_DEVICES=0
+[2026-02-12 20:55:24,287] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2026-02-12 20:55:25,009] [INFO] [comm.py:637:init_distributed] cdb=None
+[2026-02-12 20:55:25,009] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+Adding LoRA adapters...
+Formatting inputs...Skip in lazy mode
+{'loss': 0.7487, 'learning_rate': 6.666666666666667e-05, 'epoch': 0.04}
+{'loss': 0.7291, 'learning_rate': 0.00013333333333333334, 'epoch': 0.07}
+{'loss': 0.5756, 'learning_rate': 0.0002, 'epoch': 0.11}
+{'loss': 0.5224, 'learning_rate': 0.00019991889981715698, 'epoch': 0.15}
+{'loss': 0.4817, 'learning_rate': 0.00019967573081342103, 'epoch': 0.19}
+{'loss': 0.4049, 'learning_rate': 0.0001992708874098054, 'epoch': 0.22}
+{'loss': 0.3915, 'learning_rate': 0.00019870502626379127, 'epoch': 0.26}
+{'loss': 0.3759, 'learning_rate': 0.00019797906520422677, 'epoch': 0.3}
+{'loss': 0.3846, 'learning_rate': 0.0001970941817426052, 'epoch': 0.33}
+{'loss': 0.3115, 'learning_rate': 0.00019605181116313724, 'epoch': 0.37}
+{'loss': 0.3247, 'learning_rate': 0.00019485364419471454, 'epoch': 0.41}
+{'loss': 0.3448, 'learning_rate': 0.0001935016242685415, 'epoch': 0.44}
+{'loss': 0.3317, 'learning_rate': 0.00019199794436588243, 'epoch': 0.48}
+{'loss': 0.2964, 'learning_rate': 0.00019034504346103823, 'epoch': 0.52}
+{'loss': 0.3434, 'learning_rate': 0.000188545602565321, 'epoch': 0.56}
+{'loss': 0.2739, 'learning_rate': 0.00018660254037844388, 'epoch': 0.59}
+{'loss': 0.3447, 'learning_rate': 0.0001845190085543795, 'epoch': 0.63}
+{'loss': 0.3169, 'learning_rate': 0.00018229838658936564, 'epoch': 0.67}
+{'loss': 0.2474, 'learning_rate': 0.00017994427634035015, 'epoch': 0.7}
+{'loss': 0.3492, 'learning_rate': 0.00017746049618276545, 'epoch': 0.74}
+{'loss': 0.2731, 'learning_rate': 0.00017485107481711012, 'epoch': 0.78}
+{'loss': 0.2984, 'learning_rate': 0.00017212024473438147, 'epoch': 0.81}
+{'loss': 0.2313, 'learning_rate': 0.00016927243535095997, 'epoch': 0.85}
+{'loss': 0.3207, 'learning_rate': 0.00016631226582407952, 'epoch': 0.89}
+{'loss': 0.2708, 'learning_rate': 0.00016324453755953773, 'epoch': 0.93}
+{'loss': 0.2771, 'learning_rate': 0.0001600742264237979, 'epoch': 0.96}
+{'loss': 0.3123, 'learning_rate': 0.00015680647467311557, 'epoch': 1.0}
+{'loss': 0.2537, 'learning_rate': 0.0001534465826127801, 'epoch': 1.04}
+{'loss': 0.2435, 'learning_rate': 0.00015000000000000001, 'epoch': 1.07}
+{'loss': 0.2172, 'learning_rate': 0.00014647231720437686, 'epoch': 1.11}
+{'loss': 0.2742, 'learning_rate': 0.00014286925614030542, 'epoch': 1.15}
+{'loss': 0.2687, 'learning_rate': 0.00013919666098600753, 'epoch': 1.19}
+{'loss': 0.27, 'learning_rate': 0.00013546048870425356, 'epoch': 1.22}
+{'loss': 0.2692, 'learning_rate': 0.00013166679938014726, 'epoch': 1.26}
+{'loss': 0.2777, 'learning_rate': 0.0001278217463916453, 'epoch': 1.3}
+{'loss': 0.2753, 'learning_rate': 0.0001239315664287558, 'epoch': 1.33}
+{'loss': 0.2134, 'learning_rate': 0.00012000256937760445, 'epoch': 1.37}
+{'loss': 0.2777, 'learning_rate': 0.00011604112808577603, 'epoch': 1.41}
+{'loss': 0.3024, 'learning_rate': 0.0001120536680255323, 'epoch': 1.44}
+{'loss': 0.2511, 'learning_rate': 0.00010804665687167262, 'epoch': 1.48}
+{'loss': 0.2198, 'learning_rate': 0.00010402659401094152, 'epoch': 1.52}
+{'loss': 0.2444, 'learning_rate': 0.0001, 'epoch': 1.56}
+{'loss': 0.2908, 'learning_rate': 9.597340598905852e-05, 'epoch': 1.59}
+{'loss': 0.2157, 'learning_rate': 9.195334312832742e-05, 'epoch': 1.63}
+{'loss': 0.2473, 'learning_rate': 8.79463319744677e-05, 'epoch': 1.67}
+{'loss': 0.2455, 'learning_rate': 8.395887191422397e-05, 'epoch': 1.7}
+{'loss': 0.2721, 'learning_rate': 7.999743062239557e-05, 'epoch': 1.74}
+{'loss': 0.262, 'learning_rate': 7.606843357124426e-05, 'epoch': 1.78}
+{'loss': 0.2578, 'learning_rate': 7.217825360835473e-05, 'epoch': 1.81}
+{'loss': 0.2455, 'learning_rate': 6.833320061985277e-05, 'epoch': 1.85}
+{'loss': 0.2612, 'learning_rate': 6.453951129574644e-05, 'epoch': 1.89}
+{'loss': 0.1998, 'learning_rate': 6.080333901399251e-05, 'epoch': 1.93}
+{'loss': 0.2445, 'learning_rate': 5.713074385969457e-05, 'epoch': 1.96}
+{'loss': 0.2389, 'learning_rate': 5.3527682795623146e-05, 'epoch': 2.0}
+{'loss': 0.2205, 'learning_rate': 5.000000000000002e-05, 'epoch': 2.04}
+{'loss': 0.2168, 'learning_rate': 4.6553417387219886e-05, 'epoch': 2.07}
+{'loss': 0.2097, 'learning_rate': 4.3193525326884435e-05, 'epoch': 2.11}
+{'loss': 0.1942, 'learning_rate': 3.99257735762021e-05, 'epoch': 2.15}
+{'loss': 0.194, 'learning_rate': 3.675546244046228e-05, 'epoch': 2.19}
+{'loss': 0.177, 'learning_rate': 3.36877341759205e-05, 'epoch': 2.22}
+{'loss': 0.2026, 'learning_rate': 3.072756464904006e-05, 'epoch': 2.26}
+{'loss': 0.2315, 'learning_rate': 2.7879755265618555e-05, 'epoch': 2.3}
+{'loss': 0.2171, 'learning_rate': 2.514892518288988e-05, 'epoch': 2.33}
+{'loss': 0.1998, 'learning_rate': 2.2539503817234553e-05, 'epoch': 2.37}
+{'loss': 0.2499, 'learning_rate': 2.0055723659649904e-05, 'epoch': 2.41}
+{'loss': 0.214, 'learning_rate': 1.7701613410634365e-05, 'epoch': 2.44}
+{'loss': 0.209, 'learning_rate': 1.5480991445620542e-05, 'epoch': 2.48}
+{'loss': 0.1942, 'learning_rate': 1.339745962155613e-05, 'epoch': 2.52}
+{'loss': 0.2218, 'learning_rate': 1.1454397434679021e-05, 'epoch': 2.56}
+{'loss': 0.229, 'learning_rate': 9.65495653896179e-06, 'epoch': 2.59}
+{'loss': 0.2141, 'learning_rate': 8.002055634117578e-06, 'epoch': 2.63}
+{'loss': 0.2017, 'learning_rate': 6.498375731458528e-06, 'epoch': 2.67}
+{'loss': 0.2073, 'learning_rate': 5.146355805285452e-06, 'epoch': 2.7}
+{'loss': 0.2031, 'learning_rate': 3.948188836862776e-06, 'epoch': 2.74}
+{'loss': 0.2225, 'learning_rate': 2.905818257394799e-06, 'epoch': 2.78}
+{'loss': 0.2261, 'learning_rate': 2.0209347957732328e-06, 'epoch': 2.81}
+{'loss': 0.1735, 'learning_rate': 1.2949737362087156e-06, 'epoch': 2.85}
+{'loss': 0.18, 'learning_rate': 7.291125901946027e-07, 'epoch': 2.89}
+{'loss': 0.1937, 'learning_rate': 3.2426918657900704e-07, 'epoch': 2.93}
+{'loss': 0.2279, 'learning_rate': 8.110018284304133e-08, 'epoch': 2.96}
+{'loss': 0.1914, 'learning_rate': 0.0, 'epoch': 3.0}
+{'train_runtime': 533.8619, 'train_samples_per_second': 2.428, 'train_steps_per_second': 0.152, 'train_loss': 0.2783255602842496, 'epoch': 3.0}
+[2026-02-12 21:10:02,384] [INFO] [launch.py:347:main] Process 38304 exits successfully.

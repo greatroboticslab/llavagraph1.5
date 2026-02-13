@@ -3,7 +3,11 @@ models_setup/llava-v1.6-vicuna-7b/model-*.safetensors
 *.bin
 *.pth
 checkpoints/
+checkpoints_FFT/
+__pycache__/
 wandb/
 llava.egg-info/
 .DS_Store
-**/ .DS_Store
+**/.DS_Store
+models_setup/Llama-*/
+models_setup/llava-v1.5-7b/

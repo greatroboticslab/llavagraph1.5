@@ -23,24 +23,20 @@ import re
 
 
 SYSTEM_PROMPT = (
-    "You are a signal processing engineer classifying FFT spectrum descriptions. "
-    "Use the following rules strictly:\n\n"
-    "CLASSIFICATION RULES:\n"
-    "1. RANDOM NOISE (A): The tallest peak amplitude is BELOW 60 nm. "
-    "Noise signals have low, roughly uniform peaks with no dominant frequency.\n"
-    "2. SINE WAVE (B): The tallest peak is ABOVE 60 nm, AND the second tallest peak "
-    "is significantly smaller than the tallest (less than 30% of the tallest peak's amplitude). "
-    "Sine waves have one dominant peak with minimal harmonics.\n"
-    "3. SQUARE WAVE (C): The tallest peak is ABOVE 60 nm, AND the second tallest peak "
-    "is a substantial fraction of the tallest (30% or more of the tallest peak's amplitude). "
-    "Square waves have multiple strong harmonic peaks. Also classify as square wave if "
-    "the signal shows gradual decay across a wide frequency range (common for low-frequency square waves).\n\n"
-    "DECISION PROCESS:\n"
-    "1. First check: Is the tallest peak below 60 nm? If yes -> A (noise)\n"
-    "2. If above 60 nm, compute the ratio: second_peak / tallest_peak\n"
-    "3. If ratio < 0.30 -> B (sine wave)\n"
-    "4. If ratio >= 0.30 -> C (square wave)\n"
-    "5. If decay is described as 'gradual' across wide range -> C (square wave)\n"
+    "You classify FFT spectrum descriptions into exactly one category: A (noise), B (sine), or C (square).\n\n"
+    "Follow these steps IN ORDER. When you reach a Result, IMMEDIATELY output it and stop.\n\n"
+    "STEP 1: What is the tallest peak amplitude (from the first answer)?\n"
+    "  - If it is BELOW 60 nm → IMMEDIATELY output Result: A\n"
+    "  - If it is ABOVE 60 nm → go to STEP 2\n\n"
+    "STEP 2: Check the decay shape (from the third answer).\n"
+    "  - If the signal decays gradually across a wide frequency range → IMMEDIATELY output Result: C\n"
+    "  - If the signal drops sharply to near-zero → go to STEP 3\n\n"
+    "STEP 3: What are the two tallest peak amplitudes (from the second answer)? "
+    "Compute ratio = second_peak / tallest_peak.\n"
+    "  - If ratio < 0.30 → IMMEDIATELY output Result: B\n"
+    "  - If ratio >= 0.30 → IMMEDIATELY output Result: C\n\n"
+    "Output format: State the peak amplitude, whether above/below 60nm, "
+    "the decay shape, the ratio if applicable, then write Result: A, B, or C on its own line."
 )
 
 
@@ -101,7 +97,7 @@ def main(args):
             {"role": "user", "content": user_prompt}
         ]
 
-        outputs = pipe(messages, max_new_tokens=200, do_sample=False)
+        outputs = pipe(messages, max_new_tokens=400, do_sample=False)
         model_response = outputs[0]["generated_text"][-1]["content"]
 
         # Extract prediction

@@ -1,0 +1,34 @@
+Thu Feb 12 23:04:48 EST 2026: RUNNING 4:41 w001
+Thu Feb 12 23:04:48 EST 2026: RUNNING
+=== Evaluating noise ===
+Loading LLaVA from base model...
+Thu Feb 12 23:09:48 EST 2026: PENDING 0:00 
+RUNNING 9:41 w001
+Thu Feb 12 23:09:48 EST 2026: RUNNING
+  noise_Run2_absolute_seg2_FFT.png
+  noise_Run2_absolute_seg3_FFT.png
+Done. 24 results saved to MSEC/training_fft/results/noise.json
+=== Evaluating sine ===
+Loading LLaVA from base model...
+Thu Feb 12 23:14:48 EST 2026: 
+Thu Feb 12 23:14:48 EST 2026: JOB DONE
+  square_300Hz_300Hz_11_absolute_seg1_FFT.png
+  square_300Hz_300Hz_11_absolute_seg2_FFT.png
+  square_300Hz_300Hz_11_absolute_seg3_FFT.png
+  square_300Hz_300Hz_2_absolute_seg1_FFT.png
+  square_300Hz_300Hz_2_absolute_seg2_FFT.png
+  square_300Hz_300Hz_2_absolute_seg3_FFT.png
+  square_300Hz_300Hz_9_absolute_seg1_FFT.png
+  square_300Hz_300Hz_9_absolute_seg2_FFT.png
+  square_300Hz_300Hz_9_absolute_seg3_FFT.png
+  square_400Hz_400Hz_6_absolute_seg1_FFT.png
+  square_400Hz_400Hz_6_absolute_seg2_FFT.png
+  square_400Hz_400Hz_6_absolute_seg3_FFT.png
+  square_400Hz_400Hz_7_absolute_seg1_FFT.png
+  square_400Hz_400Hz_7_absolute_seg2_FFT.png
+  square_400Hz_400Hz_7_absolute_seg3_FFT.png
+  square_400Hz_absolute_seg1_FFT.png
+  square_400Hz_absolute_seg2_FFT.png
+  square_400Hz_absolute_seg3_FFT.png
+Done. 45 results saved to MSEC/training_fft/results/square.json
+=== LLaVA evaluation complete ===

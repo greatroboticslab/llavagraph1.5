@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=llama-class
 #SBATCH --partition=GPU-shared
-#SBATCH --gres=gpu:h100-80:1
+#SBATCH --gres=gpu:v100-32:1
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=5
@@ -16,7 +16,7 @@ cd /ocean/projects/cis240145p/byler/ben/llavagraph1.5
 source /jet/home/byler/miniconda3/etc/profile.d/conda.sh
 conda activate llava_infer
 
-LLAMA_MODEL="models_setup/Llama-3.2-3B-Instruct"
+LLAMA_MODEL="models_setup/Llama-3.1-8B-Instruct"
 RESULTDIR="MSEC/training_fft/results"
 
 echo "=== Classifying noise ==="

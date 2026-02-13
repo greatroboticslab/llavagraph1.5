@@ -1,0 +1,87 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:52<00:52, 52.31s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:24<00:00, 40.29s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:24<00:00, 42.09s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Traceback (most recent call last):
+  File "/ocean/projects/cis240145p/byler/ben/llavagraph1.5/MSEC/training_fft/categorizeLLAMA_FFT.py", line 145, in <module>
+    main(args)
+  File "/ocean/projects/cis240145p/byler/ben/llavagraph1.5/MSEC/training_fft/categorizeLLAMA_FFT.py", line 104, in main
+    outputs = pipe(messages, max_new_tokens=200, do_sample=False)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 219, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1143, in __call__
+    outputs = list(final_iterator)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 19, in __getitem__
+    processed = self.process(item, **self.params)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 233, in preprocess
+    prefix + prompt_text,
+TypeError: can only concatenate str (not "dict") to str
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.01s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.22s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.34s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Traceback (most recent call last):
+  File "/ocean/projects/cis240145p/byler/ben/llavagraph1.5/MSEC/training_fft/categorizeLLAMA_FFT.py", line 145, in <module>
+    main(args)
+  File "/ocean/projects/cis240145p/byler/ben/llavagraph1.5/MSEC/training_fft/categorizeLLAMA_FFT.py", line 104, in main
+    outputs = pipe(messages, max_new_tokens=200, do_sample=False)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 219, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1143, in __call__
+    outputs = list(final_iterator)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 19, in __getitem__
+    processed = self.process(item, **self.params)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 233, in preprocess
+    prefix + prompt_text,
+TypeError: can only concatenate str (not "dict") to str
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.68s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.62s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.78s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Traceback (most recent call last):
+  File "/ocean/projects/cis240145p/byler/ben/llavagraph1.5/MSEC/training_fft/categorizeLLAMA_FFT.py", line 145, in <module>
+    main(args)
+  File "/ocean/projects/cis240145p/byler/ben/llavagraph1.5/MSEC/training_fft/categorizeLLAMA_FFT.py", line 104, in main
+    outputs = pipe(messages, max_new_tokens=200, do_sample=False)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 219, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1143, in __call__
+    outputs = list(final_iterator)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 19, in __getitem__
+    processed = self.process(item, **self.params)
+  File "/jet/home/byler/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 233, in preprocess
+    prefix + prompt_text,
+TypeError: can only concatenate str (not "dict") to str
+Traceback (most recent call last):
+  File "<string>", line 6, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'MSEC/training_fft/results/noise_classified.json'

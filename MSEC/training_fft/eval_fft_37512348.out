@@ -1,0 +1,139 @@
+=== Evaluating noise ===
+Loading LLaVA from base model...
+Loading additional LLaVA weights...
+Loading LoRA weights...
+Merging LoRA weights...
+Model is loaded...
+Evaluating 24 images from MSEC/training_fft/test/noise
+  noise_10_Run2_1_absolute_seg1_FFT.png
+  noise_10_Run2_1_absolute_seg2_FFT.png
+  noise_10_Run2_1_absolute_seg3_FFT.png
+  noise_12_Run1_1_absolute_seg1_FFT.png
+  noise_12_Run1_1_absolute_seg2_FFT.png
+  noise_12_Run1_1_absolute_seg3_FFT.png
+  noise_12_Run2_1_absolute_seg1_FFT.png
+  noise_12_Run2_1_absolute_seg2_FFT.png
+  noise_12_Run2_1_absolute_seg3_FFT.png
+  noise_12_Run3_1_absolute_seg1_FFT.png
+  noise_12_Run3_1_absolute_seg2_FFT.png
+  noise_12_Run3_1_absolute_seg3_FFT.png
+  noise_14_Run3_1_absolute_seg1_FFT.png
+  noise_14_Run3_1_absolute_seg2_FFT.png
+  noise_14_Run3_1_absolute_seg3_FFT.png
+  noise_1_Run1_1_absolute_seg1_FFT.png
+  noise_1_Run1_1_absolute_seg2_FFT.png
+  noise_1_Run1_1_absolute_seg3_FFT.png
+  noise_1_Run3_1_absolute_seg1_FFT.png
+  noise_1_Run3_1_absolute_seg2_FFT.png
+  noise_1_Run3_1_absolute_seg3_FFT.png
+  noise_Run2_absolute_seg1_FFT.png
+  noise_Run2_absolute_seg2_FFT.png
+  noise_Run2_absolute_seg3_FFT.png
+Done. 24 results saved to MSEC/training_fft/results/noise.json
+=== Evaluating sine ===
+Loading LLaVA from base model...
+Loading additional LLaVA weights...
+Loading LoRA weights...
+Merging LoRA weights...
+Model is loaded...
+Evaluating 45 images from MSEC/training_fft/test/sine
+  sine_100Hz_100Hz_10_absolute_seg1_FFT.png
+  sine_100Hz_100Hz_10_absolute_seg2_FFT.png
+  sine_100Hz_100Hz_10_absolute_seg3_FFT.png
+  sine_100Hz_100Hz_11_absolute_seg1_FFT.png
+  sine_100Hz_100Hz_11_absolute_seg2_FFT.png
+  sine_100Hz_100Hz_11_absolute_seg3_FFT.png
+  sine_100Hz_100Hz_7_absolute_seg1_FFT.png
+  sine_100Hz_100Hz_7_absolute_seg2_FFT.png
+  sine_100Hz_100Hz_7_absolute_seg3_FFT.png
+  sine_1Hx_absolute_seg1_FFT.png
+  sine_1Hx_absolute_seg2_FFT.png
+  sine_1Hx_absolute_seg3_FFT.png
+  sine_1Hz_1Hz_10_absolute_seg1_FFT.png
+  sine_1Hz_1Hz_10_absolute_seg2_FFT.png
+  sine_1Hz_1Hz_10_absolute_seg3_FFT.png
+  sine_1Hz_absolute_seg1_FFT.png
+  sine_1Hz_absolute_seg2_FFT.png
+  sine_1Hz_absolute_seg3_FFT.png
+  sine_200Hz_200Hz_10_absolute_seg1_FFT.png
+  sine_200Hz_200Hz_10_absolute_seg2_FFT.png
+  sine_200Hz_200Hz_10_absolute_seg3_FFT.png
+  sine_200Hz_200Hz_2_absolute_seg1_FFT.png
+  sine_200Hz_200Hz_2_absolute_seg2_FFT.png
+  sine_200Hz_200Hz_2_absolute_seg3_FFT.png
+  sine_200Hz_200Hz_7_absolute_seg1_FFT.png
+  sine_200Hz_200Hz_7_absolute_seg2_FFT.png
+  sine_200Hz_200Hz_7_absolute_seg3_FFT.png
+  sine_300Hz_300Hz_11_absolute_seg1_FFT.png
+  sine_300Hz_300Hz_11_absolute_seg2_FFT.png
+  sine_300Hz_300Hz_11_absolute_seg3_FFT.png
+  sine_300Hz_300Hz_2_absolute_seg1_FFT.png
+  sine_300Hz_300Hz_2_absolute_seg2_FFT.png
+  sine_300Hz_300Hz_2_absolute_seg3_FFT.png
+  sine_300Hz_300Hz_3_absolute_seg1_FFT.png
+  sine_300Hz_300Hz_3_absolute_seg2_FFT.png
+  sine_300Hz_300Hz_3_absolute_seg3_FFT.png
+  sine_400Hz_400Hz_1_absolute_seg1_FFT.png
+  sine_400Hz_400Hz_1_absolute_seg2_FFT.png
+  sine_400Hz_400Hz_1_absolute_seg3_FFT.png
+  sine_400Hz_400Hz_5_absolute_seg1_FFT.png
+  sine_400Hz_400Hz_5_absolute_seg2_FFT.png
+  sine_400Hz_400Hz_5_absolute_seg3_FFT.png
+  sine_400Hz_400Hz_7_absolute_seg1_FFT.png
+  sine_400Hz_400Hz_7_absolute_seg2_FFT.png
+  sine_400Hz_400Hz_7_absolute_seg3_FFT.png
+Done. 45 results saved to MSEC/training_fft/results/sine.json
+=== Evaluating square ===
+Loading LLaVA from base model...
+Loading additional LLaVA weights...
+Loading LoRA weights...
+Merging LoRA weights...
+Model is loaded...
+Evaluating 45 images from MSEC/training_fft/test/square
+  square_100Hz_100Hz_10_absolute_seg1_FFT.png
+  square_100Hz_100Hz_10_absolute_seg2_FFT.png
+  square_100Hz_100Hz_10_absolute_seg3_FFT.png
+  square_100Hz_100Hz_11_absolute_seg1_FFT.png
+  square_100Hz_100Hz_11_absolute_seg2_FFT.png
+  square_100Hz_100Hz_11_absolute_seg3_FFT.png
+  square_100Hz_100Hz_7_absolute_seg1_FFT.png
+  square_100Hz_100Hz_7_absolute_seg2_FFT.png
+  square_100Hz_100Hz_7_absolute_seg3_FFT.png
+  square_1Hz_1Hz_10_absolute_seg1_FFT.png
+  square_1Hz_1Hz_10_absolute_seg2_FFT.png
+  square_1Hz_1Hz_10_absolute_seg3_FFT.png
+  square_1Hz_1Hz_11_absolute_seg1_FFT.png
+  square_1Hz_1Hz_11_absolute_seg2_FFT.png
+  square_1Hz_1Hz_11_absolute_seg3_FFT.png
+  square_1Hz_absolute_seg1_FFT.png
+  square_1Hz_absolute_seg2_FFT.png
+  square_1Hz_absolute_seg3_FFT.png
+  square_200Hz_200Hz_10_absolute_seg1_FFT.png
+  square_200Hz_200Hz_10_absolute_seg2_FFT.png
+  square_200Hz_200Hz_10_absolute_seg3_FFT.png
+  square_200Hz_200Hz_1_absolute_seg1_FFT.png
+  square_200Hz_200Hz_1_absolute_seg2_FFT.png
+  square_200Hz_200Hz_1_absolute_seg3_FFT.png
+  square_200Hz_200Hz_6_absolute_seg1_FFT.png
+  square_200Hz_200Hz_6_absolute_seg2_FFT.png
+  square_200Hz_200Hz_6_absolute_seg3_FFT.png
+  square_300Hz_300Hz_11_absolute_seg1_FFT.png
+  square_300Hz_300Hz_11_absolute_seg2_FFT.png
+  square_300Hz_300Hz_11_absolute_seg3_FFT.png
+  square_300Hz_300Hz_2_absolute_seg1_FFT.png
+  square_300Hz_300Hz_2_absolute_seg2_FFT.png
+  square_300Hz_300Hz_2_absolute_seg3_FFT.png
+  square_300Hz_300Hz_9_absolute_seg1_FFT.png
+  square_300Hz_300Hz_9_absolute_seg2_FFT.png
+  square_300Hz_300Hz_9_absolute_seg3_FFT.png
+  square_400Hz_400Hz_6_absolute_seg1_FFT.png
+  square_400Hz_400Hz_6_absolute_seg2_FFT.png
+  square_400Hz_400Hz_6_absolute_seg3_FFT.png
+  square_400Hz_400Hz_7_absolute_seg1_FFT.png
+  square_400Hz_400Hz_7_absolute_seg2_FFT.png
+  square_400Hz_400Hz_7_absolute_seg3_FFT.png
+  square_400Hz_absolute_seg1_FFT.png
+  square_400Hz_absolute_seg2_FFT.png
+  square_400Hz_absolute_seg3_FFT.png
+Done. 45 results saved to MSEC/training_fft/results/square.json
+=== LLaVA evaluation complete ===
