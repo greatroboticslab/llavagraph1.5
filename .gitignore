@@ -12,3 +12,6 @@ llava.egg-info/
 models_setup/Llama-*/
 models_setup/Qwen*/
 models_setup/llava-v1.5-7b/
+*.out
+*.err
+*.log
