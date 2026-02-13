@@ -10,4 +10,5 @@ llava.egg-info/
 .DS_Store
 **/.DS_Store
 models_setup/Llama-*/
+models_setup/Qwen*/
 models_setup/llava-v1.5-7b/

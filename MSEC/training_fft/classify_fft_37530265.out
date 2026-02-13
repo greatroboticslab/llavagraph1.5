@@ -1,0 +1,135 @@
+=== Classifying noise ===
+Loading LLaMA model from models_setup/Qwen2.5-7B-Instruct...
+  noise_10_run2_1_absolute_seg1_fft.p | GT: noise  | Pred: noise  | OK
+  noise_10_run2_1_absolute_seg2_fft.p | GT: noise  | Pred: noise  | OK
+  noise_10_run2_1_absolute_seg3_fft.p | GT: noise  | Pred: noise  | OK
+  noise_12_run1_1_absolute_seg1_fft.p | GT: noise  | Pred: noise  | OK
+  noise_12_run1_1_absolute_seg2_fft.p | GT: noise  | Pred: noise  | OK
+  noise_12_run1_1_absolute_seg3_fft.p | GT: noise  | Pred: noise  | OK
+  noise_12_run2_1_absolute_seg1_fft.p | GT: noise  | Pred: noise  | OK
+  noise_12_run2_1_absolute_seg2_fft.p | GT: noise  | Pred: noise  | OK
+  noise_12_run2_1_absolute_seg3_fft.p | GT: noise  | Pred: noise  | OK
+  noise_12_run3_1_absolute_seg1_fft.p | GT: noise  | Pred: noise  | OK
+  noise_12_run3_1_absolute_seg2_fft.p | GT: noise  | Pred: noise  | OK
+  noise_12_run3_1_absolute_seg3_fft.p | GT: noise  | Pred: noise  | OK
+  noise_14_run3_1_absolute_seg1_fft.p | GT: noise  | Pred: noise  | OK
+  noise_14_run3_1_absolute_seg2_fft.p | GT: noise  | Pred: noise  | OK
+  noise_14_run3_1_absolute_seg3_fft.p | GT: noise  | Pred: noise  | OK
+  noise_1_run1_1_absolute_seg1_fft.pn | GT: noise  | Pred: noise  | OK
+  noise_1_run1_1_absolute_seg2_fft.pn | GT: noise  | Pred: noise  | OK
+  noise_1_run1_1_absolute_seg3_fft.pn | GT: noise  | Pred: noise  | OK
+  noise_1_run3_1_absolute_seg1_fft.pn | GT: noise  | Pred: noise  | OK
+  noise_1_run3_1_absolute_seg2_fft.pn | GT: noise  | Pred: noise  | OK
+  noise_1_run3_1_absolute_seg3_fft.pn | GT: noise  | Pred: noise  | OK
+  noise_run2_absolute_seg1_fft.png    | GT: noise  | Pred: noise  | OK
+  noise_run2_absolute_seg2_fft.png    | GT: noise  | Pred: noise  | OK
+  noise_run2_absolute_seg3_fft.png    | GT: noise  | Pred: noise  | OK
+
+Accuracy: 24/24 = 100.0%
+Saved to MSEC/training_fft/results/noise_classified.json
+=== Classifying sine ===
+Loading LLaMA model from models_setup/Qwen2.5-7B-Instruct...
+  sine_100hz_100hz_10_absolute_seg1_f | GT: sine   | Pred: square | WRONG
+  sine_100hz_100hz_10_absolute_seg2_f | GT: sine   | Pred: square | WRONG
+  sine_100hz_100hz_10_absolute_seg3_f | GT: sine   | Pred: square | WRONG
+  sine_100hz_100hz_11_absolute_seg1_f | GT: sine   | Pred: square | WRONG
+  sine_100hz_100hz_11_absolute_seg2_f | GT: sine   | Pred: square | WRONG
+  sine_100hz_100hz_11_absolute_seg3_f | GT: sine   | Pred: square | WRONG
+  sine_100hz_100hz_7_absolute_seg1_ff | GT: sine   | Pred: square | WRONG
+  sine_100hz_100hz_7_absolute_seg2_ff | GT: sine   | Pred: square | WRONG
+  sine_100hz_100hz_7_absolute_seg3_ff | GT: sine   | Pred: square | WRONG
+  sine_1hx_absolute_seg1_fft.png      | GT: sine   | Pred: square | WRONG
+  sine_1hx_absolute_seg2_fft.png      | GT: sine   | Pred: square | WRONG
+  sine_1hx_absolute_seg3_fft.png      | GT: sine   | Pred: square | WRONG
+  sine_1hz_1hz_10_absolute_seg1_fft.p | GT: sine   | Pred: square | WRONG
+  sine_1hz_1hz_10_absolute_seg2_fft.p | GT: sine   | Pred: square | WRONG
+  sine_1hz_1hz_10_absolute_seg3_fft.p | GT: sine   | Pred: square | WRONG
+  sine_1hz_absolute_seg1_fft.png      | GT: sine   | Pred: square | WRONG
+  sine_1hz_absolute_seg2_fft.png      | GT: sine   | Pred: square | WRONG
+  sine_1hz_absolute_seg3_fft.png      | GT: sine   | Pred: square | WRONG
+  sine_200hz_200hz_10_absolute_seg1_f | GT: sine   | Pred: square | WRONG
+  sine_200hz_200hz_10_absolute_seg2_f | GT: sine   | Pred: square | WRONG
+  sine_200hz_200hz_10_absolute_seg3_f | GT: sine   | Pred: square | WRONG
+  sine_200hz_200hz_2_absolute_seg1_ff | GT: sine   | Pred: square | WRONG
+  sine_200hz_200hz_2_absolute_seg2_ff | GT: sine   | Pred: square | WRONG
+  sine_200hz_200hz_2_absolute_seg3_ff | GT: sine   | Pred: square | WRONG
+  sine_200hz_200hz_7_absolute_seg1_ff | GT: sine   | Pred: square | WRONG
+  sine_200hz_200hz_7_absolute_seg2_ff | GT: sine   | Pred: square | WRONG
+  sine_200hz_200hz_7_absolute_seg3_ff | GT: sine   | Pred: square | WRONG
+  sine_300hz_300hz_11_absolute_seg1_f | GT: sine   | Pred: square | WRONG
+  sine_300hz_300hz_11_absolute_seg2_f | GT: sine   | Pred: square | WRONG
+  sine_300hz_300hz_11_absolute_seg3_f | GT: sine   | Pred: square | WRONG
+  sine_300hz_300hz_2_absolute_seg1_ff | GT: sine   | Pred: square | WRONG
+  sine_300hz_300hz_2_absolute_seg2_ff | GT: sine   | Pred: square | WRONG
+  sine_300hz_300hz_2_absolute_seg3_ff | GT: sine   | Pred: square | WRONG
+  sine_300hz_300hz_3_absolute_seg1_ff | GT: sine   | Pred: square | WRONG
+  sine_300hz_300hz_3_absolute_seg2_ff | GT: sine   | Pred: square | WRONG
+  sine_300hz_300hz_3_absolute_seg3_ff | GT: sine   | Pred: square | WRONG
+  sine_400hz_400hz_1_absolute_seg1_ff | GT: sine   | Pred: square | WRONG
+  sine_400hz_400hz_1_absolute_seg2_ff | GT: sine   | Pred: square | WRONG
+  sine_400hz_400hz_1_absolute_seg3_ff | GT: sine   | Pred: square | WRONG
+  sine_400hz_400hz_5_absolute_seg1_ff | GT: sine   | Pred: square | WRONG
+  sine_400hz_400hz_5_absolute_seg2_ff | GT: sine   | Pred: square | WRONG
+  sine_400hz_400hz_5_absolute_seg3_ff | GT: sine   | Pred: square | WRONG
+  sine_400hz_400hz_7_absolute_seg1_ff | GT: sine   | Pred: square | WRONG
+  sine_400hz_400hz_7_absolute_seg2_ff | GT: sine   | Pred: square | WRONG
+  sine_400hz_400hz_7_absolute_seg3_ff | GT: sine   | Pred: square | WRONG
+
+Accuracy: 0/45 = 0.0%
+Saved to MSEC/training_fft/results/sine_classified.json
+=== Classifying square ===
+Loading LLaMA model from models_setup/Qwen2.5-7B-Instruct...
+  square_100hz_100hz_10_absolute_seg1 | GT: square | Pred: square | OK
+  square_100hz_100hz_10_absolute_seg2 | GT: square | Pred: square | OK
+  square_100hz_100hz_10_absolute_seg3 | GT: square | Pred: square | OK
+  square_100hz_100hz_11_absolute_seg1 | GT: square | Pred: square | OK
+  square_100hz_100hz_11_absolute_seg2 | GT: square | Pred: square | OK
+  square_100hz_100hz_11_absolute_seg3 | GT: square | Pred: square | OK
+  square_100hz_100hz_7_absolute_seg1_ | GT: square | Pred: square | OK
+  square_100hz_100hz_7_absolute_seg2_ | GT: square | Pred: square | OK
+  square_100hz_100hz_7_absolute_seg3_ | GT: square | Pred: square | OK
+  square_1hz_1hz_10_absolute_seg1_fft | GT: square | Pred: square | OK
+  square_1hz_1hz_10_absolute_seg2_fft | GT: square | Pred: square | OK
+  square_1hz_1hz_10_absolute_seg3_fft | GT: square | Pred: square | OK
+  square_1hz_1hz_11_absolute_seg1_fft | GT: square | Pred: square | OK
+  square_1hz_1hz_11_absolute_seg2_fft | GT: square | Pred: square | OK
+  square_1hz_1hz_11_absolute_seg3_fft | GT: square | Pred: square | OK
+  square_1hz_absolute_seg1_fft.png    | GT: square | Pred: square | OK
+  square_1hz_absolute_seg2_fft.png    | GT: square | Pred: square | OK
+  square_1hz_absolute_seg3_fft.png    | GT: square | Pred: square | OK
+  square_200hz_200hz_10_absolute_seg1 | GT: square | Pred: square | OK
+  square_200hz_200hz_10_absolute_seg2 | GT: square | Pred: square | OK
+  square_200hz_200hz_10_absolute_seg3 | GT: square | Pred: square | OK
+  square_200hz_200hz_1_absolute_seg1_ | GT: square | Pred: square | OK
+  square_200hz_200hz_1_absolute_seg2_ | GT: square | Pred: square | OK
+  square_200hz_200hz_1_absolute_seg3_ | GT: square | Pred: square | OK
+  square_200hz_200hz_6_absolute_seg1_ | GT: square | Pred: square | OK
+  square_200hz_200hz_6_absolute_seg2_ | GT: square | Pred: square | OK
+  square_200hz_200hz_6_absolute_seg3_ | GT: square | Pred: square | OK
+  square_300hz_300hz_11_absolute_seg1 | GT: square | Pred: square | OK
+  square_300hz_300hz_11_absolute_seg2 | GT: square | Pred: square | OK
+  square_300hz_300hz_11_absolute_seg3 | GT: square | Pred: square | OK
+  square_300hz_300hz_2_absolute_seg1_ | GT: square | Pred: square | OK
+  square_300hz_300hz_2_absolute_seg2_ | GT: square | Pred: square | OK
+  square_300hz_300hz_2_absolute_seg3_ | GT: square | Pred: square | OK
+  square_300hz_300hz_9_absolute_seg1_ | GT: square | Pred: square | OK
+  square_300hz_300hz_9_absolute_seg2_ | GT: square | Pred: square | OK
+  square_300hz_300hz_9_absolute_seg3_ | GT: square | Pred: square | OK
+  square_400hz_400hz_6_absolute_seg1_ | GT: square | Pred: square | OK
+  square_400hz_400hz_6_absolute_seg2_ | GT: square | Pred: square | OK
+  square_400hz_400hz_6_absolute_seg3_ | GT: square | Pred: square | OK
+  square_400hz_400hz_7_absolute_seg1_ | GT: square | Pred: square | OK
+  square_400hz_400hz_7_absolute_seg2_ | GT: square | Pred: square | OK
+  square_400hz_400hz_7_absolute_seg3_ | GT: square | Pred: square | OK
+  square_400hz_absolute_seg1_fft.png  | GT: square | Pred: square | OK
+  square_400hz_absolute_seg2_fft.png  | GT: square | Pred: square | OK
+  square_400hz_absolute_seg3_fft.png  | GT: square | Pred: square | OK
+
+Accuracy: 45/45 = 100.0%
+Saved to MSEC/training_fft/results/square_classified.json
+
+=== FINAL RESULTS ===
+  noise : 24/24 = 100.0%
+  sine  : 0/45 = 0.0%
+  square: 45/45 = 100.0%
+  Overall: 69/114 = 60.5%
