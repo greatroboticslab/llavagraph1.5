@@ -114,7 +114,7 @@ def generate_fft_plot(data, time_ms, base_filename, segment_label, output_dir):
     plt.plot(freqs_no_dc, amp_no_dc, linewidth=1.5, color='#0055aa')
 
     # Generic title — strip wave type prefix for training
-    display_name = re.sub(r'^(sine|square|noise)_', '', base_filename, flags=re.IGNORECASE)
+    display_name = re.sub(r'^(sine|square|noise|pulse|ramp)[-_]', '', base_filename, flags=re.IGNORECASE)
     plt.title(f'Piezo FFT Spectrum: {display_name} ({segment_label})',
               fontsize=14, fontweight='bold')
     plt.xlabel('Frequency (Hz)', fontsize=12, fontweight='bold')
@@ -145,8 +145,8 @@ def should_include_file(filename):
     """Check if the file's input frequency is <= 500Hz."""
     fname = filename.lower()
 
-    # Noise files have no frequency — always include
-    if 'noise' in fname:
+    # Noise/pulse/ramp files have no frequency — always include
+    if any(x in fname for x in ['noise', 'pulse', 'ramp']):
         return True
 
     # Extract frequency from filename pattern like sine_100Hz_100Hz_10_absolute.csv
@@ -209,7 +209,7 @@ if __name__ == "__main__":
     parser.add_argument("--output-dir", type=str, required=True,
                         help="Directory to save FFT plot PNGs")
     parser.add_argument("--wave-type", type=str, required=True,
-                        choices=["sine", "square", "noise"],
+                        choices=["sine", "square", "noise", "pulse", "ramp"],
                         help="Wave type (used for logging only, not in plot titles)")
     args = parser.parse_args()
 

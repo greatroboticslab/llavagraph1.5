@@ -1,16 +1,15 @@
 # LLaVAGraph 1.5 - MSEC FFT Pipeline
 
 ## Project Overview
-LLaVAGraph is a multimodal framework for classifying piezoelectric actuator displacement signals (sine, square, noise) using finetuned LLaVA + LLaMA. The new work in `MSEC/` focuses on an **FFT-based approach** to improve classification accuracy over the original time-domain plots.
+LLaVAGraph is a multimodal framework for classifying piezoelectric actuator displacement signals using finetuned LLaVA + a classifier LLM. The new work in `MSEC/` focuses on an **FFT-based approach** to improve classification accuracy over the original time-domain plots.
 
-## Goal
-Optimize the pipeline to improve finetuned model accuracy by using FFT spectrum plots instead of raw displacement graphs.
+## Current Status: 91.2% overall accuracy (3 classes: noise, sine, square)
 
 ## Architecture (Two-Stage LLM Pipeline)
-1. **LLaVA** (finetuned) looks at FFT plot images and describes peak features
-2. **LLaMA 3.2 3B** reads those descriptions and classifies as noise/sine/square
+1. **LLaVA** (finetuned on FFT plots) looks at FFT spectrum images and describes peak features
+2. **Qwen2.5-14B-Instruct** reads those descriptions and classifies via a decision tree prompt
 
-## New Work: FFT Pipeline (`MSEC/training_fft/`)
+## FFT Pipeline (`MSEC/training_fft/`)
 
 ### Pipeline Steps (in order)
 1. **FFT Plot Generation** (`MSEC/data/FFT/fft_augmented_nm/generate_fft_augmented_nm.py`)
@@ -47,22 +46,33 @@ Optimize the pipeline to improve finetuned model accuracy by using FFT spectrum 
 5. **LLaVA Evaluation** (`MSEC/training_fft/evaluateLLaVA_FFT.py`, SLURM: `eval_fft.sbatch`)
    - Runs finetuned LLaVA on test images, asks same 3 questions
    - Output: `MSEC/training_fft/results/{noise,sine,square}.json`
-   - Evaluation completed successfully
 
-6. **LLaMA Classification** (`MSEC/training_fft/categorizeLLAMA_FFT.py`, SLURM: `classify_fft.sbatch`)
-   - Uses LLaMA 3.2 3B Instruct (`models_setup/Llama-3.2-3B-Instruct`)
-   - Rule-based prompt: peak < 60nm = noise, ratio < 30% = sine, >= 30% = square
+6. **LLaMA/Qwen Classification** (`MSEC/training_fft/categorizeLLAMA_FFT.py`, SLURM: `classify_fft.sbatch`)
+   - Current model: **Qwen2.5-14B-Instruct** (`models_setup/Qwen2.5-14B-Instruct`)
+   - Decision tree prompt with 3 steps:
+     - STEP 1: Peak amplitude < 60nm → noise (A)
+     - STEP 2: Gradual decay across wide frequency range → square (C)
+     - STEP 3: Ratio (second_peak / tallest_peak) < 0.30 → sine (B), >= 0.30 → square (C)
    - Output: `MSEC/training_fft/results/{noise,sine,square}_classified.json`
 
-## Current Status
-- FFT plot generation: DONE
-- Train/test split: DONE
-- Training data (Gemini): DONE
-- LLaVA finetuning: DONE (3 epochs, loss 0.75 -> 0.19)
-- LLaVA evaluation on test set: DONE (results saved)
-- LLaMA classification: FAILING - `TypeError: can only concatenate str (not "dict") to str`
-  - The `transformers` version in the `llava` conda env is too old for chat-template pipeline with message dicts
-  - Needs either: upgrade transformers, or use `tokenizer.apply_chat_template()` manually
+### Classification Results (Final: 91.2% overall)
+| Category | Accuracy |
+|----------|----------|
+| Noise    | 24/24 = 100% |
+| Sine     | 36/45 = 80% |
+| Square   | 44/45 = 97.8% |
+| **Overall** | **104/114 = 91.2%** |
+
+### Model Evolution for Stage 2 Classifier
+- **LLaMA 3.2 3B**: Failed — couldn't follow the decision tree prompt, produced freeform text
+- **Qwen2.5-7B-Instruct**: Better instruction following, but consistently misclassified all sine as square (60.5%). The 7B model couldn't execute "skip this step" branching logic — it always output Result: C at STEP 2 regardless of the condition.
+- **Qwen2.5-14B-Instruct**: Successfully follows the decision tree, achieves 91.2% overall
+
+### Key Learnings
+- Prompt restructuring alone couldn't fix the 7B model's sine misclassification — it was a model capacity issue, not a prompt issue
+- The output format section at the end of prompts can confuse smaller models into evaluating all criteria even when they should stop early
+- The decay shape check (STEP 2) is necessary for 1Hz signals where the ratio alone isn't sufficient
+- LLaMA 3.2 8B on HuggingFace is gated and requires manual approval
 
 ## Original Pipeline (for reference, `MSEC/` root level)
 - Time-domain plots with augmentation (time warp, reverse, pool)
@@ -72,8 +82,8 @@ Optimize the pipeline to improve finetuned model accuracy by using FFT spectrum 
 - `categorizeLLAMA.sh` / `categorizeLLAMA_V6.py` -> classifications in `llama_V6/`
 
 ## Environment
-- HPC: PSC Bridges-2, SLURM scheduler, GPU partition (H100-80GB)
-- Conda env: `llava` (Python 3.10, PyTorch + CUDA, DeepSpeed)
+- HPC: PSC Bridges-2, SLURM scheduler, GPU-shared partition (V100-32GB for inference)
+- Conda envs: `llava` (training, finetuning), `llava_infer` (inference with Qwen)
 - Account: `cis240145p`
 - Base LLaVA repo at: `/ocean/projects/cis240145p/byler/LLaVA/`
 - Project dir: `/ocean/projects/cis240145p/byler/ben/llavagraph1.5/`
