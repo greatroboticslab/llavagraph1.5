@@ -1,0 +1,410 @@
+[
+  {
+    "image": "noise_10_Run2_1_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 23 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 115 Hz. The amplitude drops sharply to near-zero after the tallest peak."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> Peak 1: 23 nm at 115 Hz; Peak 2: 16 nm at 230 Hz; Peak 3: 11 nm at 345 Hz."
+      }
+    ]
+  },
+  {
+    "image": "noise_10_Run2_1_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 24 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 117 Hz. The amplitude drops sharply to near-zero."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 1st peak: 24 nm at 117 Hz; 2nd peak: 16.5 nm at 234 Hz; 3rd peak: 6 nm at 350 Hz."
+      }
+    ]
+  },
+  {
+    "image": "noise_10_Run2_1_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 28 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 115 Hz. The amplitude drops sharply to near-zero."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 1st peak: 28 nm at 115 Hz; 2nd peak: 17 nm at 230 Hz; 3rd peak: 6 nm at 385 Hz."
+      }
+    ]
+  },
+  {
+    "image": "noise_12_Run1_1_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 43 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 120 Hz. The amplitude drops sharply to near-zero after the tallest peak."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 1st peak: 43 nm at 120 Hz, 2nd peak: 12 nm at 240 Hz, 3rd peak: 8 nm at 360 Hz"
+      }
+    ]
+  },
+  {
+    "image": "noise_12_Run1_1_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 43 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 120 Hz. The amplitude drops sharply to near-zero."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 43 nm at 120 Hz, 18 nm at 240 Hz, 9 nm at 360 Hz"
+      }
+    ]
+  },
+  {
+    "image": "noise_12_Run1_1_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 49 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 120 Hz. The amplitude drops sharply to near-zero after the tallest peak."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 1st peak: 49 nm at 120 Hz, 2nd peak: 10 nm at 240 Hz, 3rd peak: 8 nm at 360 Hz."
+      }
+    ]
+  },
+  {
+    "image": "noise_12_Run2_1_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> Approximately 50 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s>  Approximately 120 Hz. The amplitude drops sharply to near-zero after the tallest peak."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s>  Peak 1: Amplitude ~50 nm, Frequency ~120 Hz; Peak 2: Amplitude ~12 nm, Frequency ~230 Hz; Peak 3: Amplitude ~9 nm, Frequency ~360 Hz."
+      }
+    ]
+  },
+  {
+    "image": "noise_12_Run2_1_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 42 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 120 Hz. The amplitude drops sharply to near-zero."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 1st peak: 42 nm at 120 Hz; 2nd peak: 12 nm at 240 Hz; 3rd peak: 8 nm at 360 Hz."
+      }
+    ]
+  },
+  {
+    "image": "noise_12_Run2_1_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 36 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 120 Hz. The amplitude drops sharply to near-zero after the tallest peak."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 1st peak: 36 nm at 120 Hz; 2nd peak: 19 nm at 240 Hz; 3rd peak: 6 nm at 360 Hz."
+      }
+    ]
+  },
+  {
+    "image": "noise_12_Run3_1_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 30 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 117 Hz. The amplitude drops sharply to near-zero after the tallest peak."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 1) 30 nm at 117 Hz; 2) 17 nm at 234 Hz; 3) 6 nm at 389 Hz"
+      }
+    ]
+  },
+  {
+    "image": "noise_12_Run3_1_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 43 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 120 Hz. The amplitude drops sharply to near-zero after the tallest peak."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 1st peak: 43 nm at 120 Hz; 2nd peak: 13 nm at 240 Hz; 3rd peak: 8 nm at 360 Hz."
+      }
+    ]
+  },
+  {
+    "image": "noise_12_Run3_1_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 58 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 120 Hz. The amplitude drops sharply to near-zero after the tallest peak."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> Peak 1: 58 nm at 120 Hz, Peak 2: 14 nm at 360 Hz, Peak 3: 9 nm at 230 Hz"
+      }
+    ]
+  },
+  {
+    "image": "noise_14_Run3_1_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 50 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 120 Hz. The amplitude drops sharply to near-zero."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 1st peak: 50 nm at 120 Hz; 2nd peak: 12 nm at 360 Hz; 3rd peak: 9 nm at 240 Hz."
+      }
+    ]
+  },
+  {
+    "image": "noise_14_Run3_1_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 48 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 115 Hz. The amplitude drops sharply to near-zero after the tallest peak."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> *   Peak 1: Amplitude = 48 nm, Frequency = 115 Hz\n*   Peak 2: Amplitude = 12 nm, Frequency = 230 Hz\n*   Peak 3: Amplitude = 8 nm, Frequency = 365 Hz"
+      }
+    ]
+  },
+  {
+    "image": "noise_14_Run3_1_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 43 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 120 Hz. The amplitude drops sharply to near-zero after the tallest peak."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 43 nm at 120 Hz, 13 nm at 240 Hz, 8 nm at 360 Hz"
+      }
+    ]
+  },
+  {
+    "image": "noise_1_Run1_1_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 27 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 115 Hz. The amplitude drops sharply to near-zero."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> Peak 1: 27 nm at 115 Hz; Peak 2: 17 nm at 230 Hz; Peak 3: 10 nm at 345 Hz."
+      }
+    ]
+  },
+  {
+    "image": "noise_1_Run1_1_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 30 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 120 Hz. The amplitude drops sharply to near-zero."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 1st peak: 30 nm at 120 Hz; 2nd peak: 18 nm at 240 Hz; 3rd peak: 9 nm at 360 Hz."
+      }
+    ]
+  },
+  {
+    "image": "noise_1_Run1_1_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 23 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 120 Hz. The amplitude drops sharply to near-zero."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 1st peak: 23 nm at 120 Hz; 2nd peak: 16 nm at 240 Hz; 3rd peak: 11 nm at 360 Hz."
+      }
+    ]
+  },
+  {
+    "image": "noise_1_Run3_1_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 1.3 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 115 Hz. The amplitude drops sharply to near-zero."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 1. 1.3 nm at 115 Hz, 2. 0.85 nm at 230 Hz, 3. 0.6 nm at 345 Hz"
+      }
+    ]
+  },
+  {
+    "image": "noise_1_Run3_1_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 14.2 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 115 Hz. The amplitude drops sharply to near-zero."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 14.2 nm at 115 Hz, 10.5 nm at 230 Hz, 9.0 nm at 385 Hz"
+      }
+    ]
+  },
+  {
+    "image": "noise_1_Run3_1_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 13.5 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 115 Hz. The amplitude drops sharply to near-zero after the tallest peak."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 1st peak: 13.5 nm at 115 Hz; 2nd peak: 9.5 nm at 230 Hz; 3rd peak: 7.5 nm at 345 Hz."
+      }
+    ]
+  },
+  {
+    "image": "noise_Run2_absolute_seg1_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 58 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 120 Hz. The amplitude drops sharply to near-zero."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 1st peak: 58 nm at 120 Hz; 2nd peak: 14 nm at 360 Hz; 3rd peak: 10 nm at 240 Hz."
+      }
+    ]
+  },
+  {
+    "image": "noise_Run2_absolute_seg2_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 52 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 120 Hz. The amplitude drops sharply to near-zero."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 1st: 52 nm at 120 Hz, 2nd: 13 nm at 360 Hz, 3rd: 8 nm at 240 Hz"
+      }
+    ]
+  },
+  {
+    "image": "noise_Run2_absolute_seg3_FFT.png",
+    "conversation": [
+      {
+        "question": "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
+        "answer": "<s> 50 nm"
+      },
+      {
+        "question": "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
+        "answer": "<s> 120 Hz. The amplitude drops sharply to near-zero after the tallest peak."
+      },
+      {
+        "question": "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?",
+        "answer": "<s> 1st peak: 50 nm at 120 Hz; 2nd peak: 13 nm at 240 Hz; 3rd peak: 9 nm at 360 Hz."
+      }
+    ]
+  }
+]
