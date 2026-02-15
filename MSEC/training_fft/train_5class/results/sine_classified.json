@@ -1,0 +1,322 @@
+{
+  "accuracy": 80.0,
+  "total": 45,
+  "correct": 36,
+  "results": [
+    {
+      "image": "sine_100Hz_100Hz_10_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 122 nm. Is 122 > 250? No. Is 122 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 122 nm at 100 Hz\n  Peak 2: 22 nm at 110 Hz\n  Peak 3: 10 nm at 380 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 122 \u2265 5? Yes \u2192 keep\n  Peak 2: 22 \u2265 5? Yes \u2192 keep\n  Peak 3: 10 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 4.\n\nSort kept peaks by frequency (lowest first): f_low = 100 Hz, f_mid = 110 Hz, f_high = 380 Hz.\nspacing1 = f_mid \u2212 f_low = 110 - 100 = 10 Hz\nspacing2 = f_high \u2212 f_mid = 380 - 110 = 270 Hz\ndifference = |spacing1 \u2212 spacing2| = |10 - 270| = 260 Hz\nmax_spacing = max(spacing1, spacing2) = 270 Hz\nratio = difference / max_spacing = 260 / 270 \u2248 0.963\n\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 10 nm (0 if not reported).\nIs 10 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_100Hz_100Hz_10_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 125 nm. Is 125 > 250? No. Is 125 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 125 nm at 100 Hz\n  Peak 2: 19 nm at 112 Hz\n  Peak 3: 8 nm at 487 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 125 \u2265 5? Yes \u2192 keep\n  Peak 2: 19 \u2265 5? Yes \u2192 keep\n  Peak 3: 8 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): 100 Hz, 112 Hz, 487 Hz.\n  spacing1 = f_mid \u2212 f_low = 112 - 100 = 12 Hz\n  spacing2 = f_high \u2212 f_mid = 487 - 112 = 375 Hz\n  difference = |spacing1 \u2212 spacing2| = |12 - 375| = 363 Hz\n  max_spacing = max(spacing1, spacing2) = 375 Hz\n  ratio = difference / max_spacing = 363 / 375 \u2248 0.968\n\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 8 nm (0 if not reported).\nIs 8 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_100Hz_100Hz_10_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 123 nm. Is 123 > 250? No. Is 123 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 123 nm at 100 Hz\n  Peak 2: 20 nm at 110 Hz\n  Peak 3: 8 nm at 380 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 123 \u2265 5? Yes \u2192 keep\n  Peak 2: 20 \u2265 5? Yes \u2192 keep\n  Peak 3: 8 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): 100 Hz, 110 Hz, 380 Hz.\n  spacing1 = f_mid \u2212 f_low = 110 - 100 = 10 Hz\n  spacing2 = f_high \u2212 f_mid = 380 - 110 = 270 Hz\n  difference = |spacing1 \u2212 spacing2| = |10 - 270| = 260 Hz\n  max_spacing = max(spacing1, spacing2) = 270 Hz\n  ratio = difference / max_spacing = 260 / 270 \u2248 0.963\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 8 nm (0 if not reported).\nIs 8 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_100Hz_100Hz_11_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 122 nm. Is 122 > 250? No. Is 122 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 122 nm at 100 Hz\n  Peak 2: 30 nm at 112 Hz\n  Peak 3: 10 nm at 200 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 122 \u2265 5? Yes \u2192 keep\n  Peak 2: 30 \u2265 5? Yes \u2192 keep\n  Peak 3: 10 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): f_low = 100 Hz, f_mid = 112 Hz, f_high = 200 Hz.\n  spacing1 = f_mid \u2212 f_low = 112 - 100 = 12 Hz\n  spacing2 = f_high \u2212 f_mid = 200 - 112 = 88 Hz\n  difference = |spacing1 \u2212 spacing2| = |12 - 88| = 76 Hz\n  max_spacing = max(spacing1, spacing2) = 88 Hz\n  ratio = difference / max_spacing = 76 / 88 \u2248 0.86\n\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 10 nm (0 if not reported).\nIs 10 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_100Hz_100Hz_11_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 122 nm. Is 122 > 250? No. Is 122 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 122 nm at 100 Hz\n  Peak 2: 32 nm at 112 Hz\n  Peak 3: 10 nm at 225 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 122 \u2265 5? Yes \u2192 keep\n  Peak 2: 32 \u2265 5? Yes \u2192 keep\n  Peak 3: 10 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): 100 Hz, 112 Hz, 225 Hz.\n  spacing1 = f_mid \u2212 f_low = 112 - 100 = 12 Hz\n  spacing2 = f_high \u2212 f_mid = 225 - 112 = 113 Hz\n  difference = |spacing1 \u2212 spacing2| = |12 - 113| = 101 Hz\n  max_spacing = max(12, 113) = 113 Hz\n  ratio = difference / max_spacing = 101 / 113 \u2248 0.89\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 10 nm (0 if not reported).\nIs 10 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_100Hz_100Hz_11_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 122 nm. Is 122 > 250? No. Is 122 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 122 nm at 100 Hz\n  Peak 2: 40 nm at 112 Hz\n  Peak 3: 10 nm at 387 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 122 \u2265 5? Yes \u2192 keep\n  Peak 2: 40 \u2265 5? Yes \u2192 keep\n  Peak 3: 10 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): 100 Hz, 112 Hz, 387 Hz.\n  spacing1 = f_mid \u2212 f_low = 112 - 100 = 12 Hz\n  spacing2 = f_high \u2212 f_mid = 387 - 112 = 275 Hz\n  difference = |spacing1 \u2212 spacing2| = |12 - 275| = 263 Hz\n  max_spacing = max(spacing1, spacing2) = 275 Hz\n  ratio = difference / max_spacing = 263 / 275 \u2248 0.956\n\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 10 nm (0 if not reported).\nIs 10 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_100Hz_100Hz_7_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 122 nm. Is 122 > 250? No. Is 122 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 122 nm at 100 Hz\n  Peak 2: 22 nm at 110 Hz\n  Peak 3: 10 nm at 380 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 122 \u2265 5? Yes \u2192 keep\n  Peak 2: 22 \u2265 5? Yes \u2192 keep\n  Peak 3: 10 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 4.\n\nSort kept peaks by frequency (lowest first): 100 Hz, 110 Hz, 380 Hz.\n  spacing1 = f_mid \u2212 f_low = 110 Hz \u2212 100 Hz = 10 Hz\n  spacing2 = f_high \u2212 f_mid = 380 Hz \u2212 110 Hz = 270 Hz\n  difference = |spacing1 \u2212 spacing2| = |10 Hz \u2212 270 Hz| = 260 Hz\n  max_spacing = max(10 Hz, 270 Hz) = 270 Hz\n  ratio = difference / max_spacing = 260 Hz / 270 Hz \u2248 0.963\n\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 10 nm (0 if not reported).\nIs 10 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_100Hz_100Hz_7_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 124 nm. Is 124 > 250? No. Is 124 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 124 nm at 100 Hz\n  Peak 2: 22 nm at 112 Hz\n  Peak 3: 9 nm at 387 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 124 \u2265 5? Yes \u2192 keep\n  Peak 2: 22 \u2265 5? Yes \u2192 keep\n  Peak 3: 9 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): 100 Hz, 112 Hz, 387 Hz.\n  spacing1 = f_mid \u2212 f_low = 112 - 100 = 12 Hz\n  spacing2 = f_high \u2212 f_mid = 387 - 112 = 275 Hz\n  difference = |spacing1 \u2212 spacing2| = |12 - 275| = 263 Hz\n  max_spacing = max(spacing1, spacing2) = 275 Hz\n  ratio = difference / max_spacing = 263 / 275 \u2248 0.956\n\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 9 nm (0 if not reported).\nIs 9 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_100Hz_100Hz_7_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 123 nm. Is 123 > 250? No. Is 123 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 123 nm at 100 Hz\n  Peak 2: 23 nm at 110 Hz\n  Peak 3: 10 nm at 380 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 123 \u2265 5? Yes \u2192 keep\n  Peak 2: 23 \u2265 5? Yes \u2192 keep\n  Peak 3: 10 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 4.\n\nSort kept peaks by frequency (lowest first): 100 Hz, 110 Hz, 380 Hz.\n  spacing1 = f_mid \u2212 f_low = 110 - 100 = 10 Hz\n  spacing2 = f_high \u2212 f_mid = 380 - 110 = 270 Hz\n  difference = |spacing1 \u2212 spacing2| = |10 - 270| = 260 Hz\n  max_spacing = max(spacing1, spacing2) = 270 Hz\n  ratio = difference / max_spacing = 260 / 270 \u2248 0.963\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 10 nm (0 if not reported).\nIs 10 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_1Hx_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "ramp",
+      "is_correct": false,
+      "reasoning": "amplitude = 202 nm. Is 202 > 250? No. Is 202 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 202 nm at 1 Hz\n  Peak 2: 22 nm at 3 Hz\n  Peak 3: 9 nm at 5 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 202 \u2265 5? Yes \u2192 keep\n  Peak 2: 22 \u2265 5? Yes \u2192 keep\n  Peak 3: 9 \u2265 5? Yes \u2192 keep\nCount the kept peaks. There are 3 peaks \u2192 go to STEP 4.\n\nSort kept peaks by frequency (lowest first): f_low = 1 Hz, f_mid = 3 Hz, f_high = 5 Hz.\nspacing1 = f_mid \u2212 f_low = 3 - 1 = 2 Hz\nspacing2 = f_high \u2212 f_mid = 5 - 3 = 2 Hz\ndifference = |spacing1 \u2212 spacing2| = |2 - 2| = 0 Hz\nmax_spacing = max(2, 2) = 2 Hz\nratio = difference / max_spacing = 0 / 2 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 22 / 202 \u2248 0.1089\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "sine_1Hx_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 185 nm. Is 185 > 250? No. Is 185 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 185 nm at 1 Hz\n  Peak 2: 2 nm at 0 Hz\n  Peak 3: 2 nm at 2 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 185 \u2265 5? Yes \u2192 keep\n  Peak 2: 2 \u2265 5? No \u2192 discard\n  Peak 3: 2 \u2265 5? No \u2192 discard\n\nCount the kept peaks. If fewer than 3 \u2192 go to STEP 5.\nThere is only 1 kept peak, so we go to STEP 5.\n\nthird_peak_amplitude = 2 nm (0 if not reported).\nIs 2 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_1Hx_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "ramp",
+      "is_correct": false,
+      "reasoning": "amplitude = 203 nm. Is 203 > 250? No. Is 203 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 203 nm at 1 Hz\n  Peak 2: 22 nm at 3 Hz\n  Peak 3: 8 nm at 5 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 203 \u2265 5? Yes \u2192 keep\n  Peak 2: 22 \u2265 5? Yes \u2192 keep\n  Peak 3: 8 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): f_low = 1 Hz, f_mid = 3 Hz, f_high = 5 Hz.\n  spacing1 = f_mid \u2212 f_low = 3 - 1 = 2 Hz\n  spacing2 = f_high \u2212 f_mid = 5 - 3 = 2 Hz\n  difference = |spacing1 \u2212 spacing2| = |2 - 2| = 0 Hz\n  max_spacing = max(spacing1, spacing2) = max(2, 2) = 2 Hz\n  ratio = difference / max_spacing = 0 / 2 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 22 / 203 \u2248 0.108\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "sine_1Hz_1Hz_10_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 185 nm. Is 185 > 250? No. Is 185 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 185 nm at 1 Hz\n  Peak 2: 2 nm at 0 Hz\n  Peak 3: 2 nm at 2 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 185 \u2265 5? Yes \u2192 keep\n  Peak 2: 2 \u2265 5? No \u2192 discard\n  Peak 3: 2 \u2265 5? No \u2192 discard\n\nCount the kept peaks. If fewer than 3 \u2192 go to STEP 5.\nThere is only 1 kept peak. \u2192 go to STEP 5.\n\nthird_peak_amplitude = 2 nm (0 if not reported). Is 2 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_1Hz_1Hz_10_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 185 nm. Is 185 > 250? No. Is 185 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 185 nm at 1 Hz\n  Peak 2: 2 nm at 0 Hz\n  Peak 3: 2 nm at 2 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 185 \u2265 5? Yes \u2192 keep\n  Peak 2: 2 \u2265 5? No \u2192 discard\n  Peak 3: 2 \u2265 5? No \u2192 discard\n\nCount the kept peaks. If fewer than 3 \u2192 go to STEP 5.\nThere is only 1 kept peak, so we go to STEP 5.\n\nthird_peak_amplitude = 2 nm (0 if not reported).\nIs 2 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_1Hz_1Hz_10_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 185 nm. Is 185 > 250? No. Is 185 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 185 nm at 1 Hz\n  Peak 2: 3 nm at 0 Hz\n  Peak 3: 2 nm at 2 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 185 \u2265 5? Yes \u2192 keep\n  Peak 2: 3 \u2265 5? No \u2192 discard\n  Peak 3: 2 \u2265 5? No \u2192 discard\nCount the kept peaks. If fewer than 3 \u2192 go to STEP 5.\n\nSince only one peak is kept, we have fewer than 3 peaks and proceed to STEP 5.\n\nthird_peak_amplitude = 2 nm (0 if not reported). Is 2 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_1Hz_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 185 nm. Is 185 > 250? No. Is 185 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 185 nm at 1 Hz\n  Peak 2: 3 nm at 2 Hz\n  Peak 3: 2 nm at 3 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 185 \u2265 5? Yes \u2192 keep\n  Peak 2: 3 \u2265 5? No \u2192 discard\n  Peak 3: 2 \u2265 5? No \u2192 discard\nCount the kept peaks. If fewer than 3 \u2192 go to STEP 5.\n\nSince only one peak is kept, we go to STEP 5.\n\nthird_peak_amplitude = 2 nm (0 if not reported). Is 2 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_1Hz_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 185 nm. Is 185 > 250? No. Is 185 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 185 nm at 1 Hz\n  Peak 2: 2 nm at 0 Hz\n  Peak 3: 2 nm at 2 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 185 \u2265 5? Yes \u2192 keep\n  Peak 2: 2 \u2265 5? No \u2192 discard\n  Peak 3: 2 \u2265 5? No \u2192 discard\n\nCount the kept peaks. If fewer than 3 \u2192 go to STEP 5.\nThere is only 1 kept peak, so we go to STEP 5.\n\nthird_peak_amplitude = 2 nm (0 if not reported).\nIs 2 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_1Hz_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 185 nm. Is 185 > 250? No. Is 185 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 185 nm at 1 Hz\n  Peak 2: 3 nm at 0 Hz\n  Peak 3: 2 nm at 2 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 185 \u2265 5? Yes \u2192 keep\n  Peak 2: 3 \u2265 5? No \u2192 discard\n  Peak 3: 2 \u2265 5? No \u2192 discard\nCount the kept peaks. If fewer than 3 \u2192 go to STEP 5.\n\nSince only one peak is kept, we go to STEP 5.\n\nthird_peak_amplitude = 2 nm (0 if not reported). Is 2 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_200Hz_200Hz_10_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 125 nm. Is 125 > 250? No. Is 125 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 125 nm at 200 Hz\n  Peak 2: 40 nm at 112 Hz\n  Peak 3: 10 nm at 387 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 125 \u2265 5? Yes \u2192 keep\n  Peak 2: 40 \u2265 5? Yes \u2192 keep\n  Peak 3: 10 \u2265 5? Yes \u2192 keep\n\nSort kept peaks by frequency (lowest first): 112 Hz, 200 Hz, 387 Hz.\n  spacing1 = f_mid \u2212 f_low = 200 - 112 = 88 Hz\n  spacing2 = f_high \u2212 f_mid = 387 - 200 = 187 Hz\n  difference = |spacing1 \u2212 spacing2| = |88 - 187| = 99 Hz\n  max_spacing = max(88, 187) = 187 Hz\n  ratio = difference / max_spacing = 99 / 187 \u2248 0.53\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 10 nm (0 if not reported).\nIs 10 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_200Hz_200Hz_10_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 130 nm. Is 130 > 250? No. Is 130 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 130 nm at 200 Hz\n  Peak 2: 30 nm at 110 Hz\n  Peak 3: 12 nm at 380 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 130 \u2265 5? Yes \u2192 keep\n  Peak 2: 30 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 4.\n\nSort kept peaks by frequency (lowest first): 110 Hz, 200 Hz, 380 Hz.\nspacing1 = f_mid \u2212 f_low = 200 - 110 = 90 Hz\nspacing2 = f_high \u2212 f_mid = 380 - 200 = 180 Hz\ndifference = |spacing1 \u2212 spacing2| = |90 - 180| = 90 Hz\nmax_spacing = max(90, 180) = 180 Hz\nratio = difference / max_spacing = 90 / 180 = 0.50\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 12 nm (0 if not reported).\nIs 12 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_200Hz_200Hz_10_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 125 nm. Is 125 > 250? No. Is 125 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 125 nm at 200 Hz\n  Peak 2: 30 nm at 112 Hz\n  Peak 3: 10 nm at 387 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 125 \u2265 5? Yes \u2192 keep\n  Peak 2: 30 \u2265 5? Yes \u2192 keep\n  Peak 3: 10 \u2265 5? Yes \u2192 keep\n\nSort kept peaks by frequency (lowest first): 112 Hz, 200 Hz, 387 Hz.\n  spacing1 = f_mid \u2212 f_low = 200 - 112 = 88 Hz\n  spacing2 = f_high \u2212 f_mid = 387 - 200 = 187 Hz\n  difference = |spacing1 \u2212 spacing2| = |88 - 187| = 99 Hz\n  max_spacing = max(88, 187) = 187 Hz\n  ratio = difference / max_spacing = 99 / 187 \u2248 0.53\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 10 nm (0 if not reported).\nIs 10 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_200Hz_200Hz_2_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 132 nm. Is 132 > 250? No. Is 132 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 132 nm at 200 Hz\n  Peak 2: 30 nm at 112 Hz\n  Peak 3: 12 nm at 240 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 132 \u2265 5? Yes \u2192 keep\n  Peak 2: 30 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): 112 Hz, 200 Hz, 240 Hz.\n  spacing1 = f_mid \u2212 f_low = 200 Hz \u2212 112 Hz = 88 Hz\n  spacing2 = f_high \u2212 f_mid = 240 Hz \u2212 200 Hz = 40 Hz\n  difference = |88 Hz \u2212 40 Hz| = 48 Hz\n  max_spacing = max(88 Hz, 40 Hz) = 88 Hz\n  ratio = difference / max_spacing = 48 Hz / 88 Hz \u2248 0.545\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 12 nm (0 if not reported).\nIs 12 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_200Hz_200Hz_2_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 132 nm. Is 132 > 250? No. Is 132 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 132 nm at 200 Hz\n  Peak 2: 28 nm at 112 Hz\n  Peak 3: 12 nm at 400 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 132 \u2265 5? Yes \u2192 keep\n  Peak 2: 28 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\n\nSort kept peaks by frequency (lowest first): 112 Hz, 200 Hz, 400 Hz.\n  spacing1 = f_mid \u2212 f_low = 200 - 112 = 88 Hz\n  spacing2 = f_high \u2212 f_mid = 400 - 200 = 200 Hz\n  difference = |spacing1 \u2212 spacing2| = |88 - 200| = 112 Hz\n  max_spacing = max(88, 200) = 200 Hz\n  ratio = difference / max_spacing = 112 / 200 = 0.56\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 12 nm (0 if not reported).\nIs 12 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_200Hz_200Hz_2_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 132 nm. Is 132 > 250? No. Is 132 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 132 nm at 200 Hz\n  Peak 2: 26 nm at 115 Hz\n  Peak 3: 12 nm at 385 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 132 \u2265 5? Yes \u2192 keep\n  Peak 2: 26 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\n\nSort kept peaks by frequency (lowest first): 115 Hz, 200 Hz, 385 Hz.\n  spacing1 = f_mid \u2212 f_low = 200 - 115 = 85 Hz\n  spacing2 = f_high \u2212 f_mid = 385 - 200 = 185 Hz\n  difference = |spacing1 \u2212 spacing2| = |85 - 185| = 100 Hz\n  max_spacing = max(85, 185) = 185 Hz\n  ratio = difference / max_spacing = 100 / 185 \u2248 0.54\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 12 nm (0 if not reported).\nIs 12 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_200Hz_200Hz_7_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 132 nm. Is 132 > 250? No. Is 132 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 132 nm at 200 Hz\n  Peak 2: 35 nm at 115 Hz\n  Peak 3: 12 nm at 450 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 132 \u2265 5? Yes \u2192 keep\n  Peak 2: 35 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\n\nSort kept peaks by frequency (lowest first): 115 Hz, 200 Hz, 450 Hz.\n  spacing1 = f_mid \u2212 f_low = 200 Hz \u2212 115 Hz = 85 Hz\n  spacing2 = f_high \u2212 f_mid = 450 Hz \u2212 200 Hz = 250 Hz\n  difference = |spacing1 \u2212 spacing2| = |85 Hz \u2212 250 Hz| = 165 Hz\n  max_spacing = max(85 Hz, 250 Hz) = 250 Hz\n  ratio = difference / max_spacing = 165 Hz / 250 Hz = 0.66\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 12 nm (0 if not reported).\nIs 12 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_200Hz_200Hz_7_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 130 nm. Is 130 > 250? No. Is 130 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 130 nm at 200 Hz\n  Peak 2: 40 nm at 112 Hz\n  Peak 3: 12 nm at 358 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 130 \u2265 5? Yes \u2192 keep\n  Peak 2: 40 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): 112 Hz, 200 Hz, 358 Hz.\n  spacing1 = f_mid \u2212 f_low = 200 - 112 = 88 Hz\n  spacing2 = f_high \u2212 f_mid = 358 - 200 = 158 Hz\n  difference = |spacing1 \u2212 spacing2| = |88 - 158| = 70 Hz\n  max_spacing = max(88, 158) = 158 Hz\n  ratio = difference / max_spacing = 70 / 158 \u2248 0.44\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 12 nm (0 if not reported).\nIs 12 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_200Hz_200Hz_7_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 135 nm. Is 135 > 250? No. Is 135 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 135 nm at 200 Hz\n  Peak 2: 35 nm at 115 Hz\n  Peak 3: 12 nm at 400 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 135 \u2265 5? Yes \u2192 keep\n  Peak 2: 35 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 4.\n\nSort kept peaks by frequency (lowest first): 115 Hz, 200 Hz, 400 Hz.\n  spacing1 = f_mid \u2212 f_low = 200 - 115 = 85 Hz\n  spacing2 = f_high \u2212 f_mid = 400 - 200 = 200 Hz\n  difference = |spacing1 \u2212 spacing2| = |85 - 200| = 115 Hz\n  max_spacing = max(85, 200) = 200 Hz\n  ratio = difference / max_spacing = 115 / 200 = 0.575\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 12 nm (0 if not reported).\nIs 12 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_300Hz_300Hz_11_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "amplitude = 175 nm. Is 175 > 250? No. Is 175 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 175 nm at 300 Hz\n  Peak 2: 50 nm at 112 Hz\n  Peak 3: 12 nm at 447 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 175 \u2265 5? Yes \u2192 keep\n  Peak 2: 50 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): 112 Hz, 300 Hz, 447 Hz.\n  spacing1 = f_mid \u2212 f_low = 300 - 112 = 188 Hz\n  spacing2 = f_high \u2212 f_mid = 447 - 300 = 147 Hz\n  difference = |spacing1 \u2212 spacing2| = |188 - 147| = 41 Hz\n  max_spacing = max(188, 147) = 188 Hz\n  ratio = difference / max_spacing = 41 / 188 \u2248 0.218\n\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 50 / 175 \u2248 0.286\nIs ratio \u2264 0.15? No \u2192 Result: C. STOP.\n\nResult: C"
+    },
+    {
+      "image": "sine_300Hz_300Hz_11_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 170 nm. Is 170 > 250? No. Is 170 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 170 nm at 300 Hz\n  Peak 2: 50 nm at 110 Hz\n  Peak 3: 12 nm at 105 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 170 \u2265 5? Yes \u2192 keep\n  Peak 2: 50 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\nCount the kept peaks. There are 3 peaks \u2192 go to STEP 4.\n\nSort kept peaks by frequency (lowest first): f_low = 105 Hz, f_mid = 110 Hz, f_high = 300 Hz.\nspacing1 = f_mid \u2212 f_low = 110 - 105 = 5 Hz\nspacing2 = f_high \u2212 f_mid = 300 - 110 = 190 Hz\ndifference = |spacing1 \u2212 spacing2| = |5 - 190| = 185 Hz\nmax_spacing = max(spacing1, spacing2) = 190 Hz\nratio = difference / max_spacing = 185 / 190 \u2248 0.974\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 12 nm (0 if not reported).\nIs 12 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_300Hz_300Hz_11_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "amplitude = 178 nm. Is 178 > 250? No. Is 178 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 178 nm at 300 Hz\n  Peak 2: 52 nm at 112 Hz\n  Peak 3: 12 nm at 488 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 178 \u2265 5? Yes \u2192 keep\n  Peak 2: 52 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): 112 Hz, 300 Hz, 488 Hz.\n  spacing1 = f_mid \u2212 f_low = 300 - 112 = 188 Hz\n  spacing2 = f_high \u2212 f_mid = 488 - 300 = 188 Hz\n  difference = |spacing1 \u2212 spacing2| = |188 - 188| = 0 Hz\n  max_spacing = max(188, 188) = 188 Hz\n  ratio = difference / max_spacing = 0 / 188 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 52 / 178 \u2248 0.29\nIs ratio \u2264 0.15? No \u2192 Result: C. STOP.\n\nResult: C"
+    },
+    {
+      "image": "sine_300Hz_300Hz_2_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "amplitude = 178 nm. Is 178 > 250? No. Is 178 < 60? No. \u2192 go to STEP 3.\n\nPeak 1: 178 nm at 300 Hz\nPeak 2: 32 nm at 112 Hz\nPeak 3: 11 nm at 488 Hz\n\nPeak 1: 178 \u2265 5? Yes \u2192 keep\nPeak 2: 32 \u2265 5? Yes \u2192 keep\nPeak 3: 11 \u2265 5? Yes \u2192 keep\n\nSort kept peaks by frequency (lowest first): \nf_low = 112 Hz, f_mid = 300 Hz, f_high = 488 Hz.\n\nspacing1 = f_mid \u2212 f_low = 300 - 112 = 188 Hz\nspacing2 = f_high \u2212 f_mid = 488 - 300 = 188 Hz\ndifference = |spacing1 \u2212 spacing2| = |188 - 188| = 0 Hz\nmax_spacing = max(188, 188) = 188 Hz\nratio = difference / max_spacing = 0 / 188 = 0\n\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 32 / 178 \u2248 0.179\n\nIs ratio \u2264 0.15? No \u2192 Result: C. STOP.\n\nResult: C"
+    },
+    {
+      "image": "sine_300Hz_300Hz_2_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "amplitude = 178 nm. Is 178 > 250? No. Is 178 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 178 nm at 300 Hz\n  Peak 2: 32 nm at 112 Hz\n  Peak 3: 12 nm at 487 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 178 \u2265 5? Yes \u2192 keep\n  Peak 2: 32 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\nCount the kept peaks. There are 3 peaks \u2192 go to STEP 4.\n\nSort kept peaks by frequency (lowest first): 112 Hz, 300 Hz, 487 Hz.\n  spacing1 = f_mid \u2212 f_low = 300 - 112 = 188 Hz\n  spacing2 = f_high \u2212 f_mid = 487 - 300 = 187 Hz\n  difference = |spacing1 \u2212 spacing2| = |188 - 187| = 1 Hz\n  max_spacing = max(188, 187) = 188 Hz\n  ratio = difference / max_spacing = 1 / 188 \u2248 0.0053\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 32 / 178 \u2248 0.1798\nIs ratio \u2264 0.15? No \u2192 Result: C. STOP.\n\nResult: C"
+    },
+    {
+      "image": "sine_300Hz_300Hz_2_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "amplitude = 178 nm. Is 178 > 250? No. Is 178 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 178 nm at 300 Hz\n  Peak 2: 32 nm at 112 Hz\n  Peak 3: 11 nm at 488 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 178 \u2265 5? Yes \u2192 keep\n  Peak 2: 32 \u2265 5? Yes \u2192 keep\n  Peak 3: 11 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 4.\n\nSort kept peaks by frequency (lowest first): 112 Hz, 300 Hz, 488 Hz.\n  spacing1 = f_mid \u2212 f_low = 300 - 112 = 188 Hz\n  spacing2 = f_high \u2212 f_mid = 488 - 300 = 188 Hz\n  difference = |spacing1 \u2212 spacing2| = |188 - 188| = 0 Hz\n  max_spacing = max(188, 188) = 188 Hz\n  ratio = difference / max_spacing = 0 / 188 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 32 / 178 \u2248 0.179\nIs ratio \u2264 0.15? No \u2192 Result: C. STOP.\n\nResult: C"
+    },
+    {
+      "image": "sine_300Hz_300Hz_3_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 178 nm. Is 178 > 250? No. Is 178 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 178 nm at 300 Hz\n  Peak 2: 22 nm at 112 Hz\n  Peak 3: 12 nm at 388 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 178 \u2265 5? Yes \u2192 keep\n  Peak 2: 22 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\nCount the kept peaks. There are 3 peaks \u2192 go to STEP 4.\n\nSort kept peaks by frequency (lowest first): 112 Hz, 300 Hz, 388 Hz.\nspacing1 = f_mid \u2212 f_low = 300 - 112 = 188 Hz\nspacing2 = f_high \u2212 f_mid = 388 - 300 = 88 Hz\ndifference = |spacing1 \u2212 spacing2| = |188 - 88| = 100 Hz\nmax_spacing = max(188, 88) = 188 Hz\nratio = difference / max_spacing = 100 / 188 \u2248 0.53\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 12 nm (0 if not reported).\nIs 12 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_300Hz_300Hz_3_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "ramp",
+      "is_correct": false,
+      "reasoning": "amplitude = 178 nm. Is 178 > 250? No. Is 178 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 178 nm at 300 Hz\n  Peak 2: 21 nm at 110 Hz\n  Peak 3: 8 nm at 490 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 178 \u2265 5? Yes \u2192 keep\n  Peak 2: 21 \u2265 5? Yes \u2192 keep\n  Peak 3: 8 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): 110 Hz, 300 Hz, 490 Hz.\n  spacing1 = f_mid \u2212 f_low = 300 - 110 = 190 Hz\n  spacing2 = f_high \u2212 f_mid = 490 - 300 = 190 Hz\n  difference = |spacing1 \u2212 spacing2| = |190 - 190| = 0 Hz\n  max_spacing = max(190, 190) = 190 Hz\n  ratio = difference / max_spacing = 0 / 190 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 21 / 178 \u2248 0.117\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "sine_300Hz_300Hz_3_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "amplitude = 178 nm. Is 178 > 250? No. Is 178 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 178 nm at 300 Hz\n  Peak 2: 32 nm at 115 Hz\n  Peak 3: 12 nm at 485 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 178 \u2265 5? Yes \u2192 keep\n  Peak 2: 32 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): 115 Hz, 300 Hz, 485 Hz.\n  spacing1 = f_mid \u2212 f_low = 300 - 115 = 185 Hz\n  spacing2 = f_high \u2212 f_mid = 485 - 300 = 185 Hz\n  difference = |spacing1 \u2212 spacing2| = |185 - 185| = 0 Hz\n  max_spacing = max(185, 185) = 185 Hz\n  ratio = difference / max_spacing = 0 / 185 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 32 / 178 \u2248 0.179\nIs ratio \u2264 0.15? No \u2192 Result: C. STOP.\n\nResult: C"
+    },
+    {
+      "image": "sine_400Hz_400Hz_1_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 105 nm. Is 105 > 250? No. Is 105 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 105 nm at 400 Hz\n  Peak 2: 48 nm at 200 Hz\n  Peak 3: 12 nm at 110 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 105 \u2265 5? Yes \u2192 keep\n  Peak 2: 48 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\nCount the kept peaks. There are 3 peaks \u2192 go to STEP 4.\n\nSort kept peaks by frequency (lowest first): 110 Hz, 200 Hz, 400 Hz.\nspacing1 = f_mid \u2212 f_low = 200 - 110 = 90 Hz\nspacing2 = f_high \u2212 f_mid = 400 - 200 = 200 Hz\ndifference = |spacing1 \u2212 spacing2| = |90 - 200| = 110 Hz\nmax_spacing = max(90, 200) = 200 Hz\nratio = difference / max_spacing = 110 / 200 = 0.55\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 12 nm (0 if not reported).\nIs 12 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_400Hz_400Hz_1_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 105 nm. Is 105 > 250? No. Is 105 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n- Peak 1: 105 nm at 400 Hz\n- Peak 2: 40 nm at 115 Hz\n- Peak 3: 12 nm at 395 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n- Peak 1: 105 \u2265 5? Yes \u2192 keep\n- Peak 2: 40 \u2265 5? Yes \u2192 keep\n- Peak 3: 12 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks. Sort kept peaks by frequency (lowest first): 115 Hz, 395 Hz, 400 Hz.\n- f_low = 115 Hz\n- f_mid = 395 Hz\n- f_high = 400 Hz\n\nspacing1 = f_mid \u2212 f_low = 395 \u2212 115 = 280 Hz\nspacing2 = f_high \u2212 f_mid = 400 \u2212 395 = 5 Hz\ndifference = |spacing1 \u2212 spacing2| = |280 \u2212 5| = 275 Hz\nmax_spacing = max(280, 5) = 280 Hz\nratio = difference / max_spacing = 275 / 280 \u2248 0.982\n\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 12 nm (0 if not reported). Is 12 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_400Hz_400Hz_1_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 105 nm. Is 105 > 250? No. Is 105 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 105 nm at 400 Hz\n  Peak 2: 38 nm at 115 Hz\n  Peak 3: 12 nm at 485 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 105 \u2265 5? Yes \u2192 keep\n  Peak 2: 38 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 4.\n\nSort kept peaks by frequency (lowest first): 115 Hz, 400 Hz, 485 Hz.\n  spacing1 = f_mid \u2212 f_low = 400 - 115 = 285 Hz\n  spacing2 = f_high \u2212 f_mid = 485 - 400 = 85 Hz\n  difference = |spacing1 \u2212 spacing2| = |285 - 85| = 200 Hz\n  max_spacing = max(285, 85) = 285 Hz\n  ratio = difference / max_spacing = 200 / 285 \u2248 0.70\n\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 12 nm (0 if not reported).\nIs 12 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_400Hz_400Hz_5_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 105 nm. Is 105 > 250? No. Is 105 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 105 nm at 400 Hz\n  Peak 2: 35 nm at 115 Hz\n  Peak 3: 12 nm at 485 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 105 \u2265 5? Yes \u2192 keep\n  Peak 2: 35 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\n\nSort kept peaks by frequency (lowest first): 115 Hz, 400 Hz, 485 Hz.\n  spacing1 = f_mid \u2212 f_low = 400 - 115 = 285 Hz\n  spacing2 = f_high \u2212 f_mid = 485 - 400 = 85 Hz\n  difference = |spacing1 \u2212 spacing2| = |285 - 85| = 200 Hz\n  max_spacing = max(285, 85) = 285 Hz\n  ratio = difference / max_spacing = 200 / 285 \u2248 0.70\n\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 12 nm (0 if not reported).\nIs 12 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_400Hz_400Hz_5_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 105 nm. Is 105 > 250? No. Is 105 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n- Peak 1: 105 nm at 400 Hz\n- Peak 2: 35 nm at 115 Hz\n- Peak 3: 10 nm at 480 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n- Peak 1: 105 \u2265 5? Yes \u2192 keep\n- Peak 2: 35 \u2265 5? Yes \u2192 keep\n- Peak 3: 10 \u2265 5? Yes \u2192 keep\n\nSort kept peaks by frequency (lowest first): 115 Hz, 400 Hz, 480 Hz.\n- spacing1 = 400 \u2212 115 = 285 Hz\n- spacing2 = 480 \u2212 400 = 80 Hz\n- difference = |285 \u2212 80| = 205 Hz\n- max_spacing = max(285, 80) = 285 Hz\n- ratio = 205 / 285 \u2248 0.72\n\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 10 nm (0 if not reported). Is 10 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_400Hz_400Hz_5_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 115 nm. Is 115 > 250? No. Is 115 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 115 nm at 400 Hz\n  Peak 2: 45 nm at 115 Hz\n  Peak 3: 12 nm at 485 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 115 \u2265 5? Yes \u2192 keep\n  Peak 2: 45 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): 115 Hz, 400 Hz, 485 Hz.\n  spacing1 = f_mid \u2212 f_low = 400 - 115 = 285 Hz\n  spacing2 = f_high \u2212 f_mid = 485 - 400 = 85 Hz\n  difference = |spacing1 \u2212 spacing2| = |285 - 85| = 200 Hz\n  max_spacing = max(285, 85) = 285 Hz\n  ratio = difference / max_spacing = 200 / 285 \u2248 0.70\n\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 12 nm (0 if not reported).\nIs 12 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_400Hz_400Hz_7_absolute_seg1_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 115 nm. Is 115 > 250? No. Is 115 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 115 nm at 400 Hz\n  Peak 2: 35 nm at 115 Hz\n  Peak 3: 13 nm at 485 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 115 \u2265 5? Yes \u2192 keep\n  Peak 2: 35 \u2265 5? Yes \u2192 keep\n  Peak 3: 13 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): 115 Hz, 400 Hz, 485 Hz.\n  spacing1 = f_mid \u2212 f_low = 400 - 115 = 285 Hz\n  spacing2 = f_high \u2212 f_mid = 485 - 400 = 85 Hz\n  difference = |spacing1 \u2212 spacing2| = |285 - 85| = 200 Hz\n  max_spacing = max(285, 85) = 285 Hz\n  ratio = difference / max_spacing = 200 / 285 \u2248 0.70\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 13 nm (0 if not reported).\nIs 13 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_400Hz_400Hz_7_absolute_seg2_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 105 nm. Is 105 > 250? No. Is 105 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 105 nm at 400 Hz\n  Peak 2: 22 nm at 113 Hz\n  Peak 3: 12 nm at 487 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 105 \u2265 5? Yes \u2192 keep\n  Peak 2: 22 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\n\nSort kept peaks by frequency (lowest first): 113 Hz, 400 Hz, 487 Hz.\nspacing1 = f_mid \u2212 f_low = 400 - 113 = 287 Hz\nspacing2 = f_high \u2212 f_mid = 487 - 400 = 87 Hz\ndifference = |spacing1 \u2212 spacing2| = |287 - 87| = 200 Hz\nmax_spacing = max(287, 87) = 287 Hz\nratio = difference / max_spacing = 200 / 287 \u2248 0.697\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 12 nm (0 if not reported).\nIs 12 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    },
+    {
+      "image": "sine_400Hz_400Hz_7_absolute_seg3_FFT.png",
+      "gt": "sine",
+      "pred": "sine",
+      "is_correct": true,
+      "reasoning": "amplitude = 105 nm. Is 105 > 250? No. Is 105 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 105 nm at 400 Hz\n  Peak 2: 29 nm at 113 Hz\n  Peak 3: 12 nm at 487 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 105 \u2265 5? Yes \u2192 keep\n  Peak 2: 29 \u2265 5? Yes \u2192 keep\n  Peak 3: 12 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 4.\n\nSort kept peaks by frequency (lowest first): 113 Hz, 400 Hz, 487 Hz.\n  spacing1 = f_mid \u2212 f_low = 400 - 113 = 287 Hz\n  spacing2 = f_high \u2212 f_mid = 487 - 400 = 87 Hz\n  difference = |spacing1 \u2212 spacing2| = |287 - 87| = 200 Hz\n  max_spacing = max(287, 87) = 287 Hz\n  ratio = difference / max_spacing = 200 / 287 \u2248 0.697\nIs ratio \u2264 0.30? No \u2192 no harmonic pattern \u2192 go to STEP 5.\n\nthird_peak_amplitude = 12 nm (0 if not reported).\nIs 12 \u2265 25? No \u2192 Result: B. STOP.\n\nResult: B"
+    }
+  ]
+}

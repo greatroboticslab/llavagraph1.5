@@ -27,49 +27,48 @@ import re
 SYSTEM_PROMPT = (
     "You classify FFT spectrum descriptions into exactly one category:\n"
     "  A = noise, B = sine, C = square, D = pulse, E = ramp\n\n"
-    "Output format: Show your work for the current step, then write Result: A, B, C, D, or E. "
-    "As soon as you write a Result line, STOP. Do NOT continue to the next step.\n\n"
+    "Output format: For each step, write your comparison explicitly, e.g.:\n"
+    "  amplitude = 23 nm. Is 23 > 250? No. Is 23 < 60? Yes. → go to STEP 2.\n"
+    "When you reach a Result, write \"Result: X\" and STOP immediately.\n\n"
     "STEP 1 — Peak amplitude\n"
-    "  Extract the tallest peak amplitude from the answers.\n"
-    "  - If amplitude > 250 nm → Result: D (pulse). STOP.\n"
-    "  - If amplitude < 60 nm → go to STEP 2.\n"
-    "  - Otherwise (60–250 nm) → go to STEP 3.\n\n"
-    "STEP 2 — Low-amplitude check (amplitude < 60 nm)\n"
-    "  Extract the frequency of the tallest peak.\n"
-    "  - If the peak frequency is near 1 Hz (≤ 2 Hz), OR the description says\n"
-    "    there are no clear peaks → Result: D (pulse). STOP.\n"
-    "  - Otherwise → Result: A (noise). STOP.\n\n"
-    "STEP 3 — Harmonic pattern check (amplitude 60–250 nm)\n"
-    "  Extract the frequencies of the three tallest peaks (f1, f2, f3) from the\n"
-    "  answers, ordered by amplitude (f1 = tallest).\n"
-    "  Sort f1, f2, f3 by frequency (lowest to highest) to get f_low, f_mid, f_high.\n"
-    "  Compute: spacing1 = f_mid − f_low, spacing2 = f_high − f_mid.\n"
-    "  If fewer than 3 peaks are reported, treat as NO harmonic pattern → go to STEP 5.\n"
-    "  - If spacing1 and spacing2 are within 30% of each other\n"
-    "    (i.e., |spacing1 − spacing2| / max(spacing1, spacing2) ≤ 0.30),\n"
-    "    there IS a harmonic pattern → go to STEP 4.\n"
-    "  - Otherwise, NO harmonic pattern → go to STEP 5.\n\n"
+    "  Write: amplitude = [value] nm.\n"
+    "  Is [value] > 250? If yes → Result: D. STOP.\n"
+    "  Is [value] < 60? If yes → go to STEP 2.\n"
+    "  Otherwise → go to STEP 3.\n\n"
+    "STEP 2 — Low-amplitude frequency check\n"
+    "  Write: frequency = [value] Hz.\n"
+    "  Is [value] ≤ 2, or are there no clear peaks? If yes → Result: D. STOP.\n"
+    "  Otherwise → Result: A. STOP.\n\n"
+    "STEP 3 — Harmonic pattern check\n"
+    "  List the three tallest peaks:\n"
+    "    Peak 1: [amp1] nm at [freq1] Hz\n"
+    "    Peak 2: [amp2] nm at [freq2] Hz\n"
+    "    Peak 3: [amp3] nm at [freq3] Hz\n"
+    "  For each peak, check: is amplitude ≥ 5 nm?\n"
+    "    Peak 1: [amp1] ≥ 5? [yes/no → keep/discard]\n"
+    "    Peak 2: [amp2] ≥ 5? [yes/no → keep/discard]\n"
+    "    Peak 3: [amp3] ≥ 5? [yes/no → keep/discard]\n"
+    "  Count the kept peaks. If fewer than 3 → go to STEP 5.\n"
+    "  Sort kept peaks by frequency (lowest first): f_low, f_mid, f_high.\n"
+    "  spacing1 = f_mid − f_low = ?\n"
+    "  spacing2 = f_high − f_mid = ?\n"
+    "  difference = |spacing1 − spacing2| = ?\n"
+    "  max_spacing = max(spacing1, spacing2) = ?\n"
+    "  ratio = difference / max_spacing = ?\n"
+    "  Is ratio ≤ 0.30? If yes → harmonic pattern found → go to STEP 4.\n"
+    "  Otherwise → no harmonic pattern → go to STEP 5.\n\n"
     "STEP 4 — Harmonic: ramp vs square\n"
-    "  Compute ratio = (second tallest peak amplitude) / (tallest peak amplitude).\n"
-    "  - If ratio ≤ 0.15 → Result: E (ramp). STOP.\n"
-    "  - If ratio > 0.15 → Result: C (square). STOP.\n\n"
+    "  ratio = [amp2] / [amp1] = ?\n"
+    "  Is ratio ≤ 0.15? If yes → Result: E. STOP.\n"
+    "  Otherwise → Result: C. STOP.\n\n"
     "STEP 5 — No harmonics: sine vs square\n"
-    "  Extract the amplitude of the third tallest peak.\n"
-    "  If no third peak is reported, treat amplitude as 0.\n"
-    "  - If third peak amplitude ≥ 25 nm → Result: C (square). STOP.\n"
-    "  - If third peak amplitude < 25 nm → Result: B (sine). STOP."
+    "  third_peak_amplitude = [amp3] nm (0 if not reported).\n"
+    "  Is [amp3] ≥ 25? If yes → Result: C. STOP.\n"
+    "  Otherwise → Result: B. STOP."
 )
 
 
-def main(args):
-    print(f"Loading model from {args.model_path}...")
-    pipe = pipeline(
-        "text-generation",
-        model=args.model_path,
-        torch_dtype=torch.bfloat16,
-        device_map="auto",
-    )
-
+def main(args, pipe):
     if not os.path.exists(args.conversation_file):
         print(f"Error: {args.conversation_file} not found.")
         return
@@ -158,8 +157,30 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Classify FFT waveforms (5 class)")
     parser.add_argument("--model-path", type=str, required=True)
-    parser.add_argument("--conversation-file", type=str, required=True)
-    parser.add_argument("--output-file", type=str, required=True)
+    parser.add_argument("--conversation-files", type=str, nargs='+', required=True,
+                        help="One or more conversation JSON files to classify")
+    parser.add_argument("--output-dir", type=str, required=True,
+                        help="Directory to save classified results")
     parser.add_argument("--subset", type=int)
     args = parser.parse_args()
-    main(args)
+
+    # Load model once
+    print(f"Loading model from {args.model_path}...")
+    pipe = pipeline(
+        "text-generation",
+        model=args.model_path,
+        torch_dtype=torch.bfloat16,
+        device_map="auto",
+    )
+
+    os.makedirs(args.output_dir, exist_ok=True)
+
+    # Process each file with the same model
+    for conv_file in args.conversation_files:
+        cat_name = os.path.splitext(os.path.basename(conv_file))[0]
+        output_file = os.path.join(args.output_dir, f"{cat_name}_classified.json")
+        print(f"\n=== Classifying {cat_name} ===")
+
+        args.conversation_file = conv_file
+        args.output_file = output_file
+        main(args, pipe)

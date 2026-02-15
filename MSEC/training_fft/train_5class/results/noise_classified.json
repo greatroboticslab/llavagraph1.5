@@ -1,0 +1,175 @@
+{
+  "accuracy": 87.5,
+  "total": 24,
+  "correct": 21,
+  "results": [
+    {
+      "image": "noise_10_Run2_1_absolute_seg1_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 23 nm. Is 23 > 250? No. Is 23 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 115 Hz. Is 115 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_10_Run2_1_absolute_seg2_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 24 nm. Is 24 > 250? No. Is 24 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 117 Hz. Is 117 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_10_Run2_1_absolute_seg3_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 28 nm. Is 28 > 250? No. Is 28 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 115 Hz. Is 115 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_12_Run1_1_absolute_seg1_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 43 nm. Is 43 > 250? No. Is 43 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 120 Hz. Is 120 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_12_Run1_1_absolute_seg2_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 43 nm. Is 43 > 250? No. Is 43 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 120 Hz. Is 120 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_12_Run1_1_absolute_seg3_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 49 nm. Is 49 > 250? No. Is 49 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 120 Hz. Is 120 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_12_Run2_1_absolute_seg1_FFT.png",
+      "gt": "noise",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "amplitude = 50 nm. Is 50 > 250? No. Is 50 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 120 Hz. Is 120 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nHowever, since we have clear peaks and the amplitude drop behavior suggests a more structured signal, let's proceed to further steps for clarity.\n\nPeak 1: 50 nm at 120 Hz\nPeak 2: 12 nm at 230 Hz\nPeak 3: 9 nm at 360 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n- Peak 1: 50 \u2265 5? Yes \u2192 keep\n- Peak 2: 12 \u2265 5? Yes \u2192 keep\n- Peak 3: 9 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): 120 Hz, 230 Hz, 360 Hz.\n- spacing1 = 230 - 120 = 110 Hz\n- spacing2 = 360 - 230 = 130 Hz\n- difference = |110 - 130| = 20 Hz\n- max_spacing = max(110, 130) = 130 Hz\n- ratio = 20 / 130 \u2248 0.154\n\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = 12 / 50 = 0.24\nIs ratio \u2264 0.15? No \u2192 Result: C. STOP.\n\nResult: C"
+    },
+    {
+      "image": "noise_12_Run2_1_absolute_seg2_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 42 nm. Is 42 > 250? No. Is 42 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 120 Hz. Is 120 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_12_Run2_1_absolute_seg3_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 36 nm. Is 36 > 250? No. Is 36 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 120 Hz. Is 120 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_12_Run3_1_absolute_seg1_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 30 nm. Is 30 > 250? No. Is 30 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 117 Hz. Is 117 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_12_Run3_1_absolute_seg2_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 43 nm. Is 43 > 250? No. Is 43 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 120 Hz. Is 120 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_12_Run3_1_absolute_seg3_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 58 nm. Is 58 > 250? No. Is 58 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 120 Hz. Is 120 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_14_Run3_1_absolute_seg1_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 50 nm. Is 50 > 250? No. Is 50 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 120 Hz. Is 120 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_14_Run3_1_absolute_seg2_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 48 nm. Is 48 > 250? No. Is 48 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 115 Hz. Is 115 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_14_Run3_1_absolute_seg3_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 43 nm. Is 43 > 250? No. Is 43 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 120 Hz. Is 120 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_1_Run1_1_absolute_seg1_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 27 nm. Is 27 > 250? No. Is 27 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 115 Hz. Is 115 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_1_Run1_1_absolute_seg2_FFT.png",
+      "gt": "noise",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "amplitude = 30 nm. Is 30 > 250? No. Is 30 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 120 Hz. Is 120 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nHowever, we should continue with the full analysis for completeness:\n\nPeak 1: 30 nm at 120 Hz\nPeak 2: 18 nm at 240 Hz\nPeak 3: 9 nm at 360 Hz\n\nPeak 1: 30 \u2265 5? Yes \u2192 keep\nPeak 2: 18 \u2265 5? Yes \u2192 keep\nPeak 3: 9 \u2265 5? Yes \u2192 keep\n\nf_low = 120 Hz, f_mid = 240 Hz, f_high = 360 Hz\nspacing1 = f_mid \u2212 f_low = 240 - 120 = 120 Hz\nspacing2 = f_high \u2212 f_mid = 360 - 240 = 120 Hz\ndifference = |120 - 120| = 0 Hz\nmax_spacing = max(120, 120) = 120 Hz\nratio = difference / max_spacing = 0 / 120 = 0\n\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = 18 / 30 = 0.6\n\nIs ratio \u2264 0.15? No \u2192 Result: C. STOP.\n\nFinal Result: C"
+    },
+    {
+      "image": "noise_1_Run1_1_absolute_seg3_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 23 nm. Is 23 > 250? No. Is 23 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 120 Hz. Is 120 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_1_Run3_1_absolute_seg1_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 1.3 nm. Is 1.3 > 250? No. Is 1.3 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 115 Hz. Is 115 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_1_Run3_1_absolute_seg2_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 14.2 nm. Is 14.2 > 250? No. Is 14.2 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 115 Hz. Is 115 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_1_Run3_1_absolute_seg3_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 13.5 nm. Is 13.5 > 250? No. Is 13.5 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 115 Hz. Is 115 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_Run2_absolute_seg1_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 58 nm. Is 58 > 250? No. Is 58 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 120 Hz. Is 120 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    },
+    {
+      "image": "noise_Run2_absolute_seg2_FFT.png",
+      "gt": "noise",
+      "pred": "square",
+      "is_correct": false,
+      "reasoning": "amplitude = 52 nm. Is 52 > 250? No. Is 52 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 120 Hz. Is 120 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nHowever, we should continue with the full analysis for completeness:\n\nPeak 1: 52 nm at 120 Hz\nPeak 2: 13 nm at 360 Hz\nPeak 3: 8 nm at 240 Hz\n\nFor each peak, check: is amplitude \u2265 5 nm?\n- Peak 1: 52 \u2265 5? Yes \u2192 keep\n- Peak 2: 13 \u2265 5? Yes \u2192 keep\n- Peak 3: 8 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): 120 Hz, 240 Hz, 360 Hz.\n- spacing1 = f_mid \u2212 f_low = 240 - 120 = 120 Hz\n- spacing2 = f_high \u2212 f_mid = 360 - 240 = 120 Hz\n- difference = |120 - 120| = 0 Hz\n- max_spacing = max(120, 120) = 120 Hz\n- ratio = difference / max_spacing = 0 / 120 = 0\n\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = 13 / 52 = 0.25\nIs ratio \u2264 0.15? No \u2192 Result: C. STOP.\n\nResult: C"
+    },
+    {
+      "image": "noise_Run2_absolute_seg3_FFT.png",
+      "gt": "noise",
+      "pred": "noise",
+      "is_correct": true,
+      "reasoning": "amplitude = 50 nm. Is 50 > 250? No. Is 50 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 120 Hz. Is 120 \u2264 2, or are there no clear peaks? No. \u2192 Result: A. STOP.\n\nResult: A"
+    }
+  ]
+}

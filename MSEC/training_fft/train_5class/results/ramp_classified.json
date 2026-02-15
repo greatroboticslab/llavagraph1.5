@@ -1,0 +1,119 @@
+{
+  "accuracy": 100.0,
+  "total": 16,
+  "correct": 16,
+  "results": [
+    {
+      "image": "Ramp-10_absolute_seg1_FFT.png",
+      "gt": "ramp",
+      "pred": "ramp",
+      "is_correct": true,
+      "reasoning": "amplitude = 178 nm. Is 178 > 250? No. Is 178 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 178 nm at 10 Hz\n  Peak 2: 17 nm at 30 Hz\n  Peak 3: 6 nm at 50 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 178 \u2265 5? Yes \u2192 keep\n  Peak 2: 17 \u2265 5? Yes \u2192 keep\n  Peak 3: 6 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks. Sort kept peaks by frequency (lowest first): 10 Hz, 30 Hz, 50 Hz.\n  spacing1 = f_mid \u2212 f_low = 30 Hz \u2212 10 Hz = 20 Hz\n  spacing2 = f_high \u2212 f_mid = 50 Hz \u2212 30 Hz = 20 Hz\n  difference = |spacing1 \u2212 spacing2| = |20 Hz \u2212 20 Hz| = 0 Hz\n  max_spacing = max(20 Hz, 20 Hz) = 20 Hz\n  ratio = difference / max_spacing = 0 Hz / 20 Hz = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 17 nm / 178 nm \u2248 0.0955\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "Ramp-10_absolute_seg2_FFT.png",
+      "gt": "ramp",
+      "pred": "ramp",
+      "is_correct": true,
+      "reasoning": "amplitude = 178 nm. Is 178 > 250? No. Is 178 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 178 nm at 10 Hz\n  Peak 2: 18 nm at 30 Hz\n  Peak 3: 6 nm at 50 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 178 \u2265 5? Yes \u2192 keep\n  Peak 2: 18 \u2265 5? Yes \u2192 keep\n  Peak 3: 6 \u2265 5? Yes \u2192 keep\nCount the kept peaks. There are 3 peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): f_low = 10 Hz, f_mid = 30 Hz, f_high = 50 Hz.\nspacing1 = f_mid \u2212 f_low = 30 - 10 = 20 Hz\nspacing2 = f_high \u2212 f_mid = 50 - 30 = 20 Hz\ndifference = |spacing1 \u2212 spacing2| = |20 - 20| = 0 Hz\nmax_spacing = max(spacing1, spacing2) = 20 Hz\nratio = difference / max_spacing = 0 / 20 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 18 / 178 \u2248 0.101\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "Ramp-11_absolute_seg1_FFT.png",
+      "gt": "ramp",
+      "pred": "ramp",
+      "is_correct": true,
+      "reasoning": "amplitude = 180 nm. Is 180 > 250? No. Is 180 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 180 nm at 10 Hz\n  Peak 2: 20 nm at 30 Hz\n  Peak 3: 7 nm at 50 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 180 \u2265 5? Yes \u2192 keep\n  Peak 2: 20 \u2265 5? Yes \u2192 keep\n  Peak 3: 7 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks. Sort kept peaks by frequency (lowest first): 10 Hz, 30 Hz, 50 Hz.\n  spacing1 = f_mid \u2212 f_low = 30 - 10 = 20 Hz\n  spacing2 = f_high \u2212 f_mid = 50 - 30 = 20 Hz\n  difference = |spacing1 \u2212 spacing2| = |20 - 20| = 0 Hz\n  max_spacing = max(spacing1, spacing2) = 20 Hz\n  ratio = difference / max_spacing = 0 / 20 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 20 / 180 \u2248 0.11\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "Ramp-11_absolute_seg2_FFT.png",
+      "gt": "ramp",
+      "pred": "ramp",
+      "is_correct": true,
+      "reasoning": "amplitude = 178 nm. Is 178 > 250? No. Is 178 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 178 nm at 10 Hz\n  Peak 2: 18 nm at 30 Hz\n  Peak 3: 6 nm at 50 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 178 \u2265 5? Yes \u2192 keep\n  Peak 2: 18 \u2265 5? Yes \u2192 keep\n  Peak 3: 6 \u2265 5? Yes \u2192 keep\nCount the kept peaks. There are 3 kept peaks. Sort kept peaks by frequency (lowest first): 10 Hz, 30 Hz, 50 Hz.\n  spacing1 = f_mid \u2212 f_low = 30 Hz - 10 Hz = 20 Hz\n  spacing2 = f_high \u2212 f_mid = 50 Hz - 30 Hz = 20 Hz\n  difference = |spacing1 \u2212 spacing2| = |20 Hz - 20 Hz| = 0 Hz\n  max_spacing = max(20 Hz, 20 Hz) = 20 Hz\n  ratio = difference / max_spacing = 0 Hz / 20 Hz = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 18 nm / 178 nm \u2248 0.101\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "Ramp-5_absolute_seg1_FFT.png",
+      "gt": "ramp",
+      "pred": "ramp",
+      "is_correct": true,
+      "reasoning": "amplitude = 180 nm. Is 180 > 250? No. Is 180 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 180 nm at 10 Hz\n  Peak 2: 20 nm at 30 Hz\n  Peak 3: 8 nm at 50 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 180 \u2265 5? Yes \u2192 keep\n  Peak 2: 20 \u2265 5? Yes \u2192 keep\n  Peak 3: 8 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks, so we proceed with sorting them by frequency (already sorted here):\n  f_low = 10 Hz, f_mid = 30 Hz, f_high = 50 Hz.\n  spacing1 = f_mid \u2212 f_low = 30 - 10 = 20 Hz\n  spacing2 = f_high \u2212 f_mid = 50 - 30 = 20 Hz\n  difference = |spacing1 \u2212 spacing2| = |20 - 20| = 0 Hz\n  max_spacing = max(20, 20) = 20 Hz\n  ratio = difference / max_spacing = 0 / 20 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = 20 / 180 = 0.11\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "Ramp-5_absolute_seg2_FFT.png",
+      "gt": "ramp",
+      "pred": "ramp",
+      "is_correct": true,
+      "reasoning": "amplitude = 178 nm. Is 178 > 250? No. Is 178 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 178 nm at 10 Hz\n  Peak 2: 18 nm at 30 Hz\n  Peak 3: 6 nm at 50 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 178 \u2265 5? Yes \u2192 keep\n  Peak 2: 18 \u2265 5? Yes \u2192 keep\n  Peak 3: 6 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks. Sort kept peaks by frequency (lowest first): 10 Hz, 30 Hz, 50 Hz.\n  spacing1 = f_mid \u2212 f_low = 30 Hz - 10 Hz = 20 Hz\n  spacing2 = f_high \u2212 f_mid = 50 Hz - 30 Hz = 20 Hz\n  difference = |spacing1 \u2212 spacing2| = |20 Hz - 20 Hz| = 0 Hz\n  max_spacing = max(20 Hz, 20 Hz) = 20 Hz\n  ratio = difference / max_spacing = 0 Hz / 20 Hz = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 18 nm / 178 nm \u2248 0.101\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "Ramp-5_absolute_seg3_FFT.png",
+      "gt": "ramp",
+      "pred": "ramp",
+      "is_correct": true,
+      "reasoning": "amplitude = 178 nm. Is 178 > 250? No. Is 178 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 178 nm at 10 Hz\n  Peak 2: 18 nm at 30 Hz\n  Peak 3: 6 nm at 50 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 178 \u2265 5? Yes \u2192 keep\n  Peak 2: 18 \u2265 5? Yes \u2192 keep\n  Peak 3: 6 \u2265 5? Yes \u2192 keep\nCount the kept peaks. There are 3 peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): f_low = 10 Hz, f_mid = 30 Hz, f_high = 50 Hz.\nspacing1 = f_mid \u2212 f_low = 30 - 10 = 20 Hz\nspacing2 = f_high \u2212 f_mid = 50 - 30 = 20 Hz\ndifference = |spacing1 \u2212 spacing2| = |20 - 20| = 0 Hz\nmax_spacing = max(spacing1, spacing2) = 20 Hz\nratio = difference / max_spacing = 0 / 20 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 18 / 178 \u2248 0.101\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "Ramp-trail2_10_absolute_seg1_FFT.png",
+      "gt": "ramp",
+      "pred": "ramp",
+      "is_correct": true,
+      "reasoning": "amplitude = 203 nm. Is 203 > 250? No. Is 203 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 203 nm at 1 Hz\n  Peak 2: 21 nm at 3 Hz\n  Peak 3: 8 nm at 5 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 203 \u2265 5? Yes \u2192 keep\n  Peak 2: 21 \u2265 5? Yes \u2192 keep\n  Peak 3: 8 \u2265 5? Yes \u2192 keep\nCount the kept peaks. There are 3 peaks \u2192 go to STEP 4.\n\nSort kept peaks by frequency (lowest first): f_low = 1 Hz, f_mid = 3 Hz, f_high = 5 Hz.\nspacing1 = f_mid \u2212 f_low = 3 - 1 = 2 Hz\nspacing2 = f_high \u2212 f_mid = 5 - 3 = 2 Hz\ndifference = |spacing1 \u2212 spacing2| = |2 - 2| = 0 Hz\nmax_spacing = max(spacing1, spacing2) = 2 Hz\nratio = difference / max_spacing = 0 / 2 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 21 / 203 \u2248 0.103\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "Ramp-trail2_10_absolute_seg2_FFT.png",
+      "gt": "ramp",
+      "pred": "ramp",
+      "is_correct": true,
+      "reasoning": "amplitude = 203 nm. Is 203 > 250? No. Is 203 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 203 nm at 1 Hz\n  Peak 2: 20 nm at 3 Hz\n  Peak 3: 7 nm at 5 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 203 \u2265 5? Yes \u2192 keep\n  Peak 2: 20 \u2265 5? Yes \u2192 keep\n  Peak 3: 7 \u2265 5? Yes \u2192 keep\n\nSort kept peaks by frequency (lowest first): 1 Hz, 3 Hz, 5 Hz.\nspacing1 = f_mid \u2212 f_low = 3 Hz \u2212 1 Hz = 2 Hz\nspacing2 = f_high \u2212 f_mid = 5 Hz \u2212 3 Hz = 2 Hz\ndifference = |spacing1 \u2212 spacing2| = |2 Hz \u2212 2 Hz| = 0 Hz\nmax_spacing = max(2 Hz, 2 Hz) = 2 Hz\nratio = difference / max_spacing = 0 / 2 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 20 nm / 203 nm \u2248 0.0985\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "Ramp-trail2_10_absolute_seg3_FFT.png",
+      "gt": "ramp",
+      "pred": "ramp",
+      "is_correct": true,
+      "reasoning": "amplitude = 202 nm. Is 202 > 250? No. Is 202 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 202 nm at 1 Hz\n  Peak 2: 21 nm at 3 Hz\n  Peak 3: 9 nm at 5 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 202 \u2265 5? Yes \u2192 keep\n  Peak 2: 21 \u2265 5? Yes \u2192 keep\n  Peak 3: 9 \u2265 5? Yes \u2192 keep\nCount the kept peaks. If fewer than 3 \u2192 go to STEP 5.\nSort kept peaks by frequency (lowest first): f_low = 1 Hz, f_mid = 3 Hz, f_high = 5 Hz.\nspacing1 = f_mid \u2212 f_low = 3 - 1 = 2 Hz\nspacing2 = f_high \u2212 f_mid = 5 - 3 = 2 Hz\ndifference = |spacing1 \u2212 spacing2| = |2 - 2| = 0 Hz\nmax_spacing = max(spacing1, spacing2) = 2 Hz\nratio = difference / max_spacing = 0 / 2 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 21 / 202 \u2248 0.104\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "Ramp-trail2_11_absolute_seg1_FFT.png",
+      "gt": "ramp",
+      "pred": "ramp",
+      "is_correct": true,
+      "reasoning": "amplitude = 203 nm. Is 203 > 250? No. Is 203 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 203 nm at 1 Hz\n  Peak 2: 22 nm at 3 Hz\n  Peak 3: 9 nm at 5 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 203 \u2265 5? Yes \u2192 keep\n  Peak 2: 22 \u2265 5? Yes \u2192 keep\n  Peak 3: 9 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): f_low = 1 Hz, f_mid = 3 Hz, f_high = 5 Hz.\n  spacing1 = f_mid \u2212 f_low = 3 - 1 = 2 Hz\n  spacing2 = f_high \u2212 f_mid = 5 - 3 = 2 Hz\n  difference = |spacing1 \u2212 spacing2| = |2 - 2| = 0 Hz\n  max_spacing = max(spacing1, spacing2) = max(2, 2) = 2 Hz\n  ratio = difference / max_spacing = 0 / 2 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 22 / 203 \u2248 0.108\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "Ramp-trail2_11_absolute_seg2_FFT.png",
+      "gt": "ramp",
+      "pred": "ramp",
+      "is_correct": true,
+      "reasoning": "amplitude = 202 nm. Is 202 > 250? No. Is 202 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 202 nm at 1 Hz\n  Peak 2: 22 nm at 3 Hz\n  Peak 3: 8 nm at 5 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 202 \u2265 5? Yes \u2192 keep\n  Peak 2: 22 \u2265 5? Yes \u2192 keep\n  Peak 3: 8 \u2265 5? Yes \u2192 keep\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): f_low = 1 Hz, f_mid = 3 Hz, f_high = 5 Hz.\n  spacing1 = f_mid \u2212 f_low = 3 - 1 = 2 Hz\n  spacing2 = f_high \u2212 f_mid = 5 - 3 = 2 Hz\n  difference = |spacing1 \u2212 spacing2| = |2 - 2| = 0 Hz\n  max_spacing = max(spacing1, spacing2) = max(2, 2) = 2 Hz\n  ratio = difference / max_spacing = 0 / 2 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 22 / 202 \u2248 0.109\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "Ramp-trail2_11_absolute_seg3_FFT.png",
+      "gt": "ramp",
+      "pred": "ramp",
+      "is_correct": true,
+      "reasoning": "amplitude = 202 nm. Is 202 > 250? No. Is 202 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 202 nm at 1 Hz\n  Peak 2: 22 nm at 3 Hz\n  Peak 3: 8 nm at 5 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 202 \u2265 5? Yes \u2192 keep\n  Peak 2: 22 \u2265 5? Yes \u2192 keep\n  Peak 3: 8 \u2265 5? Yes \u2192 keep\nCount the kept peaks. There are 3 kept peaks \u2192 go to STEP 3.\n\nSort kept peaks by frequency (lowest first): f_low = 1 Hz, f_mid = 3 Hz, f_high = 5 Hz.\n  spacing1 = f_mid \u2212 f_low = 3 - 1 = 2 Hz\n  spacing2 = f_high \u2212 f_mid = 5 - 3 = 2 Hz\n  difference = |spacing1 \u2212 spacing2| = |2 - 2| = 0 Hz\n  max_spacing = max(spacing1, spacing2) = max(2, 2) = 2 Hz\n  ratio = difference / max_spacing = 0 / 2 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 22 / 202 \u2248 0.109\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "Ramp-trail2_9_absolute_seg1_FFT.png",
+      "gt": "ramp",
+      "pred": "ramp",
+      "is_correct": true,
+      "reasoning": "amplitude = 202 nm. Is 202 > 250? No. Is 202 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 202 nm at 1 Hz\n  Peak 2: 22 nm at 3 Hz\n  Peak 3: 9 nm at 5 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 202 \u2265 5? Yes \u2192 keep\n  Peak 2: 22 \u2265 5? Yes \u2192 keep\n  Peak 3: 9 \u2265 5? Yes \u2192 keep\nCount the kept peaks. There are 3 peaks \u2192 go to STEP 4.\n\nSort kept peaks by frequency (lowest first): f_low = 1 Hz, f_mid = 3 Hz, f_high = 5 Hz.\nspacing1 = f_mid \u2212 f_low = 3 - 1 = 2 Hz\nspacing2 = f_high \u2212 f_mid = 5 - 3 = 2 Hz\ndifference = |spacing1 \u2212 spacing2| = |2 - 2| = 0 Hz\nmax_spacing = max(spacing1, spacing2) = 2 Hz\nratio = difference / max_spacing = 0 / 2 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 22 / 202 \u2248 0.1089\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "Ramp-trail2_9_absolute_seg2_FFT.png",
+      "gt": "ramp",
+      "pred": "ramp",
+      "is_correct": true,
+      "reasoning": "amplitude = 203 nm. Is 203 > 250? No. Is 203 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 203 nm at 1 Hz\n  Peak 2: 21 nm at 3 Hz\n  Peak 3: 8 nm at 5 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 203 \u2265 5? Yes \u2192 keep\n  Peak 2: 21 \u2265 5? Yes \u2192 keep\n  Peak 3: 8 \u2265 5? Yes \u2192 keep\nCount the kept peaks. There are 3 peaks \u2192 go to STEP 4.\n\nSort kept peaks by frequency (lowest first): 1 Hz, 3 Hz, 5 Hz.\nspacing1 = f_mid \u2212 f_low = 3 - 1 = 2 Hz\nspacing2 = f_high \u2212 f_mid = 5 - 3 = 2 Hz\ndifference = |spacing1 \u2212 spacing2| = |2 - 2| = 0 Hz\nmax_spacing = max(spacing1, spacing2) = 2 Hz\nratio = difference / max_spacing = 0 / 2 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 21 / 203 \u2248 0.103\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    },
+    {
+      "image": "Ramp-trail2_9_absolute_seg3_FFT.png",
+      "gt": "ramp",
+      "pred": "ramp",
+      "is_correct": true,
+      "reasoning": "amplitude = 203 nm. Is 203 > 250? No. Is 203 < 60? No. \u2192 go to STEP 3.\n\nList the three tallest peaks:\n  Peak 1: 203 nm at 1 Hz\n  Peak 2: 22 nm at 3 Hz\n  Peak 3: 9 nm at 5 Hz\nFor each peak, check: is amplitude \u2265 5 nm?\n  Peak 1: 203 \u2265 5? Yes \u2192 keep\n  Peak 2: 22 \u2265 5? Yes \u2192 keep\n  Peak 3: 9 \u2265 5? Yes \u2192 keep\n\nCount the kept peaks. There are 3 kept peaks. Sort kept peaks by frequency (lowest first): 1 Hz, 3 Hz, 5 Hz.\n  spacing1 = f_mid \u2212 f_low = 3 Hz \u2212 1 Hz = 2 Hz\n  spacing2 = f_high \u2212 f_mid = 5 Hz \u2212 3 Hz = 2 Hz\n  difference = |spacing1 \u2212 spacing2| = |2 Hz \u2212 2 Hz| = 0 Hz\n  max_spacing = max(2 Hz, 2 Hz) = 2 Hz\n  ratio = difference / max_spacing = 0 / 2 = 0\nIs ratio \u2264 0.30? Yes \u2192 harmonic pattern found \u2192 go to STEP 4.\n\nratio = [amp2] / [amp1] = 22 nm / 203 nm \u2248 0.108\nIs ratio \u2264 0.15? Yes \u2192 Result: E. STOP.\n\nResult: E"
+    }
+  ]
+}

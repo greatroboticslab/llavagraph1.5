@@ -1,0 +1,126 @@
+{
+  "accuracy": 100.0,
+  "total": 17,
+  "correct": 17,
+  "results": [
+    {
+      "image": "Pulse-10_absolute_seg1_FFT.png",
+      "gt": "pulse",
+      "pred": "pulse",
+      "is_correct": true,
+      "reasoning": "amplitude = 5.7e-6 nm. Is 5.7e-6 > 250? No. Is 5.7e-6 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 1 Hz. Is 1 \u2264 2, or are there no clear peaks? Yes. \u2192 Result: D. STOP.\n\nResult: D."
+    },
+    {
+      "image": "Pulse-10_absolute_seg2_FFT.png",
+      "gt": "pulse",
+      "pred": "pulse",
+      "is_correct": true,
+      "reasoning": "amplitude = 36 nm. Is 36 > 250? No. Is 36 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 1 Hz. Is 1 \u2264 2, or are there no clear peaks? Yes \u2192 Result: D. STOP.\n\nResult: D."
+    },
+    {
+      "image": "Pulse-10_absolute_seg3_FFT.png",
+      "gt": "pulse",
+      "pred": "pulse",
+      "is_correct": true,
+      "reasoning": "amplitude = 29 nm. Is 29 > 250? No. Is 29 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 1 Hz. Is 1 \u2264 2, or are there no clear peaks? Yes \u2192 Result: D. STOP.\n\nResult: D."
+    },
+    {
+      "image": "Pulse-13-1Vpp_absolute_seg1_FFT.png",
+      "gt": "pulse",
+      "pred": "pulse",
+      "is_correct": true,
+      "reasoning": "amplitude = 3.8e-6 nm. Is 3.8e-6 > 250? No. Is 3.8e-6 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 1 Hz. Is 1 \u2264 2, or are there no clear peaks? Yes. \u2192 Result: D. STOP.\n\nResult: D."
+    },
+    {
+      "image": "Pulse-13-1Vpp_absolute_seg2_FFT.png",
+      "gt": "pulse",
+      "pred": "pulse",
+      "is_correct": true,
+      "reasoning": "amplitude = 3.8e-6 nm. Is 3.8e-6 > 250? No. Is 3.8e-6 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 1 Hz. Is 1 \u2264 2, or are there no clear peaks? Yes. \u2192 Result: D. STOP.\n\nResult: D."
+    },
+    {
+      "image": "Pulse-13-1Vpp_absolute_seg3_FFT.png",
+      "gt": "pulse",
+      "pred": "pulse",
+      "is_correct": true,
+      "reasoning": "amplitude = 3.8e-6 nm. Is 3.8e-6 > 250? No. Is 3.8e-6 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 1 Hz. Is 1 \u2264 2, or are there no clear peaks? Yes. \u2192 Result: D. STOP.\n\nResult: D."
+    },
+    {
+      "image": "Pulse-17_absolute_seg1_FFT.png",
+      "gt": "pulse",
+      "pred": "pulse",
+      "is_correct": true,
+      "reasoning": "amplitude = 5.7e-6 nm. Is 5.7e-6 > 250? No. Is 5.7e-6 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 1 Hz. Is 1 \u2264 2, or are there no clear peaks? Yes. \u2192 Result: D. STOP.\n\nResult: D."
+    },
+    {
+      "image": "Pulse-17_absolute_seg2_FFT.png",
+      "gt": "pulse",
+      "pred": "pulse",
+      "is_correct": true,
+      "reasoning": "amplitude = 5.7 nm. Is 5.7 > 250? No. Is 5.7 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 1 Hz. Is 1 \u2264 2, or are there no clear peaks? Yes. \u2192 Result: D. STOP.\n\nResult: D."
+    },
+    {
+      "image": "Pulse-17_absolute_seg3_FFT.png",
+      "gt": "pulse",
+      "pred": "pulse",
+      "is_correct": true,
+      "reasoning": "amplitude = 5.7e-6 nm. Is 5.7e-6 > 250? No. Is 5.7e-6 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 1 Hz. Is 1 \u2264 2, or are there no clear peaks? Yes. \u2192 Result: D. STOP.\n\nResult: D."
+    },
+    {
+      "image": "Pulse-18_absolute_seg1_FFT.png",
+      "gt": "pulse",
+      "pred": "pulse",
+      "is_correct": true,
+      "reasoning": "amplitude = 38 nm. Is 38 > 250? No. Is 38 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 1 Hz. Is 1 \u2264 2, or are there no clear peaks? Yes \u2192 Result: D. STOP.\n\nResult: D."
+    },
+    {
+      "image": "Pulse-18_absolute_seg2_FFT.png",
+      "gt": "pulse",
+      "pred": "pulse",
+      "is_correct": true,
+      "reasoning": "amplitude = 28 nm. Is 28 > 250? No. Is 28 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 1 Hz. Is 1 \u2264 2, or are there no clear peaks? Yes. \u2192 Result: D. STOP.\n\nResult: D."
+    },
+    {
+      "image": "Pulse-29_absolute_seg1_FFT.png",
+      "gt": "pulse",
+      "pred": "pulse",
+      "is_correct": true,
+      "reasoning": "amplitude = 48 nm. Is 48 > 250? No. Is 48 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 1 Hz. Is 1 \u2264 2, or are there no clear peaks? Yes \u2192 Result: D. STOP.\n\nResult: D."
+    },
+    {
+      "image": "Pulse-29_absolute_seg2_FFT.png",
+      "gt": "pulse",
+      "pred": "pulse",
+      "is_correct": true,
+      "reasoning": "amplitude = 16.8 nm. Is 16.8 > 250? No. Is 16.8 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 1 Hz. Is 1 \u2264 2, or are there no clear peaks? Yes. \u2192 Result: D. STOP.\n\nResult: D."
+    },
+    {
+      "image": "Pulse-29_absolute_seg3_FFT.png",
+      "gt": "pulse",
+      "pred": "pulse",
+      "is_correct": true,
+      "reasoning": "amplitude = 48 nm. Is 48 > 250? No. Is 48 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 1 Hz. Is 1 \u2264 2, or are there no clear peaks? Yes \u2192 Result: D. STOP.\n\nResult: D."
+    },
+    {
+      "image": "Pulse-3_absolute_seg1_FFT.png",
+      "gt": "pulse",
+      "pred": "pulse",
+      "is_correct": true,
+      "reasoning": "amplitude = 13.8 nm. Is 13.8 > 250? No. Is 13.8 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 1 Hz. Is 1 \u2264 2, or are there no clear peaks? Yes. \u2192 Result: D. STOP.\n\nResult: D."
+    },
+    {
+      "image": "Pulse-3_absolute_seg2_FFT.png",
+      "gt": "pulse",
+      "pred": "pulse",
+      "is_correct": true,
+      "reasoning": "amplitude = 26 nm. Is 26 > 250? No. Is 26 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 1 Hz. Is 1 \u2264 2, or are there no clear peaks? Yes \u2192 Result: D. STOP.\n\nResult: D. STOP."
+    },
+    {
+      "image": "Pulse-3_absolute_seg3_FFT.png",
+      "gt": "pulse",
+      "pred": "pulse",
+      "is_correct": true,
+      "reasoning": "amplitude = 3.8e-6 nm. Is 3.8e-6 > 250? No. Is 3.8e-6 < 60? Yes. \u2192 go to STEP 2.\n\nfrequency = 1 Hz. Is 1 \u2264 2, or are there no clear peaks? Yes. \u2192 Result: D. STOP.\n\nResult: D."
+    }
+  ]
+}

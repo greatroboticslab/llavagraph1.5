@@ -43,22 +43,59 @@ LLaVAGraph is a multimodal framework for classifying piezoelectric actuator disp
    - Base model: `models_setup/llava-v1.5-7b`
    - LoRA: r=128, alpha=256, DeepSpeed ZeRO-2
    - 3 epochs, batch=2, grad_accum=8, lr=2e-4, cosine schedule
-   - **Status: training job submitted** (job 37567935, pending in queue)
-   - Checkpoints: `train_5class/checkpoints_FFT_5class/`
+   - **Status: training complete** (105 steps, loss 0.95→0.21, 22 min on V100)
+   - Checkpoints: `train_5class/checkpoints_FFT_5class/` (checkpoint-35, 70, 105)
 
 5. **LLaVA Evaluation** (`train_5class/evaluateLLaVA_5class.py`, SLURM: `eval_5class.sbatch`)
    - Runs finetuned LLaVA on test images, asks same 3 questions
+   - **Status: complete** (147 test images evaluated)
    - Output: `train_5class/results/{noise,sine,square,pulse,ramp}.json`
 
 6. **Qwen Classification** (`train_5class/categorizeLLAMA_5class.py`, SLURM: `classify_5class.sbatch`)
-   - Model: **Qwen2.5-14B-Instruct** (`models_setup/Qwen2.5-14B-Instruct`)
-   - 5-step decision tree (output format placed before steps to avoid confusing Qwen):
+   - Model: **Qwen2.5-32B-Instruct** (`models_setup/Qwen2.5-32B-Instruct`) on H100-80GB
+   - Upgraded from 14B after it failed basic number comparison (said "23nm > 60nm")
+   - 5-step decision tree (output format before steps, 5nm noise floor threshold):
      - STEP 1: Peak amplitude — >250nm → pulse, <60nm → STEP 2, 60-250nm → STEP 3
      - STEP 2: Low amplitude — peak at 1Hz or no peaks → pulse, otherwise → noise
-     - STEP 3: Harmonic pattern — sort 3 peaks by frequency, check equal spacing (within 30%)
+     - STEP 3: Harmonic pattern — discard peaks <5nm, sort by freq, check equal spacing (within 30%)
      - STEP 4: Harmonic branch — 2nd/1st ratio ≤15% → ramp, >15% → square
      - STEP 5: No harmonics — 3rd peak ≥25nm → square, <25nm → sine
+   - Prompt uses fill-in-the-blank format forcing explicit comparisons (e.g., "amplitude = 23. Is 23 > 250? No. Is 23 < 60? Yes.")
+   - Script loads model once for all categories (not 5 separate loads)
+   - **Status: running** (job 37572616 on H100, ~10 min/category)
    - Output: `train_5class/results/{category}_classified.json`
+
+### Classifier Model Evolution (5-class)
+- **Qwen2.5-14B-Instruct**: Failed — correctly extracted amplitudes but couldn't compare numbers (said "23nm > 60nm"), routed all noise to STEP 3 instead of STEP 2, 0/24 noise accuracy
+- **Qwen2.5-32B-Instruct (v1 prompt)**: Also failed number comparison — said "6nm < 5nm" when discarding peaks in STEP 3, misclassified all standard ramp as sine (5/16 ramp). Also timed out (1hr) when loading model 5 times.
+- **Qwen2.5-32B-Instruct (v2 prompt)**: Explicit fill-in-the-blank comparisons fix number errors. **Overall: 127/147 = 86.4%**
+
+### Classification Results (5-class, Qwen 32B v2 prompt)
+| Category | Accuracy | Details |
+|----------|----------|---------|
+| Noise    | 21/24 = 87.5% | 3→square |
+| Sine     | 36/45 = 80.0% | 2→ramp, 7→square |
+| Square   | 37/45 = 82.2% | 8→sine |
+| Pulse    | 17/17 = 100%  | — |
+| Ramp     | 16/16 = 100%  | — |
+| **Overall** | **127/147 = 86.4%** | |
+
+### Error Analysis
+**Noise → square (3 errors)**:
+- LLaVA reports amplitudes near 60nm boundary (42-58nm actual); may overestimate, pushing into STEP 3 (60-250nm path) where template bias (120/240/360 Hz) creates fake harmonic pattern → square
+
+**Sine → ramp (3 errors: 2x 1Hz, 1x 300Hz)**:
+- 1Hz sine: LLaVA fabricates peaks at 1/3/5 Hz (22nm/9nm), both >5nm threshold → equal spacing → harmonic → ratio 11% ≤ 15% → ramp. Predicted and accepted trade-off.
+- 300Hz sine: leakage peaks may have equal spacing by coincidence → harmonic pattern → low ratio → ramp
+
+**Sine → square (6 errors, all 300Hz)**:
+- Spectral leakage at 300Hz creates large secondary peaks (e.g., 50nm at ~120Hz piezo resonance), 3rd peak ≥25nm → STEP 5 routes to square
+
+**Square → sine (8 errors: 200Hz, 300Hz, 400Hz)**:
+- High-frequency square waves have aliased harmonics that fold back (e.g., 3×300=900→100Hz, 5×300=1500→500Hz), breaking the equal-spacing pattern → no harmonic detected → STEP 5 where 3rd peak <25nm (aliased peaks are weaker) → sine
+- This is the fundamental limitation: aliasing makes high-freq square indistinguishable from sine in FFT
+
+**Key insight**: Sine↔square confusion at 200-400Hz is bidirectional — their FFT patterns converge due to aliasing and spectral leakage. Pulse and ramp are perfectly classified.
 
 ### Signal Characteristics
 - **Noise**: Low amplitude (<60nm), no dominant frequency
@@ -70,8 +107,17 @@ LLaVAGraph is a multimodal framework for classifying piezoelectric actuator disp
 
 ### Known Edge Cases
 - ~5 pulse segments fall in 60-250nm range → may misclassify as ramp (accepted trade-off)
+- 2/9 of 1Hz sine test samples: LLaVA hallucinates peaks at 1/3/5 Hz (22nm, 9nm) → will misclassify as ramp (accepted, 5nm threshold fixes other 7/9)
 - 31/165 sine entries have 2nd peak >15% ratio due to spectral leakage → handled by decision tree using 3-peak data (leakage peaks are close together, not evenly spaced like harmonics)
 - Square >100Hz may not show clean harmonic spacing → caught by STEP 5 (3rd peak ≥25nm)
+
+### LLaVA Evaluation Quality
+- **Ramp**: A- — excellent primary peak, harmonics well-captured
+- **Sine**: B+ — good primary peak, leakage peak detected but freq slightly off
+- **Square**: B — good primary peak, harmonic amplitudes sometimes overestimated
+- **Noise**: C+ — amplitude off 15-30%, template bias toward 120/240/360 Hz
+- **Pulse**: D+ — hallucinated discrete peaks on smooth 1/f decay, inconsistent decay descriptions
+- Key issues don't affect classification because noise/pulse rely on amplitude + frequency thresholds, not secondary peaks
 
 ---
 
