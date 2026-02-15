@@ -41,10 +41,9 @@ from google.genai import types
 
 
 QUESTIONS = [
-    "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum? Is it above 250 nm, between 60 and 250 nm, or below 60 nm?",
+    "What is the approximate amplitude (in nm) of the tallest peak in this FFT spectrum?",
     "At what frequency (in Hz) does the tallest peak occur? After the tallest peak, does the amplitude drop sharply to near-zero, or does it decay smoothly and gradually across higher frequencies?",
-    "After the tallest peak, are there multiple smaller peaks spaced at regular frequency intervals that get progressively shorter (like a staircase pattern)? If so, approximately how many such peaks are visible?",
-    "What are the amplitudes (in nm) and frequencies (in Hz) of the two tallest peaks in this spectrum?"
+    "What are the amplitudes (in nm) and frequencies (in Hz) of the three tallest peaks in this spectrum?"
 ]
 
 
@@ -78,13 +77,11 @@ Please provide a detailed, specific answer for each question:
 1. {QUESTIONS[0]}
 2. {QUESTIONS[1]}
 3. {QUESTIONS[2]}
-4. {QUESTIONS[3]}
 
 Format your response exactly as:
 A1: [Your answer]
 A2: [Your answer]
 A3: [Your answer]
-A4: [Your answer]
 """
 
         with open(img_path, "rb") as f:
@@ -115,17 +112,15 @@ A4: [Your answer]
         return None
 
     def _parse_answers(self, text):
-        """Split Gemini's response into four separate answers."""
+        """Split Gemini's response into three separate answers."""
         a1 = re.search(r"A1:(.*?)(?=A2:|$)", text, re.DOTALL)
         a2 = re.search(r"A2:(.*?)(?=A3:|$)", text, re.DOTALL)
-        a3 = re.search(r"A3:(.*?)(?=A4:|$)", text, re.DOTALL)
-        a4 = re.search(r"A4:(.*?)$", text, re.DOTALL)
+        a3 = re.search(r"A3:(.*?)$", text, re.DOTALL)
 
         return [
             a1.group(1).strip() if a1 else "Data missing",
             a2.group(1).strip() if a2 else "Data missing",
-            a3.group(1).strip() if a3 else "Data missing",
-            a4.group(1).strip() if a4 else "Data missing"
+            a3.group(1).strip() if a3 else "Data missing"
         ]
 
     def process_directory(self, image_dir, output_file):
@@ -182,9 +177,7 @@ A4: [Your answer]
                             {"from": "human", "value": QUESTIONS[1]},
                             {"from": "gpt", "value": answers[1]},
                             {"from": "human", "value": QUESTIONS[2]},
-                            {"from": "gpt", "value": answers[2]},
-                            {"from": "human", "value": QUESTIONS[3]},
-                            {"from": "gpt", "value": answers[3]}
+                            {"from": "gpt", "value": answers[2]}
                         ]
                     }
                     final_data.append(entry)
