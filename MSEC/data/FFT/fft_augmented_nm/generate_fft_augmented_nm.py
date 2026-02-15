@@ -184,9 +184,9 @@ def process_directory(csv_dir, output_dir, wave_type):
     for csv_path in csv_files:
         base_filename = Path(csv_path).stem
 
-        # Use larger window for ramp trail files (low-freq ~1Hz needs finer resolution)
-        is_ramp_trail = 'trail' in base_filename.lower()
-        win_size = FFT_WINDOW_SIZE_LARGE if is_ramp_trail else FFT_WINDOW_SIZE
+        # Use larger window for low-freq (~1Hz) signals that need finer resolution
+        is_low_freq = 'trail' in base_filename.lower() or '_1Hz_' in base_filename
+        win_size = FFT_WINDOW_SIZE_LARGE if is_low_freq else FFT_WINDOW_SIZE
 
         for i, offset in enumerate(SEGMENT_OFFSETS):
             segment_label = f"seg{i+1}"
