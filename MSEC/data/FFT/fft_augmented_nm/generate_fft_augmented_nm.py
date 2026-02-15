@@ -29,12 +29,17 @@ from pathlib import Path
 
 
 # Segment offsets (start indices) for augmentation
-# Each produces a different 1024-point window from the same CSV
+# Each produces a different window from the same CSV
 SEGMENT_OFFSETS = [100, 5000, 10000]
 FFT_WINDOW_SIZE = 1024
 
-# Minimum x-axis range in Hz (must be wide enough to show harmonics for 10Hz signals)
-MIN_X_RANGE = 100
+# Larger window for low-frequency signals (better frequency resolution)
+FFT_WINDOW_SIZE_LARGE = 4096
+# Threshold: if dominant peak is below this, use the larger window
+LOW_FREQ_THRESHOLD = 5.0  # Hz
+
+# Minimum x-axis range in Hz
+MIN_X_RANGE = 10
 
 # Frequencies to include (up to 500Hz input signals only)
 MAX_INPUT_FREQ = 500
@@ -71,7 +76,7 @@ def detect_dominant_frequency(fft_freqs, amplitude):
 def compute_adaptive_xlim(peak_freq, nyquist):
     """Compute x-axis limit: 5x the dominant peak, clamped to [MIN_X_RANGE, nyquist].
     Add 5% padding so edge peaks are not cut off."""
-    x_max = max(5.0 * peak_freq, MIN_X_RANGE)
+    x_max = max(10.0 * peak_freq, MIN_X_RANGE)
     x_max = min(x_max, nyquist)
     x_max_padded = x_max * 1.05
     x_min_padded = -x_max * 0.02
@@ -179,11 +184,15 @@ def process_directory(csv_dir, output_dir, wave_type):
     for csv_path in csv_files:
         base_filename = Path(csv_path).stem
 
+        # Use larger window for ramp trail files (low-freq ~1Hz needs finer resolution)
+        is_ramp_trail = 'trail' in base_filename.lower()
+        win_size = FFT_WINDOW_SIZE_LARGE if is_ramp_trail else FFT_WINDOW_SIZE
+
         for i, offset in enumerate(SEGMENT_OFFSETS):
             segment_label = f"seg{i+1}"
 
             try:
-                data, time_ms = load_time_series_range(csv_path, offset, FFT_WINDOW_SIZE)
+                data, time_ms = load_time_series_range(csv_path, offset, win_size)
                 if data is None:
                     print(f"  Skipped {base_filename} seg{i+1}: not enough data at offset {offset}")
                     continue
@@ -218,7 +227,7 @@ if __name__ == "__main__":
     print(f"Output: {args.output_dir}")
     print(f"Type:   {args.wave_type}")
     print(f"Segments per CSV: {len(SEGMENT_OFFSETS)} (offsets: {SEGMENT_OFFSETS})")
-    print(f"FFT window: {FFT_WINDOW_SIZE} points")
+    print(f"FFT window: {FFT_WINDOW_SIZE} points (ramp trail: {FFT_WINDOW_SIZE_LARGE} points)")
     print("-" * 60)
 
     process_directory(args.csv_dir, args.output_dir, args.wave_type)
