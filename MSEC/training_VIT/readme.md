@@ -98,11 +98,14 @@ pip install transformers datasets evaluate scikit-learn pillow
 ```
 
 ## File Structure
+```
 training_VIT/
 ├── readme.md  
 ├── timedomain-augmentation.py  # Step 1: Time-Domain Data Augmentation
+├── split.py                # Step 2: Split into Train/Test Sets
 ├── train_vit_classifier.py # Step 3: ViT training logic
 ├── classify_vit.py         # Step 4: Classification and Performance Summary
 ├── time-domain-ori/        # Raw original time-domain images(without augmented images)
 ├── split_dataset/          # Split version 1 (60/40)
-└──  split_dataset_2/        # Split version 2 (80/20)
+└── split_dataset_2/        # Split version 2 (80/20)
+```
