@@ -77,7 +77,8 @@ def compute_adaptive_xlim(peak_freq, nyquist):
     return -x_max * 0.02, x_max * 1.05
 
 
-def generate_fft_plot(data, time_ms, base_filename, segment_label, output_dir):
+def generate_fft_plot(data, time_ms, base_filename, segment_label, output_dir,
+                      full_spectrum=False):
     """Compute FFT and save linear amplitude plot — same logic as original script."""
     n = len(data)
     data_centered = data - np.mean(data)
@@ -95,8 +96,12 @@ def generate_fft_plot(data, time_ms, base_filename, segment_label, output_dir):
     amp_no_dc = amplitude[1:]
     freqs_no_dc = fft_freqs[1:]
 
-    peak_freq = detect_dominant_frequency(fft_freqs, amplitude)
-    x_min, x_max = compute_adaptive_xlim(peak_freq, nyquist)
+    if full_spectrum:
+        # Noise and pulse: always show full 0-500 Hz range
+        x_min, x_max = -nyquist * 0.02, nyquist * 1.05
+    else:
+        peak_freq = detect_dominant_frequency(fft_freqs, amplitude)
+        x_min, x_max = compute_adaptive_xlim(peak_freq, nyquist)
 
     plt.figure(figsize=(12, 7))
     plt.plot(freqs_no_dc, amp_no_dc, linewidth=1.5, color='#0055aa')
@@ -143,6 +148,7 @@ def process_category(cat_name, cat_dir, output_dir):
         return
 
     output_dir.mkdir(parents=True, exist_ok=True)
+    full_spectrum = cat_name.lower() in ('noise', 'pulse')
     total = 0
     failed = 0
 
@@ -161,7 +167,8 @@ def process_category(cat_name, cat_dir, output_dir):
                     print(f"    Skipped {base_filename} {seg_label}: not enough data")
                     continue
                 out_name = generate_fft_plot(data, time_ms, base_filename,
-                                             seg_label, output_dir)
+                                             seg_label, output_dir,
+                                             full_spectrum=full_spectrum)
                 print(f"    {out_name}")
                 total += 1
             except Exception as e:
