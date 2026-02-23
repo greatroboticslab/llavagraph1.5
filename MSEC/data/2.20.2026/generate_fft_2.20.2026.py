@@ -106,7 +106,7 @@ def generate_fft_plot(data, time_ms, base_filename, segment_label, output_dir):
     plt.title(f'Piezo FFT Spectrum: {display_name} ({segment_label})',
               fontsize=14, fontweight='bold')
     plt.xlabel('Frequency (Hz)', fontsize=12, fontweight='bold')
-    plt.ylabel('Amplitude (nm)', fontsize=12, fontweight='bold')
+    plt.ylabel('Amplitude (counts)', fontsize=12, fontweight='bold')
     plt.grid(True, which='both', linestyle=':', alpha=0.6)
     plt.xlim(x_min, x_max)
 
