@@ -24,7 +24,6 @@ image_processor = ViTImageProcessor.from_pretrained("google/vit-base-patch16-224
 
 
 weak_transform = transforms.Compose([
-    transforms.Resize((64, 64)),
     transforms.Resize((224, 224)),
     transforms.ToTensor(),
     transforms.Normalize(mean=image_processor.image_mean, std=image_processor.image_std),
