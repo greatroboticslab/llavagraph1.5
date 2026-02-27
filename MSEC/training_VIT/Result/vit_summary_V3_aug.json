@@ -1,0 +1,32 @@
+{
+  "noise": {
+    "total_samples": 92,
+    "correct_predictions": 67,
+    "accuracy_percent": 72.83,
+    "average_confidence": 0.8212
+  },
+  "pulse": {
+    "total_samples": 81,
+    "correct_predictions": 79,
+    "accuracy_percent": 97.53,
+    "average_confidence": 0.6648
+  },
+  "ramp": {
+    "total_samples": 80,
+    "correct_predictions": 69,
+    "accuracy_percent": 86.25,
+    "average_confidence": 0.8734
+  },
+  "sine": {
+    "total_samples": 120,
+    "correct_predictions": 118,
+    "accuracy_percent": 98.33,
+    "average_confidence": 0.8822
+  },
+  "square": {
+    "total_samples": 120,
+    "correct_predictions": 104,
+    "accuracy_percent": 86.67,
+    "average_confidence": 0.8628
+  }
+}
