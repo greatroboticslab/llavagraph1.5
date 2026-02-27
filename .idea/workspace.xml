@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21eff5cf-76cb-427f-911f-44f92def6ac8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MSEC/training_VIT/augmented_images_vit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSEC/training_VIT/augmented_vit_V2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSEC/data/csv_slice_visualizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/MSEC/data/csv_slice_visualizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSEC/training_VIT/classify_vit.py" beforeDir="false" afterPath="$PROJECT_DIR$/MSEC/training_VIT/classify_vit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSEC/training_VIT/split_dataset_2/split.py" beforeDir="false" afterPath="$PROJECT_DIR$/MSEC/training_VIT/split_dataset_2/split.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSEC/training_VIT/train_vit_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/MSEC/training_VIT/train_vit_classifier.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3A2ND2e5OAaCNo5V9hjtinJrgcL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "ben",
+    "last_opened_file_path": "/Users/ilminurablikim/Desktop/llavagraph1.5"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0978a7220b69-9867c7d4c0a4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.28294.336" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21eff5cf-76cb-427f-911f-44f92def6ac8" name="Changes" comment="" />
+      <created>1771786581061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771786581061</updated>
+    </task>
+    <servers />
+  </component>
+</project>

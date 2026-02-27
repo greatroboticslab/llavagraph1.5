@@ -6,9 +6,9 @@ from torchvision import transforms
 from transformers import ViTForImageClassification, ViTImageProcessor
 
 
-model_path = "/Users/ilminurablikim/Desktop/vit_output_time50"
-test_data_dir = "split_dataset/test"
-output_json = "/Users/ilminurablikim/Desktop/vit_output_time50/vit_summary.json"
+model_path = "/Users/ilminurablikim/Desktop/vit_output_aug"
+test_data_dir = "/Users/ilminurablikim/Desktop/split_dataset_aug/test"
+output_json = "/Users/ilminurablikim/Desktop/vit_output_aug/vit_summary.json"
 
 
 device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")

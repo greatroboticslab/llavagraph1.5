@@ -155,10 +155,10 @@ if __name__ == "__main__":
     # --- Please modify your paths here ---
     # ==========================================
     # The root directory where your 5 category folders are located
-    MY_INPUT_DIR = "/Users/ilminurablikim/Desktop/time-domainmix"
+    MY_INPUT_DIR = "/Users/ilminurablikim/Desktop/images_Timedomain_augmented"
 
     # The location where you want the train/test folders to be output
-    MY_OUTPUT_DIR = "/Users/ilminurablikim/Desktop/split_dataset_2"
+    MY_OUTPUT_DIR = "/Users/ilminurablikim/Desktop/split_dataset_aug"
     # ==========================================
 
     process_split(MY_INPUT_DIR, MY_OUTPUT_DIR)

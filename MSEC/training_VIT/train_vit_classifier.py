@@ -8,9 +8,9 @@ from sklearn.utils import shuffle
 from transformers import ViTForImageClassification, ViTImageProcessor, TrainingArguments, Trainer
 
 
-train_dir = "split_dataset/train"
-val_dir = "split_dataset/test"
-output_dir = "vit_output_time50"
+train_dir = "/Users/ilminurablikim/Desktop/split_dataset_aug/train"
+val_dir = "/Users/ilminurablikim/Desktop/split_dataset_aug/test"
+output_dir = "/Users/ilminurablikim/Desktop/vit_output_aug"
 os.makedirs(output_dir, exist_ok=True)
 
 

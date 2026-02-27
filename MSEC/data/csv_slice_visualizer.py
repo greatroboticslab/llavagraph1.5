@@ -10,7 +10,7 @@ from pathlib import Path
 import shutil
 
 
-def load_time_series_range(csv_path, start_idx=50, end_idx=200):
+def load_time_series_range(csv_path, start_idx=100, end_idx=250):
     """
     Load specific range of time series data from CSV file.
     Default range is 0 to 100 to avoid initial fluctuations.
@@ -108,13 +108,13 @@ def process_files(csv_input_pattern, output_folder_name, start_idx=50, end_idx=2
 if __name__ == "__main__":
     # 1. Update this to your actual CSV folder path
     # Example: "C:/Users/Name/Desktop/csv/*.csv" or "~/Desktop/csv/*.csv"
-    CSV_PATH_PATTERN = str(Path.home() / "Desktop" / "csv" / "output_square_csv" / "*.csv")
+    CSV_PATH_PATTERN = str(Path.home() / "Desktop" / "ori-csv-5wave" / "output_square_csv" / "*.csv")
 
     # 2. Name of the folder on your desktop
-    FOLDER_NAME = "square_Plots"
+    FOLDER_NAME = "images_Timedomain/square"
 
     # 3. Range selection
-    START = 500
-    END = 900
+    START = 480
+    END = 740
 
     process_files(CSV_PATH_PATTERN, FOLDER_NAME, START, END)
