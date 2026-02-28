@@ -12,30 +12,30 @@ Classification targets: **noise, sine, square, pulse, ramp**
 
 ## Step 1: Time-Domain Data Augmentation
 
-**Script**: `timedomain-augment.py`
+**Script**: `augmented_vit_V2.py`
 
 Processes raw waveform CSV data into augmented time-domain images. 
 
-**Output**: `time-domain-ori/` folder containing the generated raw image dataset.
+**Output**: `images_Timedomain_augmented/` folder containing the generated raw image dataset.
 
 ---
 
 ## Step 2: Split into Train/Test Sets
 
-**Script**: `split.py` 
+**Script**: `split_3.py` 
 
-Creates a stratified train/test split (e.g., 60/40) while maintaining data integrity.
+Creates a stratified train/val/test split (e.g., 60/40 (60/20/20)) while maintaining data integrity.
 
 **Usage:**
 ```bash
-python split.py
+python split_3.py
 ```
 
-Output: split_dataset/(train 60%;test40%) and split_dataset_2/(train 80%;test 20%) folders.
+Output: split_dataset_3way/(train 60%;val 20%; test20%) and split_dataset_3_aug/(train 60%;val 20%; test20%) folders.
 
 ## Step 3: Train ViT Classifier
 
-**Script**: `train_vit_classifier.py`
+**Script**: `train_vit_classifierV2.py`
 
 Finetunes a `vit-base-patch16-224-in21k` model on time-domain waveform images.
 
@@ -48,18 +48,18 @@ Finetunes a `vit-base-patch16-224-in21k` model on time-domain waveform images.
 - Hardware Acceleration: Automatically detects and uses MPS (Metal Performance Shaders) for Apple Silicon Macs or CPU.
 - Hyperparameters:
     - Learning Rate: 2e-5
-    - Epochs: 15
+    - Epochs: 20
     - Batch Size: 8
     - Strategy: Saves the "Best Model" based on evaluation accuracy at the end of training.
 
 **Usage:**
 ```bash
-python train_vit_classifier.py
+python train_vit_classifierV2.py
 ```
 
 ## Step 4: Classification and Performance Summary
 
-**Script**: `classify_vit.py`
+**Script**: `classify_vitV2.py`
 
 Evaluates the finetuned model against the test set and generates a detailed performance report.
 
@@ -70,7 +70,7 @@ Evaluates the finetuned model against the test set and generates a detailed perf
 
 **Usage:**
 ```bash
-python classify_vit.py 
+python classify_vitV2.py 
 ```
 **Output File:** `vit_summary.json`
 
@@ -78,10 +78,11 @@ python classify_vit.py
 ```
 JSON
 {
-  "results/correct.json/sine_correct.json": {
-    "total_samples": 45,
-    "correct_predictions": 43,
-    "accuracy_percent": 95.56
+  "noise": {
+    "total_samples": 19,
+    "correct_predictions": 11,
+    "accuracy_percent": 57.89,
+    "average_confidence": 0.5863
   },
   ...
 }
@@ -100,8 +101,11 @@ pip install transformers datasets evaluate scikit-learn pillow
 ## File Structure
 ```
 training_VIT/
-├── readme.md  
-├── timedomain-augmentation.py  # Step 1: Time-Domain Data Augmentation
+├── readme.md
+├── dataV2       # new version
+├── resultV2     # new version
+├── scriptsV2    # new version (updated)please use!
+├── timedomain-augmentation.py  # Step 1: Time-Domain Data Augmentation(old version
 ├── split.py                # Step 2: Split into Train/Test Sets
 ├── train_vit_classifier.py # Step 3: ViT training logic
 ├── classify_vit.py         # Step 4: Classification and Performance Summary
