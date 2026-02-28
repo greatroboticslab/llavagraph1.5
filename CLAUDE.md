@@ -4,12 +4,95 @@
 LLaVAGraph is a multimodal framework for classifying piezoelectric actuator displacement signals using finetuned LLaVA + a classifier LLM. The new work in `MSEC/` focuses on an **FFT-based approach** to improve classification accuracy over the original time-domain plots.
 
 ## Current Status
-- **3-class (completed)**: 91.2% overall (noise, sine, square)
-- **5-class (in progress)**: noise, sine, square, pulse, ramp — LLaVA training submitted (job 37567935)
+- **3-class LLaVA+Qwen (completed)**: 91.2% overall (noise, sine, square)
+- **5-class LLaVA+Qwen (completed)**: 86.4% overall (noise, sine, square, pulse, ramp)
+- **5-class ViT FFT — old data only (completed)**: 98.6% overall (289/293)
+- **5-class ViT FFT — combined data (completed)**: 95.95% overall (237/247)
 
-## Architecture (Two-Stage LLM Pipeline)
+## Architecture Comparison
+
+### Option A: Two-Stage LLM Pipeline (LLaVA + Qwen)
 1. **LLaVA** (finetuned on FFT plots) looks at FFT spectrum images and describes peak features
-2. **Qwen2.5-14B-Instruct** reads those descriptions and classifies via a decision tree prompt
+2. **Qwen2.5-32B-Instruct** reads those descriptions and classifies via a decision tree prompt
+
+### Option B: ViT Direct Classification
+- Fine-tuned `google/vit-base-patch16-224-in21k` directly on FFT images
+- Single-stage, no LLM needed
+- Significantly higher accuracy, much simpler pipeline
+
+---
+
+## ViT FFT Pipeline (`MSEC/training_VIT/`) — Completed
+
+Direct ViT classification on FFT images. Two experiments: old data only, then combined old+new.
+
+### Architecture
+- Base model: `google/vit-base-patch16-224-in21k`
+- Training transform: **64×64 → 224×224 double-resize** (intentional blur — must use same in eval)
+- 15 epochs, lr=2e-5, batch=8, `load_best_model_at_end=True` (best by eval_loss)
+- Conda env: `vit_env`
+
+### Experiment 1: Old Data Only (`split_dataset_fft/`)
+- Data: `fft_augmented_nm/` (792 images total, 500Hz excluded)
+- Split: **561 train / 293 test** (80/20 approx, stratified by frequency)
+- Script: `train_vit_fft.py` / `train_vit_fft.sbatch`
+- **Result: 98.6% overall** (289/293, best epoch 15)
+
+| Category | Accuracy | Freq breakdown |
+|----------|----------|----------------|
+| Noise    | 98.0% (50/51) | — |
+| Pulse    | 100% (34/34) | — |
+| Ramp     | 100% (31/31) | — |
+| Sine     | 96.6% (84/87) | 1Hz: 83.3%, 100–400Hz: 100% |
+| Square   | 100% (90/90) | All freqs: 100% |
+| **Overall** | **98.6%** | |
+
+- Results: `vit_output_fft/vit_freq_breakdown_fft.json`
+
+### Experiment 2: Combined Data (`split_dataset_combined/`)
+- Data: `fft_augmented_nm/` (old) + `2.20.2026/fft/` (new)
+  - Old: 792 images — pulse/ramp at 10Hz input only, sine/square 1–400Hz
+  - New: 477 images — all categories at 1Hz, 100Hz, 200Hz, 300Hz, 400Hz
+  - New data `Square/` folder (capital S) normalized to `square`
+- Split: **938 train / 247 test** (80/20, stratified by frequency)
+- Script: `split_combined.py`, `train_vit_combined.py` / `train_vit_combined.sbatch`
+- **Result: 95.95% overall** (237/247, best epoch 8)
+
+| Category | Accuracy | Freq breakdown |
+|----------|----------|----------------|
+| Noise    | 100% (44/44) | — |
+| Pulse    | 100% (36/36) | All freqs: 100% |
+| Ramp     | 91.4% (32/35) | 1–300Hz: 100%, **400Hz: 25% (1/4)** |
+| Sine     | 89.6% (60/67) | 100–300Hz: 100%, **1Hz: 85.7%**, **400Hz: 58.3%** |
+| Square   | 100% (65/65) | All freqs: 100% |
+| **Overall** | **95.95%** | |
+
+- Results: `vit_output_combined/vit_freq_breakdown_combined.json`
+
+### Key ViT Findings
+- ViT (98.6%) >> LLaVA+Qwen (86.4%) on old data — massive improvement, simpler pipeline
+- Square perfectly classified at all frequencies (LLaVA+Qwen had 82.2%)
+- Combined model (95.95%) lower than old-only (98.6%): harder task (pulse/ramp now span 1–400Hz)
+- Main combined failures: sine 400Hz (58.3%) and ramp 400Hz (25%) — high-freq FFT patterns converge
+- **Eval note**: test set used for both validation and checkpoint selection (slight optimistic bias)
+
+### ViT Eval Scripts
+- `eval_perclass.py` — per-class accuracy on login node (fp32, uses 64→224 transform)
+- `classify_vit_by_freq.py` — per-freq breakdown; regex `[-_](\d+H[zx])` handles both old (`_100Hz_`) and new (`-100Hz-`) naming
+
+### Transform Bug (important)
+Training uses 64→224 double-resize. Using direct 224 resize in eval gives ~56% accuracy. Always use:
+```python
+transforms.Resize((64, 64)),
+transforms.Resize((224, 224)),
+```
+
+### Running Eval on Login Node (no GPU needed)
+```bash
+cd MSEC/training_VIT
+OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 \
+nohup /jet/home/byler/miniconda3/envs/vit_env/bin/python eval_perclass.py > out.txt 2>&1 &
+```
 
 ---
 
@@ -167,7 +250,19 @@ LLaVAGraph is a multimodal framework for classifying piezoelectric actuator disp
 
 ## Key Commands
 ```bash
-# 5-class pipeline
+# ViT combined pipeline
+python MSEC/training_VIT/split_combined.py                      # combine + split data
+sbatch MSEC/training_VIT/train_vit_combined.sbatch             # ViT training
+# eval on login node (no GPU queue needed):
+cd MSEC/training_VIT && OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 \
+  nohup /jet/home/byler/miniconda3/envs/vit_env/bin/python classify_vit_by_freq.py \
+    --model vit_output_combined --test split_dataset_combined/test \
+    --out vit_output_combined/vit_freq_breakdown_combined.json > out.txt 2>&1 &
+
+# ViT old-data-only pipeline (completed)
+sbatch MSEC/training_VIT/train_vit_fft.sbatch
+
+# 5-class LLaVA+Qwen pipeline (completed)
 sbatch MSEC/training_fft/train_5class/train_5class.sbatch      # LLaVA finetuning
 sbatch MSEC/training_fft/train_5class/eval_5class.sbatch       # LLaVA evaluation
 sbatch MSEC/training_fft/train_5class/classify_5class.sbatch   # Qwen classification

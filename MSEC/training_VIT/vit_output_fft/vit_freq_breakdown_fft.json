@@ -1,0 +1,102 @@
+{
+  "noise": {
+    "unknown": {
+      "total": 51,
+      "correct": 50,
+      "accuracy_pct": 98.0
+    },
+    "_total": {
+      "total": 51,
+      "correct": 50,
+      "accuracy_pct": 98.0
+    }
+  },
+  "pulse": {
+    "unknown": {
+      "total": 34,
+      "correct": 34,
+      "accuracy_pct": 100.0
+    },
+    "_total": {
+      "total": 34,
+      "correct": 34,
+      "accuracy_pct": 100.0
+    }
+  },
+  "ramp": {
+    "unknown": {
+      "total": 31,
+      "correct": 31,
+      "accuracy_pct": 100.0
+    },
+    "_total": {
+      "total": 31,
+      "correct": 31,
+      "accuracy_pct": 100.0
+    }
+  },
+  "sine": {
+    "1hz": {
+      "total": 18,
+      "correct": 15,
+      "accuracy_pct": 83.3
+    },
+    "100hz": {
+      "total": 18,
+      "correct": 18,
+      "accuracy_pct": 100.0
+    },
+    "200hz": {
+      "total": 15,
+      "correct": 15,
+      "accuracy_pct": 100.0
+    },
+    "300hz": {
+      "total": 18,
+      "correct": 18,
+      "accuracy_pct": 100.0
+    },
+    "400hz": {
+      "total": 18,
+      "correct": 18,
+      "accuracy_pct": 100.0
+    },
+    "_total": {
+      "total": 87,
+      "correct": 84,
+      "accuracy_pct": 96.6
+    }
+  },
+  "square": {
+    "1hz": {
+      "total": 18,
+      "correct": 18,
+      "accuracy_pct": 100.0
+    },
+    "100hz": {
+      "total": 18,
+      "correct": 18,
+      "accuracy_pct": 100.0
+    },
+    "200hz": {
+      "total": 18,
+      "correct": 18,
+      "accuracy_pct": 100.0
+    },
+    "300hz": {
+      "total": 18,
+      "correct": 18,
+      "accuracy_pct": 100.0
+    },
+    "400hz": {
+      "total": 18,
+      "correct": 18,
+      "accuracy_pct": 100.0
+    },
+    "_total": {
+      "total": 90,
+      "correct": 90,
+      "accuracy_pct": 100.0
+    }
+  }
+}

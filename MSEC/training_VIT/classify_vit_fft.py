@@ -23,6 +23,7 @@ processor = ViTImageProcessor.from_pretrained(model_path)
 id2label = model.config.id2label
 
 transform = transforms.Compose([
+    transforms.Resize((64, 64)),
     transforms.Resize((224, 224)),
     transforms.ToTensor(),
     transforms.Normalize(mean=processor.image_mean, std=processor.image_std),
